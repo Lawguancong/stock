@@ -2,6 +2,9 @@ import React from 'react';
 import axios from 'axios';
 import { map, get, join, minBy, maxBy, reverse, sortBy, cloneDeep } from 'loadsh';
 import moment from 'moment';
+// const pkg = require('./database/all-stock-list.json');
+// console.log('pkg', pkg)
+// import pkg from '../database/all-stock-list.json'
 
 
 // const trade_date = '20220303';
@@ -19,7 +22,7 @@ const trade_date = '20220408';
       // const current_date =  moment().format('YYYYMMDD'); // 当前时间
       // console.log('current_date', current_date)
       // return
-const dayNum = 1500; // 向前多少天，不是交易日；
+const dayNum = 1800; // 向前多少天，不是交易日；
 // const recent_data_num = 40 // 最近交易区间
 
       // console.log(moment().subtract(1000, 'days').format('YYYYMMDD'))
@@ -32,6 +35,39 @@ export class FLexLayoutWrapper extends React.PureComponent {
         this.state = {
           buyPointStockItem: []
         };
+    }
+    async componentDidMount () {
+      const lowValuationsStockList = await this.getLowValuationsStock(); // 过滤的低谷股票列表
+      await this.foreacthItem(lowValuationsStockList[20220411]);
+
+      
+      return
+      await this.getEachStockTrade({
+        ts_code: '600606.SH',
+        isLoop: true
+      });
+    }
+    getLowValuationsStock = async () => {
+      return await fetch('./database/low-valuations-stock-list.json', {
+        method: "GET",
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+          },
+      })
+      .then(response => response.json())
+    }
+
+    foreacthItem = async (lowValuationsStockList) => {
+      console.log('lowValuationsStockList', lowValuationsStockList)
+      console.log('lowValuationsStockList-format', map(lowValuationsStockList, ({ts_code}) => ts_code))
+     return
+      map(lowValuationsStockList, async ({ts_code}) => {
+        await this.getEachStockTrade({
+          ts_code,
+          isLoop: true
+        });
+      })
     }
    
     formatResult =  ({
@@ -52,98 +88,11 @@ export class FLexLayoutWrapper extends React.PureComponent {
         formatItems,
       }
     }
-    fetchAllStockList = async () => {
-      const result = await axios.post(`https://api.tushare.pro`, {
-        api_name: 'bak_basic', // bak_daily: 每日最多50次请求
-        token: '570dcc44159a349b38caea234613cbdcecddc365716efd3335bf13cf',
-        params: {
-          trade_date,
-        },
-        fields: null,
-      })
-      const { formatItems } = this.formatResult({ result });
-      console.log('bak_basic- formatItems',formatItems)
-      return formatItems
 
-    }
-
-    getLowValuationsStock = (allStockList) => {
-      let lowValuationsStockList = []
-      map(allStockList, (item) => {
-        const { pe, pb, rev_yoy, profit_yoy, gpr, npr} = item
-        if (
-          pe > 0 && pe < 20 && 
-          pb > 0 && pb < 1.5 && 
-          rev_yoy > 0 &&  // rev_yoy	float	Y	收入同比（%）
-          profit_yoy > 0 && // profit_yoy	float	Y	利润同比（%）
-          gpr > 30 && // gpr	float	Y	毛利率（%）
-          npr > 6 // npr	float	Y	净利润率（%）
-        ) lowValuationsStockList.push(item)
-      })
-
-      return lowValuationsStockList
-    }
-    foreacthItem = async (lowValuationsStockList) => {
-      console.log('lowValuationsStockList-format', map(lowValuationsStockList, ({ts_code}) => ts_code))
-      // ['601512.SH', '600533.SH', '600984.SH', '002109.SZ', '600123.SH', '601101.SH', '600075.SH', '601699.SH', '601678.SH', '000776.SZ', '600823.SH', '601881.SH', '600018.SH', '601688.SH', '600030.SH', '600548.SH', '600173.SH', '601166.SH', '600901.SH', '002233.SZ', '600705.SH', '001965.SZ', '601211.SH', '000728.SZ', '600020.SH', '601555.SH', '600035.SH', '000686.SZ', '601518.SH', '000166.SZ', '601128.SH', '600694.SH', '000923.SZ', '601788.SH', '600350.SH', '600909.SH', '600926.SH', '601188.SH', '601577.SH', '600269.SH', '601326.SH', '601009.SH', '600854.SH', '601998.SH', '600837.SH', '600928.SH', '601018.SH', '601377.SH', '600979.SH', '600971.SH', '002002.SZ', '001872.SZ', '600999.SH', '600919.SH', '000885.SZ', '002736.SZ', '000783.SZ', '600377.SH', '002966.SZ', '000685.SZ', '002818.SZ', '000006.SZ', '002111.SZ', '601939.SH', '000828.SZ', '002807.SZ', '601169.SH', '003816.SZ', '600033.SH', '601288.SH', '601988.SH', '601229.SH', '601077.SH', '000598.SZ', '600012.SH', '000026.SZ', '300664.SZ', '002958.SZ', '000715.SZ', '601528.SH', '600908.SH', '601398.SH', '002345.SZ', '603323.SH', '601298.SH', '002035.SZ', '601828.SH', '601838.SH', '601949.SH', '600373.SH', '002853.SZ', '000156.SZ', '002435.SZ', '601963.SH', '601811.SH', '600828.SH', '601019.SH', '603797.SH', '601928.SH', '603900.SH', …]
-
-      // const list = [
-        
-      //   '600823.SH',
-      //   '601688.SH',
-      //   '600548.SH',
-      //   '601166.SH',
-      //   '600705.SH',
-      //   '001965.SZ',
-      //   '601211.SH',
-      //   '600020.SH',
-      //   '600035.SH',
-      //   '600694.SH',
-      //   '600350.SH',
-      //   '601577.SH',
-      //   '600269.SH',
-      //   '601009.SH',
-      //   '601998.SH',
-      //   '600837.SH',
-      //   '600928.SH',
-      //   '600971.SH',
-      //   '600919.SH',
-      //   '002966.SZ',
-      //   '000685.SZ',
-      //   '000006.SZ',
-      //   '601939.SH',
-      //   '002807.SZ',
-      //   '601169.SH',
-      //   '600033.SH',
-      //   '601288.SH',
-      //   '601988.SH',
-      //   '601229.SH',
-      //   '601077.SH',
-      //   '002958.SZ',
-      //   '600908.SH',
-      //   '601398.SH',
-      //   '603323.SH',
-      //   '601298.SH',
-      //   '600373.SH',
-      //   '601963.SH',
-      //   '601811.SH',
-      //   '002382.SZ',
-      //   '000719.SZ',
-      //   '600707.SH',
-      //   '600368.SH',
-      //         ]
-      // const list = map()
-      map(lowValuationsStockList, async ({ts_code}) => {
-      // console.log('ts_code', ts_code)
-        await this.getEachStockTrade({
-          ts_code,
-          isLoop: true
-        });
-      })
-    }
     getBuyPoint = async ({
       formatItems, 
-      recent_trade_day,
+      recent_trade_day = 600,// 先前多少个交易日
+      trade_day_range = 600, // 样本范围
       isLoop = true,
 
     }) => { // 获取 buy 点机会
@@ -153,7 +102,7 @@ export class FLexLayoutWrapper extends React.PureComponent {
       // console.log('recent_trade_day', recent_trade_day)
       // console.log([...formatItems].slice(-recent_trade_day - recent_trade_day, -recent_trade_day))
       
-      for (let i = recent_trade_day - 1; i >= 0; i--) {
+      for (let i = trade_day_range - 1; i >= 0; i--) {
         const date = [...formatItems].reverse();
         let rangeDate = []
         if (i === 0 || !isLoop) {
@@ -296,7 +245,7 @@ export class FLexLayoutWrapper extends React.PureComponent {
       ts_code = '600606.SH',
       isLoop = false,
     }) => {
-      const recent_trade_day = 600; // 最近 400 交易日 Buy 点
+      // const recent_trade_day = 600; // 最近 400 交易日 Buy 点
       const result = await axios.post(`https://api.tushare.pro`, {
         api_name: 'daily',  // daily 接口可以用很多次
         token: '570dcc44159a349b38caea234613cbdcecddc365716efd3335bf13cf',
@@ -310,7 +259,7 @@ export class FLexLayoutWrapper extends React.PureComponent {
       const { formatItems } = this.formatResult({ result });
       await this.getBuyPoint({
         formatItems, 
-        recent_trade_day,
+        // recent_trade_day,
         isLoop,
         // isLoop: false
       })
@@ -326,27 +275,7 @@ export class FLexLayoutWrapper extends React.PureComponent {
       })
     }
 
-    
-    async componentDidMount () {
-      return
-      const allStockList = await this.fetchAllStockList(); // 获取所有的股票列表->ts_code
-      const lowValuationsStockList = await this.getLowValuationsStock(allStockList); // 过滤的低谷股票列表
-      console.log('lowValuationsStockList', lowValuationsStockList)
-      await this.foreacthItem(lowValuationsStockList);
-
-      return
-      await this.getEachStockTrade({
-        ts_code: '600606.SH',
-        isLoop: true
-      });
-
-      
-      
-
-
-      
-
-    }
+   
     render() {
 
       console.log('render-this.state', this.state)
