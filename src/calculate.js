@@ -2,30 +2,10 @@ import React from 'react';
 import axios from 'axios';
 import { map, get, join, minBy, maxBy, reverse, sortBy, cloneDeep } from 'loadsh';
 import moment from 'moment';
-// const pkg = require('./database/all-stock-list.json');
-// console.log('pkg', pkg)
-// import pkg from '../database/all-stock-list.json'
 
+const trade_date = '20220412';
 
-// const trade_date = '20220303';
-
-// const trade_date = '20220312'; // 大盘大跌
-const trade_date = '20220408';
-// const trade_date = '20210824';
-
-// const trade_date = '20211207'; // ts_code = '600826.SH' dayNum = 500
-
-// const trade_date = '20220308';
-// const trade_date = '20211110';
-
-
-      // const current_date =  moment().format('YYYYMMDD'); // 当前时间
-      // console.log('current_date', current_date)
-      // return
 const dayNum = 1800; // 向前多少天，不是交易日；
-// const recent_data_num = 40 // 最近交易区间
-
-      // console.log(moment().subtract(1000, 'days').format('YYYYMMDD'))
 export class FLexLayoutWrapper extends React.PureComponent {
     static defaultProps = {
     }
@@ -37,18 +17,16 @@ export class FLexLayoutWrapper extends React.PureComponent {
         };
     }
     async componentDidMount () {
-      const lowValuationsStockList = await this.getLowValuationsStock(); // 过滤的低谷股票列表
-      await this.foreacthItem(lowValuationsStockList[20220411]);
-
-      
+      const lowValuationsStockHistory = await this.getLowValuationsStockHistory(); // 过滤的低谷股票列表
+      console.log("lowValuationsStockHistory", lowValuationsStockHistory)// 低估股票历史数据
       return
-      await this.getEachStockTrade({
+      await this.analyseEachStock({
         ts_code: '600606.SH',
         isLoop: true
       });
     }
-    getLowValuationsStock = async () => {
-      return await fetch('./database/low-valuations-stock-list.json', {
+    getLowValuationsStockHistory = async () => {
+      return await fetch('./database/stock-history.json', {
         method: "GET",
         headers: {
           'Content-Type': 'application/json',
@@ -58,17 +36,6 @@ export class FLexLayoutWrapper extends React.PureComponent {
       .then(response => response.json())
     }
 
-    foreacthItem = async (lowValuationsStockList) => {
-      console.log('lowValuationsStockList', lowValuationsStockList)
-      console.log('lowValuationsStockList-format', map(lowValuationsStockList, ({ts_code}) => ts_code))
-     return
-      map(lowValuationsStockList, async ({ts_code}) => {
-        await this.getEachStockTrade({
-          ts_code,
-          isLoop: true
-        });
-      })
-    }
    
     formatResult =  ({
       result,
@@ -241,7 +208,7 @@ export class FLexLayoutWrapper extends React.PureComponent {
       }
     }
 
-    getEachStockTrade = async ({
+    analyseEachStock = async ({
       ts_code = '600606.SH',
       isLoop = false,
     }) => {
@@ -251,7 +218,7 @@ export class FLexLayoutWrapper extends React.PureComponent {
         token: '570dcc44159a349b38caea234613cbdcecddc365716efd3335bf13cf',
         params: {
           ts_code: ts_code,
-          start_date: moment().subtract(dayNum, 'days').format('YYYYMMDD'),
+          // start_date: moment().subtract(dayNum, 'days').format('YYYYMMDD'),
           end_date: trade_date
         },
         fields: null,
