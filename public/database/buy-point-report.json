@@ -1,712 +1,775 @@
 {
-	"re_day_average": {
-		"value": 7.093525179856115,
-		"chinese_desc": "平均回本天数"
+	"average": {
+		"re_day_average": {
+			"value": 8.248,
+			"chinese_desc": "平均回本天数"
+		},
+		"low_percent_average": {
+			"value": 14.029829580416173,
+			"chinese_desc": "平均-回撤比例(%)"
+		},
+		"low_day_average": {
+			"value": 251.44347826086957,
+			"chinese_desc": "平均-回撤天数"
+		},
+		"high_percent_average": {
+			"value": 45.030691801606686,
+			"chinese_desc": "平均-涨幅比例(%)"
+		},
+		"high_day_average": {
+			"value": 285.416,
+			"chinese_desc": "平均-涨幅天数"
+		}
 	},
-	"re_day_min": {
-		"value": {
-			"trade_date": "20210315",
-			"ts_code": "002958.SZ",
-			"re_trade_date": {
+	"max": {
+		"re_day_max": {
+			"value": {
+				"name": "农业银行",
+				"ts_code": "601288.SH",
+				"area": "北京",
+				"industry": "银行",
+				"chinese_desc": "买点交易日",
+				"buy_point_date": "20200305",
+				"re_trade_date": {
+					"name": "农业银行",
+					"ts_code": "601288.SH",
+					"area": "北京",
+					"industry": "银行",
+					"chinese_desc": "回本交易日",
+					"trade_date": "20200706",
+					"re_day": {
+						"value": 123,
+						"chinese_desc": "回本天数"
+					}
+				}
+			},
+			"chinese_desc": "最大回本天数"
+		},
+		"low_percent_max": {
+			"value": {
+				"name": "阳 光 城",
+				"industry": "区域地产",
+				"area": "福建",
+				"buy_point_date": "20210730",
+				"chinese_desc": "买点交易日",
+				"ts_code": "000671.SZ",
+				"re_trade_date": {
+					"name": "阳 光 城",
+					"industry": "区域地产",
+					"area": "福建",
+					"ts_code": "000671.SZ",
+					"trade_date": "20210802",
+					"open": 4.36,
+					"high": 4.43,
+					"low": 4.29,
+					"close": 4.38,
+					"pre_close": 4.37,
+					"change": 0.01,
+					"pct_chg": 0.2288,
+					"vol": 156734.86,
+					"amount": 68457.966,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 3,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "阳 光 城",
+					"industry": "区域地产",
+					"area": "福建",
+					"ts_code": "000671.SZ",
+					"trade_date": "20220316",
+					"open": 2.09,
+					"high": 2.18,
+					"low": 2.01,
+					"close": 2.15,
+					"pre_close": 2.06,
+					"change": 0.09,
+					"pct_chg": 4.3689,
+					"vol": 1062658.09,
+					"amount": 222740.606,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 54.004576659038904,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 229,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "阳 光 城",
+					"industry": "区域地产",
+					"area": "福建",
+					"ts_code": "000671.SZ",
+					"trade_date": "20210811",
+					"open": 4.53,
+					"high": 4.9,
+					"low": 4.53,
+					"close": 4.65,
+					"pre_close": 4.5,
+					"change": 0.15,
+					"pct_chg": 3.3333,
+					"vol": 719641.04,
+					"amount": 341530.44,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 12.12814645308925,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 12,
+						"chinese_desc": "涨幅天数"
+					}
+				}
+			},
+			"chinese_desc": "最大-回撤比例(%)"
+		},
+		"low_day_max": {
+			"value": {
+				"name": "青农商行",
+				"industry": "银行",
+				"area": "山东",
+				"buy_point_date": "20191120",
+				"chinese_desc": "买点交易日",
 				"ts_code": "002958.SZ",
-				"trade_date": "20210316",
-				"open": 4.58,
-				"high": 4.62,
-				"low": 4.56,
-				"close": 4.61,
-				"pre_close": 4.57,
-				"change": 0.04,
-				"pct_chg": 0.8753,
-				"vol": 287872.72,
-				"amount": 132433.573,
-				"chinese_desc": "回本交易日",
-				"re_day": {
-					"value": 1,
-					"chinese_desc": "回本天数"
+				"re_trade_date": {
+					"name": "青农商行",
+					"industry": "银行",
+					"area": "山东",
+					"ts_code": "002958.SZ",
+					"trade_date": "20191125",
+					"open": 5.91,
+					"high": 6.03,
+					"low": 5.87,
+					"close": 5.99,
+					"pre_close": 5.9,
+					"change": 0.09,
+					"pct_chg": 1.5254,
+					"vol": 165207.85,
+					"amount": 98490.805,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 5,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "青农商行",
+					"industry": "银行",
+					"area": "山东",
+					"ts_code": "002958.SZ",
+					"trade_date": "20220316",
+					"open": 3.31,
+					"high": 3.39,
+					"low": 3.22,
+					"close": 3.37,
+					"pre_close": 3.29,
+					"change": 0.08,
+					"pct_chg": 2.4316,
+					"vol": 249765,
+					"amount": 82817.93,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 45.79124579124579,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 847,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "青农商行",
+					"industry": "银行",
+					"area": "山东",
+					"ts_code": "002958.SZ",
+					"trade_date": "20200709",
+					"open": 6.97,
+					"high": 7.85,
+					"low": 6.8,
+					"close": 7.44,
+					"pre_close": 7.16,
+					"change": 0.28,
+					"pct_chg": 3.9106,
+					"vol": 5041924.9,
+					"amount": 3650399.691,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 32.154882154882145,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 232,
+						"chinese_desc": "涨幅天数"
+					}
 				}
 			},
-			"low_trade_date": {
-				"ts_code": "002958.SZ",
-				"trade_date": "20220316",
-				"open": 3.31,
-				"high": 3.39,
-				"low": 3.22,
-				"close": 3.37,
-				"pre_close": 3.29,
-				"change": 0.08,
-				"pct_chg": 2.4316,
-				"vol": 249765,
-				"amount": 82817.93,
-				"chinese_desc": "最低价格交易日",
-				"low_percent": {
-					"value": 29.540481400437635,
-					"chinese_desc": "回撤比例(%)"
-				},
-				"low_day": {
-					"value": 366,
-					"chinese_desc": "回撤天数"
-				}
-			},
-			"high_trade_date": {
-				"ts_code": "002958.SZ",
-				"trade_date": "20210316",
-				"open": 4.58,
-				"high": 4.62,
-				"low": 4.56,
-				"close": 4.61,
-				"pre_close": 4.57,
-				"change": 0.04,
-				"pct_chg": 0.8753,
-				"vol": 287872.72,
-				"amount": 132433.573,
-				"chinese_desc": "最高价格交易日",
-				"high_percent": {
-					"value": 1.0940919037199084,
-					"chinese_desc": "涨幅比例(%)"
-				},
-				"high_day": {
-					"value": 1,
-					"chinese_desc": "涨幅天数"
-				}
-			}
+			"chinese_desc": "最大-回撤天数"
 		},
-		"chinese_desc": "最小回本天数"
-	},
-	"re_day_max": {
-		"value": {
-			"trade_date": "20200305",
-			"ts_code": "601988.SH",
-			"re_trade_date": {
-				"ts_code": "601988.SH",
-				"trade_date": "20200706",
-				"open": 3.64,
-				"high": 3.89,
-				"low": 3.64,
-				"close": 3.87,
-				"pre_close": 3.63,
-				"change": 0.24,
-				"pct_chg": 6.6116,
-				"vol": 3559849.06,
-				"amount": 1348192.002,
-				"chinese_desc": "回本交易日",
-				"re_day": {
-					"value": 123,
-					"chinese_desc": "回本天数"
-				}
-			},
-			"low_trade_date": {
-				"ts_code": "601988.SH",
-				"trade_date": "20210802",
-				"open": 2.99,
-				"high": 3.01,
-				"low": 2.96,
-				"close": 3.01,
-				"pre_close": 2.99,
-				"change": 0.02,
-				"pct_chg": 0.6689,
-				"vol": 1601366.83,
-				"amount": 477766.819,
-				"chinese_desc": "最低价格交易日",
-				"low_percent": {
-					"value": 19.125683060109296,
-					"chinese_desc": "回撤比例(%)"
-				},
-				"low_day": {
-					"value": 515,
-					"chinese_desc": "回撤天数"
-				}
-			},
-			"high_trade_date": {
-				"ts_code": "601988.SH",
-				"trade_date": "20200707",
-				"open": 3.9,
-				"high": 3.96,
-				"low": 3.81,
-				"close": 3.82,
-				"pre_close": 3.87,
-				"change": -0.05,
-				"pct_chg": -1.292,
-				"vol": 2748167.89,
-				"amount": 1062190.256,
-				"chinese_desc": "最高价格交易日",
-				"high_percent": {
-					"value": 8.196721311475406,
-					"chinese_desc": "涨幅比例(%)"
-				},
-				"high_day": {
-					"value": 124,
-					"chinese_desc": "涨幅天数"
-				}
-			}
-		},
-		"chinese_desc": "最大回本天数"
-	},
-	"low_percent_average": {
-		"value": 12.592570262607326,
-		"chinese_desc": "平均-回撤比例(%)"
-	},
-	"low_percent_min": {
-		"value": {
-			"trade_date": "20210812",
-			"ts_code": "601801.SH",
-			"re_trade_date": {
-				"ts_code": "601801.SH",
-				"trade_date": "20210816",
-				"open": 4.36,
-				"high": 4.41,
-				"low": 4.33,
-				"close": 4.4,
-				"pre_close": 4.37,
-				"change": 0.03,
-				"pct_chg": 0.6865,
-				"vol": 39819.34,
-				"amount": 17423.092,
-				"chinese_desc": "回本交易日",
-				"re_day": {
-					"value": 4,
-					"chinese_desc": "回本天数"
-				}
-			},
-			"low_trade_date": {
-				"ts_code": "601801.SH",
-				"trade_date": "20210813",
-				"open": 4.38,
-				"high": 4.38,
-				"low": 4.33,
-				"close": 4.37,
-				"pre_close": 4.38,
-				"change": -0.01,
-				"pct_chg": -0.2283,
-				"vol": 32429.15,
-				"amount": 14128.015,
-				"chinese_desc": "最低价格交易日",
-				"low_percent": {
-					"value": 1.1415525114155212,
-					"chinese_desc": "回撤比例(%)"
-				},
-				"low_day": {
-					"value": 1,
-					"chinese_desc": "回撤天数"
-				}
-			},
-			"high_trade_date": {
-				"ts_code": "601801.SH",
-				"trade_date": "20220406",
-				"open": 5.3,
-				"high": 5.56,
-				"low": 5.3,
-				"close": 5.5,
-				"pre_close": 5.32,
-				"change": 0.18,
-				"pct_chg": 3.3835,
-				"vol": 284195.08,
-				"amount": 155767.796,
-				"chinese_desc": "最高价格交易日",
-				"high_percent": {
-					"value": 26.940639269406386,
-					"chinese_desc": "涨幅比例(%)"
-				},
-				"high_day": {
-					"value": 237,
-					"chinese_desc": "涨幅天数"
-				}
-			}
-		},
-		"chinese_desc": "最小-回撤比例(%)"
-	},
-	"low_percent_max": {
-		"value": {
-			"trade_date": "20191209",
-			"ts_code": "601828.SH",
-			"re_trade_date": {
-				"ts_code": "601828.SH",
-				"trade_date": "20191216",
-				"open": 10.87,
-				"high": 11.04,
-				"low": 10.84,
-				"close": 10.98,
-				"pre_close": 10.84,
-				"change": 0.14,
-				"pct_chg": 1.2915,
-				"vol": 61149.61,
-				"amount": 66842.976,
-				"chinese_desc": "回本交易日",
-				"re_day": {
-					"value": 7,
-					"chinese_desc": "回本天数"
-				}
-			},
-			"low_trade_date": {
-				"ts_code": "601828.SH",
-				"trade_date": "20220316",
-				"open": 7.39,
-				"high": 7.63,
-				"low": 7.21,
-				"close": 7.56,
-				"pre_close": 7.33,
-				"change": 0.23,
-				"pct_chg": 3.1378,
-				"vol": 68474.44,
-				"amount": 50976.978,
-				"chinese_desc": "最低价格交易日",
-				"low_percent": {
-					"value": 33.67065317387304,
-					"chinese_desc": "回撤比例(%)"
-				},
-				"low_day": {
-					"value": 828,
-					"chinese_desc": "回撤天数"
-				}
-			},
-			"high_trade_date": {
-				"ts_code": "601828.SH",
-				"trade_date": "20210707",
-				"open": 13.8,
-				"high": 14.09,
-				"low": 13.38,
-				"close": 13.8,
-				"pre_close": 13.79,
-				"change": 0.01,
-				"pct_chg": 0.0725,
-				"vol": 214102.62,
-				"amount": 293056.785,
-				"chinese_desc": "最高价格交易日",
-				"high_percent": {
-					"value": 29.622815087396514,
-					"chinese_desc": "涨幅比例(%)"
-				},
-				"high_day": {
-					"value": 576,
-					"chinese_desc": "涨幅天数"
-				}
-			}
-		},
-		"chinese_desc": "最大-回撤比例(%)"
-	},
-	"low_day_average": {
-		"value": 260.64179104477614,
-		"chinese_desc": "平均-回撤天数"
-	},
-	"low_day_min": {
-		"value": {
-			"trade_date": "20210812",
-			"ts_code": "601801.SH",
-			"re_trade_date": {
-				"ts_code": "601801.SH",
-				"trade_date": "20210816",
-				"open": 4.36,
-				"high": 4.41,
-				"low": 4.33,
-				"close": 4.4,
-				"pre_close": 4.37,
-				"change": 0.03,
-				"pct_chg": 0.6865,
-				"vol": 39819.34,
-				"amount": 17423.092,
-				"chinese_desc": "回本交易日",
-				"re_day": {
-					"value": 4,
-					"chinese_desc": "回本天数"
-				}
-			},
-			"low_trade_date": {
-				"ts_code": "601801.SH",
-				"trade_date": "20210813",
-				"open": 4.38,
-				"high": 4.38,
-				"low": 4.33,
-				"close": 4.37,
-				"pre_close": 4.38,
-				"change": -0.01,
-				"pct_chg": -0.2283,
-				"vol": 32429.15,
-				"amount": 14128.015,
-				"chinese_desc": "最低价格交易日",
-				"low_percent": {
-					"value": 1.1415525114155212,
-					"chinese_desc": "回撤比例(%)"
-				},
-				"low_day": {
-					"value": 1,
-					"chinese_desc": "回撤天数"
-				}
-			},
-			"high_trade_date": {
-				"ts_code": "601801.SH",
-				"trade_date": "20220406",
-				"open": 5.3,
-				"high": 5.56,
-				"low": 5.3,
-				"close": 5.5,
-				"pre_close": 5.32,
-				"change": 0.18,
-				"pct_chg": 3.3835,
-				"vol": 284195.08,
-				"amount": 155767.796,
-				"chinese_desc": "最高价格交易日",
-				"high_percent": {
-					"value": 26.940639269406386,
-					"chinese_desc": "涨幅比例(%)"
-				},
-				"high_day": {
-					"value": 237,
-					"chinese_desc": "涨幅天数"
-				}
-			}
-		},
-		"chinese_desc": "最小-回撤天数"
-	},
-	"low_day_max": {
-		"value": {
-			"trade_date": "20191125",
-			"ts_code": "601229.SH",
-			"re_trade_date": {
-				"ts_code": "601229.SH",
-				"trade_date": "20191126",
-				"open": 9.3,
-				"high": 9.32,
-				"low": 9.26,
-				"close": 9.32,
-				"pre_close": 9.3,
-				"change": 0.02,
-				"pct_chg": 0.2151,
-				"vol": 465793.02,
-				"amount": 433292.69,
-				"chinese_desc": "回本交易日",
-				"re_day": {
-					"value": 1,
-					"chinese_desc": "回本天数"
-				}
-			},
-			"low_trade_date": {
-				"ts_code": "601229.SH",
-				"trade_date": "20220316",
-				"open": 6.46,
-				"high": 6.53,
-				"low": 6.32,
-				"close": 6.49,
-				"pre_close": 6.44,
-				"change": 0.05,
-				"pct_chg": 0.7764,
-				"vol": 382993.73,
-				"amount": 246613.12,
-				"chinese_desc": "最低价格交易日",
-				"low_percent": {
-					"value": 32.043010752688176,
-					"chinese_desc": "回撤比例(%)"
-				},
-				"low_day": {
-					"value": 842,
-					"chinese_desc": "回撤天数"
-				}
-			},
-			"high_trade_date": {
-				"ts_code": "601229.SH",
-				"trade_date": "20200707",
-				"open": 9.7,
-				"high": 9.95,
-				"low": 9.37,
-				"close": 9.46,
-				"pre_close": 9.64,
-				"change": -0.18,
-				"pct_chg": -1.8672,
-				"vol": 939415.27,
-				"amount": 897891.815,
-				"chinese_desc": "最高价格交易日",
-				"high_percent": {
-					"value": 6.989247311827941,
-					"chinese_desc": "涨幅比例(%)"
-				},
-				"high_day": {
-					"value": 225,
-					"chinese_desc": "涨幅天数"
-				}
-			}
-		},
-		"chinese_desc": "最大-回撤天数"
-	},
-	"high_percent_average": {
-		"value": 44.93447459626341,
-		"chinese_desc": "平均-涨幅比例(%)"
-	},
-	"high_percent_min": {
-		"value": {
-			"trade_date": "20220302",
-			"ts_code": "600837.SH",
-			"re_trade_date": {
-				"ts_code": "600837.SH",
-				"trade_date": "20220303",
-				"open": 11.28,
-				"high": 11.35,
-				"low": 11.28,
-				"close": 11.3,
-				"pre_close": 11.27,
-				"change": 0.03,
-				"pct_chg": 0.2662,
-				"vol": 227674.76,
-				"amount": 257596.615,
-				"chinese_desc": "回本交易日",
-				"re_day": {
-					"value": 1,
-					"chinese_desc": "回本天数"
-				}
-			},
-			"low_trade_date": {
-				"ts_code": "600837.SH",
-				"trade_date": "20220412",
-				"open": 9.93,
-				"high": 10.21,
-				"low": 9.85,
-				"close": 10.14,
-				"pre_close": 9.99,
-				"change": 0.15,
-				"pct_chg": 1.5015,
-				"vol": 712680.89,
-				"amount": 714704.825,
-				"chinese_desc": "最低价格交易日",
-				"low_percent": {
-					"value": 12.599822537710736,
-					"chinese_desc": "回撤比例(%)"
-				},
-				"low_day": {
-					"value": 41,
-					"chinese_desc": "回撤天数"
-				}
-			},
-			"high_trade_date": {
-				"ts_code": "600837.SH",
-				"trade_date": "20220303",
-				"open": 11.28,
-				"high": 11.35,
-				"low": 11.28,
-				"close": 11.3,
-				"pre_close": 11.27,
-				"change": 0.03,
-				"pct_chg": 0.2662,
-				"vol": 227674.76,
-				"amount": 257596.615,
-				"chinese_desc": "最高价格交易日",
-				"high_percent": {
-					"value": 0.7098491570541267,
-					"chinese_desc": "涨幅比例(%)"
-				},
-				"high_day": {
-					"value": 1,
-					"chinese_desc": "涨幅天数"
-				}
-			}
-		},
-		"chinese_desc": "最小-涨幅比例(%)"
-	},
-	"high_percent_max": {
-		"value": {
-			"trade_date": "20191105",
-			"ts_code": "000825.SZ",
-			"re_trade_date": {
-				"ts_code": "000825.SZ",
-				"trade_date": "20191106",
-				"open": 3.83,
-				"high": 3.89,
-				"low": 3.82,
-				"close": 3.86,
-				"pre_close": 3.84,
-				"change": 0.02,
-				"pct_chg": 0.5208,
-				"vol": 168248.74,
-				"amount": 64866.056,
-				"chinese_desc": "回本交易日",
-				"re_day": {
-					"value": 1,
-					"chinese_desc": "回本天数"
-				}
-			},
-			"low_trade_date": {
-				"ts_code": "000825.SZ",
-				"trade_date": "20200428",
-				"open": 3.27,
-				"high": 3.29,
-				"low": 3.16,
-				"close": 3.2,
-				"pre_close": 3.27,
-				"change": -0.07,
-				"pct_chg": -2.1407,
-				"vol": 232547.17,
-				"amount": 74532.771,
-				"chinese_desc": "最低价格交易日",
-				"low_percent": {
-					"value": 17.708333333333325,
-					"chinese_desc": "回撤比例(%)"
-				},
-				"low_day": {
-					"value": 175,
-					"chinese_desc": "回撤天数"
-				}
-			},
-			"high_trade_date": {
-				"ts_code": "000825.SZ",
-				"trade_date": "20210917",
-				"open": 13.19,
-				"high": 13.4,
-				"low": 11.71,
-				"close": 12.43,
-				"pre_close": 13,
-				"change": -0.57,
-				"pct_chg": -4.3846,
-				"vol": 2780593.55,
-				"amount": 3475714.588,
-				"chinese_desc": "最高价格交易日",
-				"high_percent": {
-					"value": 248.95833333333334,
-					"chinese_desc": "涨幅比例(%)"
-				},
-				"high_day": {
-					"value": 682,
-					"chinese_desc": "涨幅天数"
-				}
-			}
-		},
-		"chinese_desc": "最大-涨幅比例(%)"
-	},
-	"high_day_average": {
-		"value": 255.53571428571428,
-		"chinese_desc": "平均-涨幅天数"
-	},
-	"high_day_min": {
-		"value": {
-			"trade_date": "20210315",
-			"ts_code": "002958.SZ",
-			"re_trade_date": {
-				"ts_code": "002958.SZ",
-				"trade_date": "20210316",
-				"open": 4.58,
-				"high": 4.62,
-				"low": 4.56,
-				"close": 4.61,
-				"pre_close": 4.57,
-				"change": 0.04,
-				"pct_chg": 0.8753,
-				"vol": 287872.72,
-				"amount": 132433.573,
-				"chinese_desc": "回本交易日",
-				"re_day": {
-					"value": 1,
-					"chinese_desc": "回本天数"
-				}
-			},
-			"low_trade_date": {
-				"ts_code": "002958.SZ",
-				"trade_date": "20220316",
-				"open": 3.31,
-				"high": 3.39,
-				"low": 3.22,
-				"close": 3.37,
-				"pre_close": 3.29,
-				"change": 0.08,
-				"pct_chg": 2.4316,
-				"vol": 249765,
-				"amount": 82817.93,
-				"chinese_desc": "最低价格交易日",
-				"low_percent": {
-					"value": 29.540481400437635,
-					"chinese_desc": "回撤比例(%)"
-				},
-				"low_day": {
-					"value": 366,
-					"chinese_desc": "回撤天数"
-				}
-			},
-			"high_trade_date": {
-				"ts_code": "002958.SZ",
-				"trade_date": "20210316",
-				"open": 4.58,
-				"high": 4.62,
-				"low": 4.56,
-				"close": 4.61,
-				"pre_close": 4.57,
-				"change": 0.04,
-				"pct_chg": 0.8753,
-				"vol": 287872.72,
-				"amount": 132433.573,
-				"chinese_desc": "最高价格交易日",
-				"high_percent": {
-					"value": 1.0940919037199084,
-					"chinese_desc": "涨幅比例(%)"
-				},
-				"high_day": {
-					"value": 1,
-					"chinese_desc": "涨幅天数"
-				}
-			}
-		},
-		"chinese_desc": "最小涨幅天数"
-	},
-	"high_day_max": {
-		"value": {
-			"trade_date": "20191028",
-			"ts_code": "000959.SZ",
-			"re_trade_date": {
+		"high_percent_max": {
+			"value": {
+				"name": "首钢股份",
+				"industry": "普钢",
+				"area": "北京",
+				"buy_point_date": "20200506",
+				"chinese_desc": "买点交易日",
 				"ts_code": "000959.SZ",
-				"trade_date": "20191101",
-				"open": 3.35,
-				"high": 3.51,
-				"low": 3.31,
-				"close": 3.5,
-				"pre_close": 3.37,
-				"change": 0.13,
-				"pct_chg": 3.8576,
-				"vol": 85753.03,
-				"amount": 29077.925,
-				"chinese_desc": "回本交易日",
-				"re_day": {
-					"value": 4,
-					"chinese_desc": "回本天数"
+				"re_trade_date": {
+					"name": "首钢股份",
+					"industry": "普钢",
+					"area": "北京",
+					"ts_code": "000959.SZ",
+					"trade_date": "20200508",
+					"open": 2.89,
+					"high": 2.92,
+					"low": 2.89,
+					"close": 2.92,
+					"pre_close": 2.89,
+					"change": 0.03,
+					"pct_chg": 1.0381,
+					"vol": 44615.45,
+					"amount": 12982.396,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 2,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": -1,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": -1,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "首钢股份",
+					"industry": "普钢",
+					"area": "北京",
+					"ts_code": "000959.SZ",
+					"trade_date": "20210914",
+					"open": 9.96,
+					"high": 9.99,
+					"low": 8.88,
+					"close": 9.33,
+					"pre_close": 9.08,
+					"change": 0.25,
+					"pct_chg": 2.7533,
+					"vol": 1242353.29,
+					"amount": 1170836.43,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 244.48275862068965,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 496,
+						"chinese_desc": "涨幅天数"
+					}
 				}
 			},
-			"low_trade_date": {
-				"ts_code": "000959.SZ",
-				"trade_date": "20200428",
-				"open": 2.89,
-				"high": 2.9,
-				"low": 2.81,
-				"close": 2.84,
-				"pre_close": 2.89,
-				"change": -0.05,
-				"pct_chg": -1.7301,
-				"vol": 81121.21,
-				"amount": 23093.103,
-				"chinese_desc": "最低价格交易日",
-				"low_percent": {
-					"value": 17.109144542772864,
-					"chinese_desc": "回撤比例(%)"
-				},
-				"low_day": {
-					"value": 183,
-					"chinese_desc": "回撤天数"
-				}
-			},
-			"high_trade_date": {
-				"ts_code": "000959.SZ",
-				"trade_date": "20210914",
-				"open": 9.96,
-				"high": 9.99,
-				"low": 8.88,
-				"close": 9.33,
-				"pre_close": 9.08,
-				"change": 0.25,
-				"pct_chg": 2.7533,
-				"vol": 1242353.29,
-				"amount": 1170836.43,
-				"chinese_desc": "最高价格交易日",
-				"high_percent": {
-					"value": 194.69026548672565,
-					"chinese_desc": "涨幅比例(%)"
-				},
-				"high_day": {
-					"value": 687,
-					"chinese_desc": "涨幅天数"
-				}
-			}
+			"chinese_desc": "最大-涨幅比例(%)"
 		},
-		"chinese_desc": "最大-涨幅天数"
+		"high_day_max": {
+			"value": {
+				"name": "首钢股份",
+				"industry": "普钢",
+				"area": "北京",
+				"buy_point_date": "20191028",
+				"chinese_desc": "买点交易日",
+				"ts_code": "000959.SZ",
+				"re_trade_date": {
+					"name": "首钢股份",
+					"industry": "普钢",
+					"area": "北京",
+					"ts_code": "000959.SZ",
+					"trade_date": "20191101",
+					"open": 3.35,
+					"high": 3.51,
+					"low": 3.31,
+					"close": 3.5,
+					"pre_close": 3.37,
+					"change": 0.13,
+					"pct_chg": 3.8576,
+					"vol": 85753.03,
+					"amount": 29077.925,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 4,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "首钢股份",
+					"industry": "普钢",
+					"area": "北京",
+					"ts_code": "000959.SZ",
+					"trade_date": "20200428",
+					"open": 2.89,
+					"high": 2.9,
+					"low": 2.81,
+					"close": 2.84,
+					"pre_close": 2.89,
+					"change": -0.05,
+					"pct_chg": -1.7301,
+					"vol": 81121.21,
+					"amount": 23093.103,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 17.109144542772864,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 183,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "首钢股份",
+					"industry": "普钢",
+					"area": "北京",
+					"ts_code": "000959.SZ",
+					"trade_date": "20210914",
+					"open": 9.96,
+					"high": 9.99,
+					"low": 8.88,
+					"close": 9.33,
+					"pre_close": 9.08,
+					"change": 0.25,
+					"pct_chg": 2.7533,
+					"vol": 1242353.29,
+					"amount": 1170836.43,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 194.69026548672565,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 687,
+						"chinese_desc": "涨幅天数"
+					}
+				}
+			},
+			"chinese_desc": "最大-涨幅天数"
+		}
+	},
+	"min": {
+		"re_day_min": {
+			"value": {
+				"name": "长沙银行",
+				"industry": "银行",
+				"area": "湖南",
+				"buy_point_date": "20200326",
+				"chinese_desc": "买点交易日",
+				"ts_code": "601577.SH",
+				"re_trade_date": {
+					"name": "长沙银行",
+					"industry": "银行",
+					"area": "湖南",
+					"ts_code": "601577.SH",
+					"trade_date": "20200327",
+					"open": 7.87,
+					"high": 7.92,
+					"low": 7.83,
+					"close": 7.85,
+					"pre_close": 7.83,
+					"change": 0.02,
+					"pct_chg": 0.2554,
+					"vol": 87014.75,
+					"amount": 68464.025,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 1,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "长沙银行",
+					"industry": "银行",
+					"area": "湖南",
+					"ts_code": "601577.SH",
+					"trade_date": "20220316",
+					"open": 7.13,
+					"high": 7.35,
+					"low": 7.02,
+					"close": 7.3,
+					"pre_close": 7.08,
+					"change": 0.22,
+					"pct_chg": 3.1073,
+					"vol": 164808.1,
+					"amount": 118525.49,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 10.344827586206904,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 720,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "长沙银行",
+					"industry": "银行",
+					"area": "湖南",
+					"ts_code": "601577.SH",
+					"trade_date": "20210316",
+					"open": 10.65,
+					"high": 11.34,
+					"low": 10.59,
+					"close": 11.27,
+					"pre_close": 10.61,
+					"change": 0.66,
+					"pct_chg": 6.2205,
+					"vol": 536914.75,
+					"amount": 596178.887,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 44.82758620689655,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 355,
+						"chinese_desc": "涨幅天数"
+					}
+				}
+			},
+			"chinese_desc": "最小回本天数"
+		},
+		"low_percent_min": {
+			"value": {
+				"name": "农业银行",
+				"industry": "银行",
+				"area": "北京",
+				"buy_point_date": "20210810",
+				"chinese_desc": "买点交易日",
+				"ts_code": "601288.SH",
+				"re_trade_date": {
+					"name": "农业银行",
+					"industry": "银行",
+					"area": "北京",
+					"ts_code": "601288.SH",
+					"trade_date": "20210811",
+					"open": 2.92,
+					"high": 2.96,
+					"low": 2.92,
+					"close": 2.95,
+					"pre_close": 2.92,
+					"change": 0.03,
+					"pct_chg": 1.0274,
+					"vol": 3082059.59,
+					"amount": 907452.856,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 1,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "农业银行",
+					"industry": "银行",
+					"area": "北京",
+					"ts_code": "601288.SH",
+					"trade_date": "20220316",
+					"open": 2.93,
+					"high": 2.95,
+					"low": 2.9,
+					"close": 2.94,
+					"pre_close": 2.93,
+					"change": 0.01,
+					"pct_chg": 0.3413,
+					"vol": 4194328.63,
+					"amount": 1226601.593,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 0.6849315068493157,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 218,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "农业银行",
+					"industry": "银行",
+					"area": "北京",
+					"ts_code": "601288.SH",
+					"trade_date": "20220406",
+					"open": 3.07,
+					"high": 3.11,
+					"low": 3.07,
+					"close": 3.1,
+					"pre_close": 3.08,
+					"change": 0.02,
+					"pct_chg": 0.6494,
+					"vol": 4731533.17,
+					"amount": 1463006.102,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 6.506849315068491,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 239,
+						"chinese_desc": "涨幅天数"
+					}
+				}
+			},
+			"chinese_desc": "最小-回撤比例(%)"
+		},
+		"low_day_min": {
+			"value": {
+				"name": "大秦铁路",
+				"industry": "铁路",
+				"area": "山西",
+				"buy_point_date": "20211119",
+				"chinese_desc": "买点交易日",
+				"ts_code": "601006.SH",
+				"re_trade_date": {
+					"name": "大秦铁路",
+					"industry": "铁路",
+					"area": "山西",
+					"ts_code": "601006.SH",
+					"trade_date": "20211207",
+					"open": 6.23,
+					"high": 6.35,
+					"low": 6.22,
+					"close": 6.34,
+					"pre_close": 6.21,
+					"change": 0.13,
+					"pct_chg": 2.0934,
+					"vol": 557798.22,
+					"amount": 350894.418,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 18,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "大秦铁路",
+					"industry": "铁路",
+					"area": "山西",
+					"ts_code": "601006.SH",
+					"trade_date": "20211129",
+					"open": 6.09,
+					"high": 6.11,
+					"low": 6.07,
+					"close": 6.09,
+					"pre_close": 6.12,
+					"change": -0.03,
+					"pct_chg": -0.4902,
+					"vol": 195639.15,
+					"amount": 119106.067,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 2.411575562700956,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 10,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "大秦铁路",
+					"industry": "铁路",
+					"area": "山西",
+					"ts_code": "601006.SH",
+					"trade_date": "20220211",
+					"open": 7.15,
+					"high": 7.25,
+					"low": 7.1,
+					"close": 7.14,
+					"pre_close": 7.17,
+					"change": -0.03,
+					"pct_chg": -0.4184,
+					"vol": 799634.92,
+					"amount": 574265.056,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 16.559485530546628,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 84,
+						"chinese_desc": "涨幅天数"
+					}
+				}
+			},
+			"chinese_desc": "最小-回撤天数"
+		},
+		"high_percent_min": {
+			"value": {
+				"name": "青农商行",
+				"industry": "银行",
+				"area": "山东",
+				"buy_point_date": "20210315",
+				"chinese_desc": "买点交易日",
+				"ts_code": "002958.SZ",
+				"re_trade_date": {
+					"name": "青农商行",
+					"industry": "银行",
+					"area": "山东",
+					"ts_code": "002958.SZ",
+					"trade_date": "20210316",
+					"open": 4.58,
+					"high": 4.62,
+					"low": 4.56,
+					"close": 4.61,
+					"pre_close": 4.57,
+					"change": 0.04,
+					"pct_chg": 0.8753,
+					"vol": 287872.72,
+					"amount": 132433.573,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 1,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "青农商行",
+					"industry": "银行",
+					"area": "山东",
+					"ts_code": "002958.SZ",
+					"trade_date": "20220316",
+					"open": 3.31,
+					"high": 3.39,
+					"low": 3.22,
+					"close": 3.37,
+					"pre_close": 3.29,
+					"change": 0.08,
+					"pct_chg": 2.4316,
+					"vol": 249765,
+					"amount": 82817.93,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 29.540481400437635,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 366,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "青农商行",
+					"industry": "银行",
+					"area": "山东",
+					"ts_code": "002958.SZ",
+					"trade_date": "20210316",
+					"open": 4.58,
+					"high": 4.62,
+					"low": 4.56,
+					"close": 4.61,
+					"pre_close": 4.57,
+					"change": 0.04,
+					"pct_chg": 0.8753,
+					"vol": 287872.72,
+					"amount": 132433.573,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 1.0940919037199084,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 1,
+						"chinese_desc": "涨幅天数"
+					}
+				}
+			},
+			"chinese_desc": "最小-涨幅比例(%)"
+		},
+		"high_day_min": {
+			"value": {
+				"name": "青农商行",
+				"industry": "银行",
+				"area": "山东",
+				"buy_point_date": "20210315",
+				"chinese_desc": "买点交易日",
+				"ts_code": "002958.SZ",
+				"re_trade_date": {
+					"name": "青农商行",
+					"industry": "银行",
+					"area": "山东",
+					"ts_code": "002958.SZ",
+					"trade_date": "20210316",
+					"open": 4.58,
+					"high": 4.62,
+					"low": 4.56,
+					"close": 4.61,
+					"pre_close": 4.57,
+					"change": 0.04,
+					"pct_chg": 0.8753,
+					"vol": 287872.72,
+					"amount": 132433.573,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 1,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "青农商行",
+					"industry": "银行",
+					"area": "山东",
+					"ts_code": "002958.SZ",
+					"trade_date": "20220316",
+					"open": 3.31,
+					"high": 3.39,
+					"low": 3.22,
+					"close": 3.37,
+					"pre_close": 3.29,
+					"change": 0.08,
+					"pct_chg": 2.4316,
+					"vol": 249765,
+					"amount": 82817.93,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 29.540481400437635,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 366,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "青农商行",
+					"industry": "银行",
+					"area": "山东",
+					"ts_code": "002958.SZ",
+					"trade_date": "20210316",
+					"open": 4.58,
+					"high": 4.62,
+					"low": 4.56,
+					"close": 4.61,
+					"pre_close": 4.57,
+					"change": 0.04,
+					"pct_chg": 0.8753,
+					"vol": 287872.72,
+					"amount": 132433.573,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 1.0940919037199084,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 1,
+						"chinese_desc": "涨幅天数"
+					}
+				}
+			},
+			"chinese_desc": "最小涨幅天数"
+		}
 	}
 }

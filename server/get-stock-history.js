@@ -9,15 +9,14 @@ const { tradeDate, preDay, token } = require('./config')
 const getPathBySource = (...paths) => resolve(__dirname, '../', ...paths);
 const stockHistoryPath = getPathBySource('./public/database/stock-history.json');
 const stockHistoryDatabase = require('../public/database/stock-history.json');
-const lowValuationsStockListPath = getPathBySource('./public/database/low-valuations-stock-list.json');
 const lowValuationsDatabase = require('../public/database/low-valuations-stock-list.json');
 
-const lowValuationsTsCodes = lowValuationsDatabase[tradeDate].map(({ts_code}) => ts_code)
+const lowValuationsTsCodes = lowValuationsDatabase[tradeDate].map(({ ts_code, name, industry, area }) => ({ ts_code, name, industry, area }))
 // const lowValuationsTsCodes = ['601898.SH', '600551.SH']
 
 
 let temp = {}
-async function getData(ts_code){
+async function getData({ ts_code, name, industry, area }){
   await axios.post(`https://api.tushare.pro`, {
     api_name: 'daily',  // daily 接口可以用很多次
     token,
@@ -31,7 +30,11 @@ async function getData(ts_code){
     const fields = get(result, 'data.data.fields');
     const items = get(result, 'data.data.items')
     const formatItems = map(items, item => {
-      const params = {}
+      const params = {
+        name,
+        industry,
+        area,
+      }
       map(item, (key, idx) => {
           params[fields[idx]] = key
       })

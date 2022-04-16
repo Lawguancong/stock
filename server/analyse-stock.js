@@ -146,7 +146,7 @@ function getBuyPoint({
       flat5 && 
       flat6 &&
       flat7 && 
-      flat8 < 0.10 &&
+      // flat8 < 0.10 &&
       flat9
       ){
         const endItem = {
@@ -239,14 +239,23 @@ tsCodeList.map(ts_code => {
 buyPointStockItem.map(item => {
   // if (item.length >= 2) current_TD_BuyPoitItem.push(item)
 })
+// console.log('buyPointStockItem', buyPointStockItem)
 const formatBuyPointStockItem = map(buyPointStockItem, item => map(item, ({
+  name,
+  industry,
+  area,
   trade_date,
   ts_code,
   re_trade_date,
   low_trade_date,
   high_trade_date,
  }) => ({
-  trade_date,
+  name,
+  industry,
+  area,
+  buy_point_date: trade_date,
+  // trade_date,
+  chinese_desc: '买点交易日',
   ts_code,
   re_trade_date,
   low_trade_date,

@@ -11,12 +11,12 @@ function getLowValuationsStock(stockList = []) {
     stockList.forEach((item) => {
       const { pe, pb, rev_yoy, profit_yoy, gpr, npr} = item;
       if (
-        pe > 0 && pe < 15 && 
-        pb > 0 && pb < 1.0 && 
-        rev_yoy > 5 &&  // rev_yoy	float	Y	收入同比（%）
-        profit_yoy > 5 && // profit_yoy	float	Y	利润同比（%）
-        gpr > 5 && // gpr	float	Y	毛利率（%）
-        npr > 5 // npr	float	Y	净利润率（%）
+        pe > 0 && pe < 15 
+        && pb > 0 && pb < 1.0 
+        && rev_yoy > 5  // rev_yoy	float	Y	收入同比（%）
+        && profit_yoy > 5  // profit_yoy	float	Y	利润同比（%）
+        && gpr > 5  // gpr	float	Y	毛利率（%）
+        && npr > 5 // npr	float	Y	净利润率（%）
       ) {
         lowValuationsStockList.push(item);
       }

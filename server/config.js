@@ -16,4 +16,5 @@ module.exports = {
 // node server/get-low-valuations-stock.js
 // node server/get-stock-history.js
 // node server/analyse-stock.js
+// node server/buy-point-report.js 
 // yar start

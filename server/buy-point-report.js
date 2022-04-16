@@ -7,6 +7,7 @@ const analyseStockDatabase = require('../public/database/analyse-stock.json');
 const buyPointReportPath = getPathBySource('./public/database/buy-point-report.json');
 
 const { tradeDate } = require('./config')
+const { pick } = require('./utils')
 const { map, get, join, minBy, maxBy, reverse, sortBy, cloneDeep } =  require('loadsh');
 const moment = require('moment');
 
@@ -67,73 +68,91 @@ const cc = flat_array.reduce((pre, next, idx, initialArray) => {
     high_day_total: 0, // high_day 总量
     high_day_num: 0, // high_day 数量
   })
-const objjj = {
-re_day_average: {
-    value: cc.re_day_total / cc.re_day_num,
-    chinese_desc: '平均回本天数'
-},
-re_day_min: {
-    value: flat_array.filter(item => item.re_trade_date.re_day.value > 0).sort((pre,next) => pre.re_trade_date.re_day.value - next.re_trade_date.re_day.value)[0],
-    chinese_desc: '最小回本天数'
-},
-re_day_max: {
-    value: flat_array.filter(item => item.re_trade_date.re_day.value > 0).sort((pre,next) => next.re_trade_date.re_day.value - pre.re_trade_date.re_day.value)[0],
-    chinese_desc: '最大回本天数'
-},
-low_percent_average: {
-    value: cc.low_percent_total / cc.low_percent_num,
-    chinese_desc: '平均-回撤比例(%)'
-},
-low_percent_min: {
-    value: flat_array.filter(item => item.low_trade_date.low_percent.value > 0).sort((pre,next) => pre.low_trade_date.low_percent.value - next.low_trade_date.low_percent.value)[0],
-    chinese_desc: '最小-回撤比例(%)'
-},
-low_percent_max: {
-    value: flat_array.filter(item => item.low_trade_date.low_percent.value > 0).sort((pre,next) => next.low_trade_date.low_percent.value - pre.low_trade_date.low_percent.value)[0],
-    chinese_desc: '最大-回撤比例(%)'
-},
-low_day_average: {
-    value: cc.low_day_total / cc.low_day_num,
-    chinese_desc: '平均-回撤天数'
-},
-low_day_min: {
-    value: flat_array.filter(item => item.low_trade_date.low_day.value > 0).sort((pre,next) => pre.low_trade_date.low_day.value - next.low_trade_date.low_day.value)[0],
-    chinese_desc: '最小-回撤天数'
-},
-low_day_max: {
-    value: flat_array.filter(item => item.low_trade_date.low_day.value > 0).sort((pre,next) => next.low_trade_date.low_day.value - pre.low_trade_date.low_day.value)[0],
-    chinese_desc: '最大-回撤天数'
-},
-high_percent_average: {
-    value: cc.high_percent_total / cc.high_percent_num,
-    chinese_desc: '平均-涨幅比例(%)'
-},
-high_percent_min: {
-    value: flat_array.filter(item => item.high_trade_date.high_percent.value > 0).sort((pre,next) => pre.high_trade_date.high_percent.value - next.high_trade_date.high_percent.value)[0],
-    chinese_desc: '最小-涨幅比例(%)'
-},
-high_percent_max: {
-    value: flat_array.filter(item => item.high_trade_date.high_percent.value > 0).sort((pre,next) => next.high_trade_date.high_percent.value - pre.high_trade_date.high_percent.value)[0],
-    chinese_desc: '最大-涨幅比例(%)'
-},
-high_day_average: {
-    value: cc.high_day_total / cc.high_day_num,
-    chinese_desc: '平均-涨幅天数'
-},
-high_day_min: {
-    value: flat_array.filter(item => item.high_trade_date.high_day.value > 0).sort((pre,next) => pre.high_trade_date.high_day.value - next.high_trade_date.high_day.value)[0],
-    chinese_desc: '最小涨幅天数'
-},
-high_day_max: {
-    value: flat_array.filter(item => item.high_trade_date.high_day.value > 0).sort((pre,next) => next.high_trade_date.high_day.value - pre.high_trade_date.high_day.value)[0],
-    chinese_desc: '最大-涨幅天数'
-},
-}
 
 
-const data = {
-    ...objjj,
-}
+  const keyItems = ['name', 'ts_code', 'area', 'industry', 'chinese_desc', 'trade_date']
+  const re_day_max = flat_array.filter(item => item.re_trade_date.re_day.value > 0).sort((pre,next) => next.re_trade_date.re_day.value - pre.re_trade_date.re_day.value)[0]
+
+    const data = {
+        average: {
+            re_day_average: {
+                value: cc.re_day_total / cc.re_day_num,
+                chinese_desc: '平均回本天数'
+            },
+            low_percent_average: {
+                value: cc.low_percent_total / cc.low_percent_num,
+                chinese_desc: '平均-回撤比例(%)'
+            },
+            low_day_average: {
+                value: cc.low_day_total / cc.low_day_num,
+                chinese_desc: '平均-回撤天数'
+            },
+            high_percent_average: {
+                value: cc.high_percent_total / cc.high_percent_num,
+                chinese_desc: '平均-涨幅比例(%)'
+            },
+            high_day_average: {
+                value: cc.high_day_total / cc.high_day_num,
+                chinese_desc: '平均-涨幅天数'
+            },
+        },
+        max: {
+            re_day_max: {
+                // value: flat_array.filter(item => item.re_trade_date.re_day.value > 0).sort((pre,next) => next.re_trade_date.re_day.value - pre.re_trade_date.re_day.value)[0],
+                value: {
+                    ...pick(re_day_max, [].concat(keyItems, ['buy_point_date'])),
+                    re_trade_date: pick(re_day_max.re_trade_date, [].concat(keyItems, ['re_day']))
+                },
+                chinese_desc: '最大回本天数'
+            },
+            low_percent_max: {
+                value: flat_array.filter(item => item.low_trade_date.low_percent.value > 0).sort((pre,next) => next.low_trade_date.low_percent.value - pre.low_trade_date.low_percent.value)[0],
+                chinese_desc: '最大-回撤比例(%)'
+            },
+            low_day_max: {
+                value: flat_array.filter(item => item.low_trade_date.low_day.value > 0).sort((pre,next) => next.low_trade_date.low_day.value - pre.low_trade_date.low_day.value)[0],
+                chinese_desc: '最大-回撤天数'
+            },
+            high_percent_max: {
+                value: flat_array.filter(item => item.high_trade_date.high_percent.value > 0).sort((pre,next) => next.high_trade_date.high_percent.value - pre.high_trade_date.high_percent.value)[0],
+                chinese_desc: '最大-涨幅比例(%)'
+            },
+            high_day_max: {
+                value: flat_array.filter(item => item.high_trade_date.high_day.value > 0).sort((pre,next) => next.high_trade_date.high_day.value - pre.high_trade_date.high_day.value)[0],
+                chinese_desc: '最大-涨幅天数'
+            },
+        },
+        min:{ 
+            re_day_min: {
+                value: flat_array.filter(item => item.re_trade_date.re_day.value > 0).sort((pre,next) => pre.re_trade_date.re_day.value - next.re_trade_date.re_day.value)[0],
+                chinese_desc: '最小回本天数'
+            },
+           
+            
+            low_percent_min: {
+                value: flat_array.filter(item => item.low_trade_date.low_percent.value > 0).sort((pre,next) => pre.low_trade_date.low_percent.value - next.low_trade_date.low_percent.value)[0],
+                chinese_desc: '最小-回撤比例(%)'
+            },
+          
+           
+            low_day_min: {
+                value: flat_array.filter(item => item.low_trade_date.low_day.value > 0).sort((pre,next) => pre.low_trade_date.low_day.value - next.low_trade_date.low_day.value)[0],
+                chinese_desc: '最小-回撤天数'
+            },
+           
+          
+            high_percent_min: {
+                value: flat_array.filter(item => item.high_trade_date.high_percent.value > 0).sort((pre,next) => pre.high_trade_date.high_percent.value - next.high_trade_date.high_percent.value)[0],
+                chinese_desc: '最小-涨幅比例(%)'
+            },
+            
+           
+            high_day_min: {
+                value: flat_array.filter(item => item.high_trade_date.high_day.value > 0).sort((pre,next) => pre.high_trade_date.high_day.value - next.high_trade_date.high_day.value)[0],
+                chinese_desc: '最小涨幅天数'
+            },
+        }
+    }
 
 let str = JSON.stringify(data, null, "\t")
 fs.writeFileSync(buyPointReportPath, str);
