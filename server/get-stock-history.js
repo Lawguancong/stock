@@ -31,11 +31,11 @@ async function getData(ts_code){
     const fields = get(result, 'data.data.fields');
     const items = get(result, 'data.data.items')
     const formatItems = map(items, item => {
-        const params = {}
-        map(item, (key, idx) => {
-            params[fields[idx]] = key
-        })
-        return params
+      const params = {}
+      map(item, (key, idx) => {
+          params[fields[idx]] = key
+      })
+      return params
     })
     temp = {
       ...temp,
