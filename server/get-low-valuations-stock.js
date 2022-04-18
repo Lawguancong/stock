@@ -9,14 +9,23 @@ const { tradeDate } = require('./config')
 function getLowValuationsStock(stockList = []) {
     let lowValuationsStockList = []
     stockList.forEach((item) => {
-      const { pe, pb, rev_yoy, profit_yoy, gpr, npr} = item;
+      const { pe, pb, reserved = 0, reserved_pershare = 0, eps = 0, bvps = 0, rev_yoy = 0, profit_yoy = 0, gpr = 0, npr = 0, total_assets, liquid_assets} = item;
+      // console.log('item', item)
       if (
-        pe > 0 && pe < 15 
+        pe > 0 && pe < 12 
         && pb > 0 && pb < 1.0 
-        && rev_yoy > 5  // rev_yoy	float	Y	收入同比（%）
-        && profit_yoy > 5  // profit_yoy	float	Y	利润同比（%）
-        && gpr > 5  // gpr	float	Y	毛利率（%）
-        && npr > 5 // npr	float	Y	净利润率（%）
+        && reserved > 0//	float	Y	公积金
+        && reserved_pershare > 0//	float	Y	每股公积金
+        && eps > 0 //	float	Y	每股收益
+        && bvps > 0//	float	Y	每股净资产
+        && rev_yoy > 0  // rev_yoy	float	Y	收入同比（%）
+        && profit_yoy > 0  // profit_yoy	float	Y	利润同比（%）
+        && gpr > 0  // gpr	float	Y	毛利率（%）
+        && npr > 0 // npr	float	Y	净利润率（%）
+        && total_assets < 600 // 总资产
+        && liquid_assets < 600 // 流动资产
+
+        // todo 同行业比较 横向比较 纵向比较
       ) {
         lowValuationsStockList.push(item);
       }

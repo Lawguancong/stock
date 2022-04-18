@@ -33,7 +33,7 @@ const cc = flat_array.reduce((pre, next, idx, initialArray) => {
     const high_percent_value = next.high_trade_date.high_percent.value
     const high_day_value = next.high_trade_date.high_day.value
 
-
+    const is_invalid = (high_percent_value < low_percent_value) && (high_percent_value > 0) && (low_percent_value > 0) || (high_percent_value === -1) || (high_day_value === -1)
 
     return {
       re_day_total: re_day_value !== -1 ? pre.re_day_total + re_day_value : pre.re_day_total,
@@ -41,6 +41,8 @@ const cc = flat_array.reduce((pre, next, idx, initialArray) => {
 
       low_percent_total: low_percent_value !== -1 ? pre.low_percent_total + low_percent_value : pre.low_percent_total,
       low_percent_num: low_percent_value !== -1 ? pre.low_percent_num + 1 :  pre.low_percent_num,
+      low_percent_0_num: low_percent_value === 0 ? pre.low_percent_0_num + 1 : pre.low_percent_0_num,
+      low_percent_0_trade_date: low_percent_value === 0 ? [...pre.low_percent_0_trade_date, next] : pre.low_percent_0_trade_date,
 
       low_day_total: low_day_value !== -1 ? pre.low_day_total + low_day_value : pre.low_day_total,
       low_day_num: low_day_value !== -1 ? pre.low_day_num + 1 :  pre.low_day_num,
@@ -50,6 +52,9 @@ const cc = flat_array.reduce((pre, next, idx, initialArray) => {
 
       high_day_total: high_day_value !== -1 ? pre.high_day_total + high_day_value : pre.high_day_total,
       high_day_num: high_day_value !== -1 ? pre.high_day_num + 1 :  pre.high_day_num,
+
+      invalid_num: is_invalid ? pre.invalid_num + 1 :  pre.invalid_num,
+      invalid_trade_date: is_invalid ? [...pre.invalid_trade_date, next] : pre.invalid_trade_date,
      
     }
   }, {
@@ -58,6 +63,12 @@ const cc = flat_array.reduce((pre, next, idx, initialArray) => {
 
     low_percent_total: 0, // low_percent 总量
     low_percent_num: 0, // low_percent 数量
+    low_percent_0_num: 0, // 回撤为0的数量
+    low_percent_0_trade_date: [],
+
+    invalid_num: 0, // 无效买点数量
+    invalid_trade_date: [],
+
 
     low_day_total: 0, // low_day 总量
     low_day_num: 0, // low_day 数量
@@ -74,6 +85,22 @@ const cc = flat_array.reduce((pre, next, idx, initialArray) => {
   const re_day_max = flat_array.filter(item => item.re_trade_date.re_day.value > 0).sort((pre,next) => next.re_trade_date.re_day.value - pre.re_trade_date.re_day.value)[0]
 
     const data = {
+        other: {
+            invalid: {
+                chinese_desc: '无效买点',
+                invalid_num: cc.invalid_num,
+                invalid_trade_date: cc.invalid_trade_date
+                // buy_point_trade_date_num: flat_array.length,
+                // buy_point_trade_date_percent: (cc.invalid_num / flat_array.length) * 100,
+            },
+          
+            low_percent_0_num: {
+                chinese_desc: '无回撤数量',
+                value: cc.low_percent_0_num,
+                low_percent_0_trade_date: cc.low_percent_0_trade_date
+            },
+          
+        },
         average: {
             re_day_average: {
                 value: cc.re_day_total / cc.re_day_num,

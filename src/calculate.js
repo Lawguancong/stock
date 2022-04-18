@@ -27,6 +27,8 @@ export class FLexLayoutWrapper extends React.PureComponent {
 
       const buyPointReportList = await this.getBuyPointReport(); // 过滤的低谷股票列表
       console.log('buyPointReportList', buyPointReportList)
+      console.log('length', this.deepFlatten(analyseStock.formatBuyPointStockItem).length)
+      
     }
 
     deepFlatten = arr => [].concat(...arr.map(v => (Array.isArray(v) ? this.deepFlatten(v) : v)))    
