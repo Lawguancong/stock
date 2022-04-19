@@ -9,8 +9,7 @@ const { tradeDate } = require('./config')
 function getLowValuationsStock(stockList = []) {
     let lowValuationsStockList = []
     stockList.forEach((item) => {
-      const { pe, pb, reserved = 0, reserved_pershare = 0, eps = 0, bvps = 0, rev_yoy = 0, profit_yoy = 0, gpr = 0, npr = 0, total_assets, liquid_assets} = item;
-      // console.log('item', item)
+      const { pe, pb, reserved = 0, reserved_pershare = 0, eps = 0, bvps = 0, rev_yoy = 0, profit_yoy = 0, gpr = 0, npr = 0, total_assets, liquid_assets } = item;
       if (
         pe > 0 && pe < 12 
         && pb > 0 && pb < 1.0 
@@ -32,9 +31,8 @@ function getLowValuationsStock(stockList = []) {
     })
     return lowValuationsStockList
 }
-const data = {
-    ...lowValuationsDatabase,
-    [tradeDate]: getLowValuationsStock(allStockListDatabase[tradeDate].formatItems)
-}
-let str = JSON.stringify(data, null, "\t")
+let str = JSON.stringify({
+  ...lowValuationsDatabase,
+  [tradeDate]: getLowValuationsStock(allStockListDatabase[tradeDate].formatItems)
+}, null, "\t")
 fs.writeFileSync(lowValuationsStockListPath, str);

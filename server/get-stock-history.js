@@ -8,13 +8,13 @@ const { tradeDate, preDay, token } = require('./config')
 
 const getPathBySource = (...paths) => resolve(__dirname, '../', ...paths);
 const stockHistoryPath = getPathBySource('./public/database/stock-history.json');
+const errorCatchPath = getPathBySource('./public/database/error-catch.json');
 const stockHistoryDatabase = require('../public/database/stock-history.json');
 const lowValuationsDatabase = require('../public/database/low-valuations-stock-list.json');
 
 const lowValuationsTsCodes = lowValuationsDatabase[tradeDate].map(({ ts_code, name, industry, area }) => ({ ts_code, name, industry, area }))
 // const lowValuationsTsCodes = ['601898.SH', '600551.SH']
-
-
+let errorList = []
 let temp = {}
 async function getData({ ts_code, name, industry, area }){
   await axios.post(`https://api.tushare.pro`, {
@@ -61,9 +61,15 @@ function patchFetchStock(stockList) {
         }
         let str = JSON.stringify(combineData, null, "\t")
         fs.writeFileSync(stockHistoryPath, str);
+        let str2 = JSON.stringify({
+          [tradeDate]: errorList
+        }, null, "\t")
+        fs.writeFileSync(errorCatchPath, str2);
       }
     } catch (e) {
       console.log('e',e )
+      console.log('item', item)
+      errorList.push(item)
       // console.log('error-item', item)
       // todo 递归 异常的时候 处理
     }

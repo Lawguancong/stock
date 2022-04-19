@@ -3,9 +3,7 @@ import axios from 'axios';
 import { map, get, join, minBy, maxBy, reverse, sortBy, cloneDeep, isEmpty } from 'loadsh';
 import moment from 'moment';
 
-const trade_date = '20220412';
 
-const dayNum = 1800; // 向前多少天，不是交易日；
 export class FLexLayoutWrapper extends React.PureComponent {
     static defaultProps = {
     }
@@ -68,7 +66,7 @@ export class FLexLayoutWrapper extends React.PureComponent {
     render() {
         return (
             <div>
-              1
+              量化趋势分析
             </div>
         );
     }

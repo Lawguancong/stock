@@ -19,4 +19,4 @@ module.exports = {
 // node server/get-stock-history.js
 // node server/analyse-stock.js
 // node server/buy-point-report.js 
-// yar start
+// yarn start
