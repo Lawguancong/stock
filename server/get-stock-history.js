@@ -9,11 +9,10 @@ const { tradeDate, preDay, token } = require('./config')
 const getPathBySource = (...paths) => resolve(__dirname, '../', ...paths);
 const stockHistoryPath = getPathBySource('./public/database/stock-history.json');
 const errorCatchPath = getPathBySource('./public/database/error-catch.json');
-const stockHistoryDatabase = require('../public/database/stock-history.json');
+const errorCatchDatabase = require('../public/database/error-catch.json');
 const lowValuationsDatabase = require('../public/database/low-valuations-stock-list.json');
 
 const lowValuationsTsCodes = lowValuationsDatabase[tradeDate].map(({ ts_code, name, industry, area }) => ({ ts_code, name, industry, area }))
-// const lowValuationsTsCodes = ['601898.SH', '600551.SH']
 let errorList = []
 let temp = {}
 async function getData({ ts_code, name, industry, area }){
@@ -22,7 +21,7 @@ async function getData({ ts_code, name, industry, area }){
     token,
     params: {
       ts_code,
-      start_date: moment().subtract(preDay, 'days').format('YYYYMMDD'),
+      start_date: moment(tradeDate).subtract(preDay, 'days').format('YYYYMMDD'),
       end_date: tradeDate
     },
     fields: null,
@@ -54,25 +53,36 @@ function patchFetchStock(stockList) {
   stockList.forEach(async (item, idx) => {
     try {
       await getData(item)
-      if (stockList.length === idx+1) {
-        const combineData = {
-          ...stockHistoryDatabase,
-          ...temp,
-        }
-        let str = JSON.stringify(combineData, null, "\t")
+      if (stockList.length === Object.values(temp).length) {
+      // if (stockList.length === Object.keys(temp).length) {
+      // if (stockList.length === Object.entries(temp).length) {
+      
+        let str = JSON.stringify(temp, null, "\t")
         fs.writeFileSync(stockHistoryPath, str);
-        let str2 = JSON.stringify({
-          [tradeDate]: errorList
-        }, null, "\t")
-        fs.writeFileSync(errorCatchPath, str2);
+        // console.log('errorList.length', errorList.length)
+        // let str2 = JSON.stringify({
+        //   ...errorCatchDatabase,
+        //   [tradeDate]: errorList
+        // }, null, "\t")
+        // fs.writeFileSync(errorCatchPath, str2);
       }
     } catch (e) {
-      console.log('e',e )
+      // console.log('e',e )
       console.log('item', item)
-      errorList.push(item)
+      console.log('errorCatchDatabase[tradeDate]', errorCatchDatabase[tradeDate])
+      // let str2 = JSON.stringify({
+      //   ...errorCatchDatabase,
+      //   [tradeDate]: [...errorCatchDatabase[tradeDate], {
+      //     item,
+      //     e,
+      //   }]
+      // }, null, "\t")
+      // fs.writeFileSync(errorCatchPath, str2);
+      // errorList.push(item)
       // console.log('error-item', item)
       // todo 递归 异常的时候 处理
     }
+    // console.log(123)
   })
 }
 patchFetchStock(lowValuationsTsCodes);

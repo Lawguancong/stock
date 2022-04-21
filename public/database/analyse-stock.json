@@ -2,1052 +2,6 @@
 	"formatBuyPointStockItem": [
 		[
 			{
-				"name": "重药控股",
-				"industry": "医药商业",
-				"area": "重庆",
-				"buy_point_date": "20210803",
-				"close": 5.05,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000950.SZ",
-				"re_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20210908",
-					"open": 5.04,
-					"high": 5.11,
-					"low": 5.02,
-					"close": 5.1,
-					"pre_close": 5.03,
-					"change": 0.07,
-					"pct_chg": 1.3917,
-					"vol": 99425.21,
-					"amount": 50389.315,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 36,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211102",
-					"open": 4.76,
-					"high": 4.77,
-					"low": 4.64,
-					"close": 4.69,
-					"pre_close": 4.77,
-					"change": -0.08,
-					"pct_chg": -1.6771,
-					"vol": 68581.1,
-					"amount": 32232.506,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 8.118811881188122,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 91,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20220329",
-					"open": 6.84,
-					"high": 7.15,
-					"low": 6.32,
-					"close": 6.42,
-					"pre_close": 6.57,
-					"change": -0.15,
-					"pct_chg": -2.2831,
-					"vol": 1743064.58,
-					"amount": 1171258.575,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 41.5841584158416,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 238,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "重药控股",
-				"industry": "医药商业",
-				"area": "重庆",
-				"buy_point_date": "20210811",
-				"close": 4.99,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000950.SZ",
-				"re_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20210906",
-					"open": 4.97,
-					"high": 5.04,
-					"low": 4.96,
-					"close": 5.02,
-					"pre_close": 4.97,
-					"change": 0.05,
-					"pct_chg": 1.006,
-					"vol": 94009.57,
-					"amount": 47056.203,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 26,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211102",
-					"open": 4.76,
-					"high": 4.77,
-					"low": 4.64,
-					"close": 4.69,
-					"pre_close": 4.77,
-					"change": -0.08,
-					"pct_chg": -1.6771,
-					"vol": 68581.1,
-					"amount": 32232.506,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 7.014028056112235,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 83,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20220329",
-					"open": 6.84,
-					"high": 7.15,
-					"low": 6.32,
-					"close": 6.42,
-					"pre_close": 6.57,
-					"change": -0.15,
-					"pct_chg": -2.2831,
-					"vol": 1743064.58,
-					"amount": 1171258.575,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 43.28657314629258,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 230,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "重药控股",
-				"industry": "医药商业",
-				"area": "重庆",
-				"buy_point_date": "20210903",
-				"close": 4.97,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000950.SZ",
-				"re_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20210906",
-					"open": 4.97,
-					"high": 5.04,
-					"low": 4.96,
-					"close": 5.02,
-					"pre_close": 4.97,
-					"change": 0.05,
-					"pct_chg": 1.006,
-					"vol": 94009.57,
-					"amount": 47056.203,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 3,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211102",
-					"open": 4.76,
-					"high": 4.77,
-					"low": 4.64,
-					"close": 4.69,
-					"pre_close": 4.77,
-					"change": -0.08,
-					"pct_chg": -1.6771,
-					"vol": 68581.1,
-					"amount": 32232.506,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 6.639839034205234,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 60,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20220329",
-					"open": 6.84,
-					"high": 7.15,
-					"low": 6.32,
-					"close": 6.42,
-					"pre_close": 6.57,
-					"change": -0.15,
-					"pct_chg": -2.2831,
-					"vol": 1743064.58,
-					"amount": 1171258.575,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 43.8631790744467,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 207,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "重药控股",
-				"industry": "医药商业",
-				"area": "重庆",
-				"buy_point_date": "20210906",
-				"close": 5.02,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000950.SZ",
-				"re_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20210907",
-					"open": 5.04,
-					"high": 5.05,
-					"low": 5,
-					"close": 5.03,
-					"pre_close": 5.02,
-					"change": 0.01,
-					"pct_chg": 0.1992,
-					"vol": 73279,
-					"amount": 36780.475,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 1,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211102",
-					"open": 4.76,
-					"high": 4.77,
-					"low": 4.64,
-					"close": 4.69,
-					"pre_close": 4.77,
-					"change": -0.08,
-					"pct_chg": -1.6771,
-					"vol": 68581.1,
-					"amount": 32232.506,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 7.569721115537847,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 57,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20220329",
-					"open": 6.84,
-					"high": 7.15,
-					"low": 6.32,
-					"close": 6.42,
-					"pre_close": 6.57,
-					"change": -0.15,
-					"pct_chg": -2.2831,
-					"vol": 1743064.58,
-					"amount": 1171258.575,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 42.43027888446217,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 204,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "重药控股",
-				"industry": "医药商业",
-				"area": "重庆",
-				"buy_point_date": "20211011",
-				"close": 5.09,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000950.SZ",
-				"re_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211013",
-					"open": 5.09,
-					"high": 5.14,
-					"low": 5.08,
-					"close": 5.12,
-					"pre_close": 5.09,
-					"change": 0.03,
-					"pct_chg": 0.5894,
-					"vol": 67834,
-					"amount": 34689.91,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 2,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211102",
-					"open": 4.76,
-					"high": 4.77,
-					"low": 4.64,
-					"close": 4.69,
-					"pre_close": 4.77,
-					"change": -0.08,
-					"pct_chg": -1.6771,
-					"vol": 68581.1,
-					"amount": 32232.506,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 8.840864440078589,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 22,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20220329",
-					"open": 6.84,
-					"high": 7.15,
-					"low": 6.32,
-					"close": 6.42,
-					"pre_close": 6.57,
-					"change": -0.15,
-					"pct_chg": -2.2831,
-					"vol": 1743064.58,
-					"amount": 1171258.575,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 40.47151277013754,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 169,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "重药控股",
-				"industry": "医药商业",
-				"area": "重庆",
-				"buy_point_date": "20211012",
-				"close": 5.09,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000950.SZ",
-				"re_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211013",
-					"open": 5.09,
-					"high": 5.14,
-					"low": 5.08,
-					"close": 5.12,
-					"pre_close": 5.09,
-					"change": 0.03,
-					"pct_chg": 0.5894,
-					"vol": 67834,
-					"amount": 34689.91,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 1,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211102",
-					"open": 4.76,
-					"high": 4.77,
-					"low": 4.64,
-					"close": 4.69,
-					"pre_close": 4.77,
-					"change": -0.08,
-					"pct_chg": -1.6771,
-					"vol": 68581.1,
-					"amount": 32232.506,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 8.840864440078589,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 21,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20220329",
-					"open": 6.84,
-					"high": 7.15,
-					"low": 6.32,
-					"close": 6.42,
-					"pre_close": 6.57,
-					"change": -0.15,
-					"pct_chg": -2.2831,
-					"vol": 1743064.58,
-					"amount": 1171258.575,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 40.47151277013754,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 168,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "重药控股",
-				"industry": "医药商业",
-				"area": "重庆",
-				"buy_point_date": "20211105",
-				"close": 4.76,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000950.SZ",
-				"re_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211110",
-					"open": 4.74,
-					"high": 4.77,
-					"low": 4.71,
-					"close": 4.77,
-					"pre_close": 4.74,
-					"change": 0.03,
-					"pct_chg": 0.6329,
-					"vol": 27396.2,
-					"amount": 12968.026,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 5,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211117",
-					"open": 4.68,
-					"high": 4.72,
-					"low": 4.67,
-					"close": 4.72,
-					"pre_close": 4.7,
-					"change": 0.02,
-					"pct_chg": 0.4255,
-					"vol": 37622.25,
-					"amount": 17696.904,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 1.8907563025210055,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 12,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20220329",
-					"open": 6.84,
-					"high": 7.15,
-					"low": 6.32,
-					"close": 6.42,
-					"pre_close": 6.57,
-					"change": -0.15,
-					"pct_chg": -2.2831,
-					"vol": 1743064.58,
-					"amount": 1171258.575,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 50.210084033613455,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 144,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "重药控股",
-				"industry": "医药商业",
-				"area": "重庆",
-				"buy_point_date": "20211111",
-				"close": 4.78,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000950.SZ",
-				"re_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211125",
-					"open": 4.76,
-					"high": 4.85,
-					"low": 4.75,
-					"close": 4.79,
-					"pre_close": 4.73,
-					"change": 0.06,
-					"pct_chg": 1.2685,
-					"vol": 125013.19,
-					"amount": 60057.912,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 14,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211117",
-					"open": 4.68,
-					"high": 4.72,
-					"low": 4.67,
-					"close": 4.72,
-					"pre_close": 4.7,
-					"change": 0.02,
-					"pct_chg": 0.4255,
-					"vol": 37622.25,
-					"amount": 17696.904,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 2.3012552301255296,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 6,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20220329",
-					"open": 6.84,
-					"high": 7.15,
-					"low": 6.32,
-					"close": 6.42,
-					"pre_close": 6.57,
-					"change": -0.15,
-					"pct_chg": -2.2831,
-					"vol": 1743064.58,
-					"amount": 1171258.575,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 49.58158995815899,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 138,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "重药控股",
-				"industry": "医药商业",
-				"area": "重庆",
-				"buy_point_date": "20211126",
-				"close": 4.77,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000950.SZ",
-				"re_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20211130",
-					"open": 4.74,
-					"high": 4.8,
-					"low": 4.73,
-					"close": 4.79,
-					"pre_close": 4.77,
-					"change": 0.02,
-					"pct_chg": 0.4193,
-					"vol": 76203.12,
-					"amount": 36262.986,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 4,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20220128",
-					"open": 4.73,
-					"high": 4.79,
-					"low": 4.68,
-					"close": 4.75,
-					"pre_close": 4.7,
-					"change": 0.05,
-					"pct_chg": 1.0638,
-					"vol": 75237.75,
-					"amount": 35644.118,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 1.8867924528301858,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 63,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "重药控股",
-					"industry": "医药商业",
-					"area": "重庆",
-					"ts_code": "000950.SZ",
-					"trade_date": "20220329",
-					"open": 6.84,
-					"high": 7.15,
-					"low": 6.32,
-					"close": 6.42,
-					"pre_close": 6.57,
-					"change": -0.15,
-					"pct_chg": -2.2831,
-					"vol": 1743064.58,
-					"amount": 1171258.575,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 49.89517819706501,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 123,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			}
-		],
-		[
-			{
-				"name": "新兴铸管",
-				"industry": "钢加工",
-				"area": "河北",
-				"buy_point_date": "20200506",
-				"close": 3.47,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000778.SZ",
-				"re_trade_date": {
-					"name": "新兴铸管",
-					"industry": "钢加工",
-					"area": "河北",
-					"ts_code": "000778.SZ",
-					"trade_date": "20200508",
-					"open": 3.46,
-					"high": 3.49,
-					"low": 3.45,
-					"close": 3.48,
-					"pre_close": 3.46,
-					"change": 0.02,
-					"pct_chg": 0.578,
-					"vol": 282645.5,
-					"amount": 98122.652,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 2,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "新兴铸管",
-					"industry": "钢加工",
-					"area": "河北",
-					"ts_code": "000778.SZ",
-					"trade_date": "20200525",
-					"open": 3.32,
-					"high": 3.33,
-					"low": 3.3,
-					"close": 3.32,
-					"pre_close": 3.32,
-					"change": 0,
-					"pct_chg": 0,
-					"vol": 153686.25,
-					"amount": 50988.771,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 4.899135446685889,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 19,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "新兴铸管",
-					"industry": "钢加工",
-					"area": "河北",
-					"ts_code": "000778.SZ",
-					"trade_date": "20220211",
-					"open": 5.29,
-					"high": 5.65,
-					"low": 5.24,
-					"close": 5.32,
-					"pre_close": 5.29,
-					"change": 0.03,
-					"pct_chg": 0.5671,
-					"vol": 1857154.3,
-					"amount": 1006209.815,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 62.824207492795395,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 646,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			}
-		],
-		[
-			{
-				"name": "本钢板材",
-				"industry": "普钢",
-				"area": "辽宁",
-				"buy_point_date": "20200324",
-				"close": 3.39,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000761.SZ",
-				"re_trade_date": {
-					"name": "本钢板材",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000761.SZ",
-					"trade_date": "20200325",
-					"open": 3.44,
-					"high": 3.46,
-					"low": 3.41,
-					"close": 3.44,
-					"pre_close": 3.39,
-					"change": 0.05,
-					"pct_chg": 1.4749,
-					"vol": 44056.39,
-					"amount": 15154.317,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 1,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "本钢板材",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000761.SZ",
-					"trade_date": "20210204",
-					"open": 2.81,
-					"high": 2.83,
-					"low": 2.76,
-					"close": 2.81,
-					"pre_close": 2.81,
-					"change": 0,
-					"pct_chg": 0,
-					"vol": 33436.7,
-					"amount": 9311.282,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 18.584070796460185,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 317,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "本钢板材",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000761.SZ",
-					"trade_date": "20210909",
-					"open": 6.95,
-					"high": 7.48,
-					"low": 6.78,
-					"close": 7.35,
-					"pre_close": 6.91,
-					"change": 0.44,
-					"pct_chg": 6.3676,
-					"vol": 1382311.93,
-					"amount": 991356.094,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 120.6489675516224,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 534,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "本钢板材",
-				"industry": "普钢",
-				"area": "辽宁",
-				"buy_point_date": "20200527",
-				"close": 3.31,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000761.SZ",
-				"re_trade_date": {
-					"name": "本钢板材",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000761.SZ",
-					"trade_date": "20200601",
-					"open": 3.27,
-					"high": 3.39,
-					"low": 3.27,
-					"close": 3.34,
-					"pre_close": 3.28,
-					"change": 0.06,
-					"pct_chg": 1.8293,
-					"vol": 65307.11,
-					"amount": 21933.301,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 5,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "本钢板材",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000761.SZ",
-					"trade_date": "20210204",
-					"open": 2.81,
-					"high": 2.83,
-					"low": 2.76,
-					"close": 2.81,
-					"pre_close": 2.81,
-					"change": 0,
-					"pct_chg": 0,
-					"vol": 33436.7,
-					"amount": 9311.282,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 16.61631419939578,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 253,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "本钢板材",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000761.SZ",
-					"trade_date": "20210909",
-					"open": 6.95,
-					"high": 7.48,
-					"low": 6.78,
-					"close": 7.35,
-					"pre_close": 6.91,
-					"change": 0.44,
-					"pct_chg": 6.3676,
-					"vol": 1382311.93,
-					"amount": 991356.094,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 125.98187311178248,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 470,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "本钢板材",
-				"industry": "普钢",
-				"area": "辽宁",
-				"buy_point_date": "20201124",
-				"close": 3.41,
-				"chinese_desc": "买点交易日",
-				"ts_code": "000761.SZ",
-				"re_trade_date": {
-					"name": "本钢板材",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000761.SZ",
-					"trade_date": "20201202",
-					"open": 3.39,
-					"high": 3.44,
-					"low": 3.38,
-					"close": 3.42,
-					"pre_close": 3.4,
-					"change": 0.02,
-					"pct_chg": 0.5882,
-					"vol": 50010.68,
-					"amount": 17086.767,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 8,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "本钢板材",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000761.SZ",
-					"trade_date": "20210204",
-					"open": 2.81,
-					"high": 2.83,
-					"low": 2.76,
-					"close": 2.81,
-					"pre_close": 2.81,
-					"change": 0,
-					"pct_chg": 0,
-					"vol": 33436.7,
-					"amount": 9311.282,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 19.06158357771262,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 72,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "本钢板材",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000761.SZ",
-					"trade_date": "20210909",
-					"open": 6.95,
-					"high": 7.48,
-					"low": 6.78,
-					"close": 7.35,
-					"pre_close": 6.91,
-					"change": 0.44,
-					"pct_chg": 6.3676,
-					"vol": 1382311.93,
-					"amount": 991356.094,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 119.35483870967742,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 289,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			}
-		],
-		[
-			{
 				"name": "四川成渝",
 				"industry": "路桥",
 				"area": "四川",
@@ -1124,6 +78,34 @@
 					"high_day": {
 						"value": 347,
 						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "四川成渝",
+					"industry": "路桥",
+					"area": "四川",
+					"ts_code": "601107.SH",
+					"trade_date": "20220419",
+					"open": 4.39,
+					"high": 4.5,
+					"low": 4.37,
+					"close": 4.46,
+					"pre_close": 4.38,
+					"change": 0.08,
+					"pct_chg": 1.8265,
+					"vol": 91865.65,
+					"amount": 40804.318,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 43.87096774193549
+					},
+					"current_hold_day": {
+						"value": 456,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.09620826259196379,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -1205,6 +187,34 @@
 						"value": 346,
 						"chinese_desc": "涨幅天数"
 					}
+				},
+				"current_trade_date": {
+					"name": "四川成渝",
+					"industry": "路桥",
+					"area": "四川",
+					"ts_code": "601107.SH",
+					"trade_date": "20220419",
+					"open": 4.39,
+					"high": 4.5,
+					"low": 4.37,
+					"close": 4.46,
+					"pre_close": 4.38,
+					"change": 0.08,
+					"pct_chg": 1.8265,
+					"vol": 91865.65,
+					"amount": 40804.318,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 42.94871794871795
+					},
+					"current_hold_day": {
+						"value": 455,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.09439278670047901,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
 				}
 			},
 			{
@@ -1271,2807 +281,33 @@
 						"value": 324,
 						"chinese_desc": "涨幅天数"
 					}
-				}
-			}
-		],
-		[
-			{
-				"name": "皖新传媒",
-				"industry": "出版业",
-				"area": "安徽",
-				"buy_point_date": "20210218",
-				"close": 4.6,
-				"chinese_desc": "买点交易日",
-				"ts_code": "601801.SH",
-				"re_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20210219",
-					"open": 4.59,
-					"high": 4.75,
-					"low": 4.57,
-					"close": 4.72,
-					"pre_close": 4.6,
-					"change": 0.12,
-					"pct_chg": 2.6087,
-					"vol": 84452.45,
-					"amount": 39551.63,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 1,
-						"chinese_desc": "回本天数"
-					}
 				},
-				"low_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20210802",
-					"open": 4.29,
-					"high": 4.37,
-					"low": 4.24,
-					"close": 4.34,
-					"pre_close": 4.3,
-					"change": 0.04,
-					"pct_chg": 0.9302,
-					"vol": 69036.79,
-					"amount": 29793.674,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 7.826086956521728,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 165,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20220406",
-					"open": 5.3,
-					"high": 5.56,
-					"low": 5.3,
-					"close": 5.5,
-					"pre_close": 5.32,
-					"change": 0.18,
-					"pct_chg": 3.3835,
-					"vol": 284195.08,
-					"amount": 155767.796,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 20.869565217391305,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 412,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "皖新传媒",
-				"industry": "出版业",
-				"area": "安徽",
-				"buy_point_date": "20210723",
-				"close": 4.51,
-				"chinese_desc": "买点交易日",
-				"ts_code": "601801.SH",
-				"re_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20210826",
-					"open": 4.46,
-					"high": 4.58,
-					"low": 4.44,
-					"close": 4.56,
-					"pre_close": 4.43,
-					"change": 0.13,
-					"pct_chg": 2.9345,
-					"vol": 113583.65,
-					"amount": 51390.365,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 34,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20210802",
-					"open": 4.29,
-					"high": 4.37,
-					"low": 4.24,
-					"close": 4.34,
-					"pre_close": 4.3,
-					"change": 0.04,
-					"pct_chg": 0.9302,
-					"vol": 69036.79,
-					"amount": 29793.674,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 5.98669623059866,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 10,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20220406",
-					"open": 5.3,
-					"high": 5.56,
-					"low": 5.3,
-					"close": 5.5,
-					"pre_close": 5.32,
-					"change": 0.18,
-					"pct_chg": 3.3835,
-					"vol": 284195.08,
-					"amount": 155767.796,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 23.281596452328156,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 257,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "皖新传媒",
-				"industry": "出版业",
-				"area": "安徽",
-				"buy_point_date": "20210811",
-				"close": 4.38,
-				"chinese_desc": "买点交易日",
-				"ts_code": "601801.SH",
-				"re_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20210816",
-					"open": 4.36,
-					"high": 4.41,
-					"low": 4.33,
-					"close": 4.4,
-					"pre_close": 4.37,
-					"change": 0.03,
-					"pct_chg": 0.6865,
-					"vol": 39819.34,
-					"amount": 17423.092,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 5,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 0,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 0,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20220406",
-					"open": 5.3,
-					"high": 5.56,
-					"low": 5.3,
-					"close": 5.5,
-					"pre_close": 5.32,
-					"change": 0.18,
-					"pct_chg": 3.3835,
-					"vol": 284195.08,
-					"amount": 155767.796,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 26.940639269406386,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 238,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "皖新传媒",
-				"industry": "出版业",
-				"area": "安徽",
-				"buy_point_date": "20210812",
-				"close": 4.38,
-				"chinese_desc": "买点交易日",
-				"ts_code": "601801.SH",
-				"re_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20210816",
-					"open": 4.36,
-					"high": 4.41,
-					"low": 4.33,
-					"close": 4.4,
-					"pre_close": 4.37,
-					"change": 0.03,
-					"pct_chg": 0.6865,
-					"vol": 39819.34,
-					"amount": 17423.092,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 4,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20210813",
-					"open": 4.38,
-					"high": 4.38,
-					"low": 4.33,
-					"close": 4.37,
-					"pre_close": 4.38,
-					"change": -0.01,
-					"pct_chg": -0.2283,
-					"vol": 32429.15,
-					"amount": 14128.015,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 1.1415525114155212,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 1,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20220406",
-					"open": 5.3,
-					"high": 5.56,
-					"low": 5.3,
-					"close": 5.5,
-					"pre_close": 5.32,
-					"change": 0.18,
-					"pct_chg": 3.3835,
-					"vol": 284195.08,
-					"amount": 155767.796,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 26.940639269406386,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 237,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "皖新传媒",
-				"industry": "出版业",
-				"area": "安徽",
-				"buy_point_date": "20210902",
-				"close": 4.62,
-				"chinese_desc": "买点交易日",
-				"ts_code": "601801.SH",
-				"re_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20210903",
-					"open": 4.62,
-					"high": 4.69,
-					"low": 4.61,
-					"close": 4.63,
-					"pre_close": 4.62,
-					"change": 0.01,
-					"pct_chg": 0.2165,
-					"vol": 74773.5,
-					"amount": 34725.847,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 1,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20211027",
-					"open": 4.6,
-					"high": 4.61,
-					"low": 4.46,
-					"close": 4.5,
-					"pre_close": 4.61,
-					"change": -0.11,
-					"pct_chg": -2.3861,
-					"vol": 50697.02,
-					"amount": 22932.286,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 3.463203463203466,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 55,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20220406",
-					"open": 5.3,
-					"high": 5.56,
-					"low": 5.3,
-					"close": 5.5,
-					"pre_close": 5.32,
-					"change": 0.18,
-					"pct_chg": 3.3835,
-					"vol": 284195.08,
-					"amount": 155767.796,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 20.346320346320333,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 216,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			}
-		],
-		[
-			{
-				"name": "开滦股份",
-				"industry": "煤炭开采",
-				"area": "河北",
-				"buy_point_date": "20200409",
-				"close": 4.8,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600997.SH",
-				"re_trade_date": {
-					"name": "开滦股份",
-					"industry": "煤炭开采",
-					"area": "河北",
-					"ts_code": "600997.SH",
-					"trade_date": "20200527",
-					"open": 4.78,
-					"high": 5.25,
-					"low": 4.78,
-					"close": 4.89,
-					"pre_close": 4.78,
-					"change": 0.11,
-					"pct_chg": 2.3013,
-					"vol": 383898.39,
-					"amount": 194685.961,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 48,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "开滦股份",
-					"industry": "煤炭开采",
-					"area": "河北",
-					"ts_code": "600997.SH",
-					"trade_date": "20200428",
-					"open": 4.48,
+				"current_trade_date": {
+					"name": "四川成渝",
+					"industry": "路桥",
+					"area": "四川",
+					"ts_code": "601107.SH",
+					"trade_date": "20220419",
+					"open": 4.39,
 					"high": 4.5,
-					"low": 4.32,
-					"close": 4.36,
-					"pre_close": 4.49,
-					"change": -0.13,
-					"pct_chg": -2.8953,
-					"vol": 47028.57,
-					"amount": 20613.77,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 9.999999999999991,
-						"chinese_desc": "回撤比例(%)"
+					"low": 4.37,
+					"close": 4.46,
+					"pre_close": 4.38,
+					"change": 0.08,
+					"pct_chg": 1.8265,
+					"vol": 91865.65,
+					"amount": 40804.318,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 54.32525951557092
 					},
-					"low_day": {
-						"value": 19,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "开滦股份",
-					"industry": "煤炭开采",
-					"area": "河北",
-					"ts_code": "600997.SH",
-					"trade_date": "20210913",
-					"open": 11.18,
-					"high": 12.2,
-					"low": 11.05,
-					"close": 11.9,
-					"pre_close": 11.2,
-					"change": 0.7,
-					"pct_chg": 6.25,
-					"vol": 818592.69,
-					"amount": 951981.052,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 154.16666666666666,
-						"chinese_desc": "涨幅比例(%)"
+					"current_hold_day": {
+						"value": 433,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
 					},
-					"high_day": {
-						"value": 522,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "开滦股份",
-				"industry": "煤炭开采",
-				"area": "河北",
-				"buy_point_date": "20200506",
-				"close": 4.56,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600997.SH",
-				"re_trade_date": {
-					"name": "开滦股份",
-					"industry": "煤炭开采",
-					"area": "河北",
-					"ts_code": "600997.SH",
-					"trade_date": "20200519",
-					"open": 4.59,
-					"high": 4.6,
-					"low": 4.55,
-					"close": 4.57,
-					"pre_close": 4.56,
-					"change": 0.01,
-					"pct_chg": 0.2193,
-					"vol": 52171,
-					"amount": 23874.701,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 13,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "开滦股份",
-					"industry": "煤炭开采",
-					"area": "河北",
-					"ts_code": "600997.SH",
-					"trade_date": "20200514",
-					"open": 4.51,
-					"high": 4.51,
-					"low": 4.41,
-					"close": 4.45,
-					"pre_close": 4.52,
-					"change": -0.07,
-					"pct_chg": -1.5487,
-					"vol": 32511.2,
-					"amount": 14516.334,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 3.289473684210515,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 8,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "开滦股份",
-					"industry": "煤炭开采",
-					"area": "河北",
-					"ts_code": "600997.SH",
-					"trade_date": "20210913",
-					"open": 11.18,
-					"high": 12.2,
-					"low": 11.05,
-					"close": 11.9,
-					"pre_close": 11.2,
-					"change": 0.7,
-					"pct_chg": 6.25,
-					"vol": 818592.69,
-					"amount": 951981.052,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 167.54385964912282,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 495,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			}
-		],
-		[
-			{
-				"name": "景兴纸业",
-				"industry": "造纸",
-				"area": "浙江",
-				"buy_point_date": "20200527",
-				"close": 3.02,
-				"chinese_desc": "买点交易日",
-				"ts_code": "002067.SZ",
-				"re_trade_date": {
-					"name": "景兴纸业",
-					"industry": "造纸",
-					"area": "浙江",
-					"ts_code": "002067.SZ",
-					"trade_date": "20200601",
-					"open": 2.99,
-					"high": 3.05,
-					"low": 2.99,
-					"close": 3.04,
-					"pre_close": 2.98,
-					"change": 0.06,
-					"pct_chg": 2.0134,
-					"vol": 83909.38,
-					"amount": 25376.508,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 5,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "景兴纸业",
-					"industry": "造纸",
-					"area": "浙江",
-					"ts_code": "002067.SZ",
-					"trade_date": "20200529",
-					"open": 2.97,
-					"high": 3,
-					"low": 2.97,
-					"close": 2.98,
-					"pre_close": 2.98,
-					"change": 0,
-					"pct_chg": 0,
-					"vol": 42324.35,
-					"amount": 12657.475,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 1.655629139072842,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 2,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "景兴纸业",
-					"industry": "造纸",
-					"area": "浙江",
-					"ts_code": "002067.SZ",
-					"trade_date": "20210924",
-					"open": 4.76,
-					"high": 4.76,
-					"low": 4.38,
-					"close": 4.42,
-					"pre_close": 4.68,
-					"change": -0.26,
-					"pct_chg": -5.5556,
-					"vol": 1372509.59,
-					"amount": 617430.289,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 57.615894039735096,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 485,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			}
-		],
-		[
-			{
-				"name": "中原高速",
-				"industry": "路桥",
-				"area": "河南",
-				"buy_point_date": "20210210",
-				"close": 3.11,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600020.SH",
-				"re_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210218",
-					"open": 3.12,
-					"high": 3.15,
-					"low": 3.12,
-					"close": 3.15,
-					"pre_close": 3.11,
-					"change": 0.04,
-					"pct_chg": 1.2862,
-					"vol": 52558.1,
-					"amount": 16506.591,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 8,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210728",
-					"open": 3.11,
-					"high": 3.12,
-					"low": 3.02,
-					"close": 3.06,
-					"pre_close": 3.1,
-					"change": -0.04,
-					"pct_chg": -1.2903,
-					"vol": 60574.05,
-					"amount": 18621.94,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 2.893890675241153,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 168,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210923",
-					"open": 3.53,
-					"high": 3.62,
-					"low": 3.51,
-					"close": 3.56,
-					"pre_close": 3.51,
-					"change": 0.05,
-					"pct_chg": 1.4245,
-					"vol": 245973.83,
-					"amount": 87653.157,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 16.398713826366567,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 225,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "中原高速",
-				"industry": "路桥",
-				"area": "河南",
-				"buy_point_date": "20210218",
-				"close": 3.15,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600020.SH",
-				"re_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210219",
-					"open": 3.14,
-					"high": 3.22,
-					"low": 3.14,
-					"close": 3.22,
-					"pre_close": 3.15,
-					"change": 0.07,
-					"pct_chg": 2.2222,
-					"vol": 72467.23,
-					"amount": 23129.049,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 1,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210728",
-					"open": 3.11,
-					"high": 3.12,
-					"low": 3.02,
-					"close": 3.06,
-					"pre_close": 3.1,
-					"change": -0.04,
-					"pct_chg": -1.2903,
-					"vol": 60574.05,
-					"amount": 18621.94,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 4.126984126984123,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 160,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210923",
-					"open": 3.53,
-					"high": 3.62,
-					"low": 3.51,
-					"close": 3.56,
-					"pre_close": 3.51,
-					"change": 0.05,
-					"pct_chg": 1.4245,
-					"vol": 245973.83,
-					"amount": 87653.157,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 14.920634920634926,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 217,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "中原高速",
-				"industry": "路桥",
-				"area": "河南",
-				"buy_point_date": "20210713",
-				"close": 3.25,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600020.SH",
-				"re_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210826",
-					"open": 3.19,
-					"high": 3.26,
-					"low": 3.18,
-					"close": 3.26,
-					"pre_close": 3.19,
-					"change": 0.07,
-					"pct_chg": 2.1944,
-					"vol": 143206.04,
-					"amount": 46392.521,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 44,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210728",
-					"open": 3.11,
-					"high": 3.12,
-					"low": 3.02,
-					"close": 3.06,
-					"pre_close": 3.1,
-					"change": -0.04,
-					"pct_chg": -1.2903,
-					"vol": 60574.05,
-					"amount": 18621.94,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 7.076923076923077,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 15,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210923",
-					"open": 3.53,
-					"high": 3.62,
-					"low": 3.51,
-					"close": 3.56,
-					"pre_close": 3.51,
-					"change": 0.05,
-					"pct_chg": 1.4245,
-					"vol": 245973.83,
-					"amount": 87653.157,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 11.384615384615387,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 72,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "中原高速",
-				"industry": "路桥",
-				"area": "河南",
-				"buy_point_date": "20210804",
-				"close": 3.1,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600020.SH",
-				"re_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210810",
-					"open": 3.1,
-					"high": 3.12,
-					"low": 3.09,
-					"close": 3.11,
-					"pre_close": 3.1,
-					"change": 0.01,
-					"pct_chg": 0.3226,
-					"vol": 34380.33,
-					"amount": 10675.701,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 6,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210806",
-					"open": 3.08,
-					"high": 3.09,
-					"low": 3.05,
-					"close": 3.07,
-					"pre_close": 3.08,
-					"change": -0.01,
-					"pct_chg": -0.3247,
-					"vol": 31837.55,
-					"amount": 9757.606,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 1.6129032258064602,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 2,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210923",
-					"open": 3.53,
-					"high": 3.62,
-					"low": 3.51,
-					"close": 3.56,
-					"pre_close": 3.51,
-					"change": 0.05,
-					"pct_chg": 1.4245,
-					"vol": 245973.83,
-					"amount": 87653.157,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 16.7741935483871,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 50,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "中原高速",
-				"industry": "路桥",
-				"area": "河南",
-				"buy_point_date": "20210811",
-				"close": 3.12,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600020.SH",
-				"re_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210813",
-					"open": 3.13,
-					"high": 3.16,
-					"low": 3.12,
-					"close": 3.16,
-					"pre_close": 3.12,
-					"change": 0.04,
-					"pct_chg": 1.2821,
-					"vol": 43858.37,
-					"amount": 13800.098,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 2,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20211102",
-					"open": 3.12,
-					"high": 3.18,
-					"low": 3.06,
-					"close": 3.08,
-					"pre_close": 3.13,
-					"change": -0.05,
-					"pct_chg": -1.5974,
-					"vol": 106771.56,
-					"amount": 33199.205,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 1.9230769230769247,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 83,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210923",
-					"open": 3.53,
-					"high": 3.62,
-					"low": 3.51,
-					"close": 3.56,
-					"pre_close": 3.51,
-					"change": 0.05,
-					"pct_chg": 1.4245,
-					"vol": 245973.83,
-					"amount": 87653.157,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 16.025641025641026,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 43,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "中原高速",
-				"industry": "路桥",
-				"area": "河南",
-				"buy_point_date": "20210813",
-				"close": 3.16,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600020.SH",
-				"re_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210819",
-					"open": 3.11,
-					"high": 3.18,
-					"low": 3.1,
-					"close": 3.17,
-					"pre_close": 3.11,
-					"change": 0.06,
-					"pct_chg": 1.9293,
-					"vol": 77816.27,
-					"amount": 24506.833,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 6,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20211102",
-					"open": 3.12,
-					"high": 3.18,
-					"low": 3.06,
-					"close": 3.08,
-					"pre_close": 3.13,
-					"change": -0.05,
-					"pct_chg": -1.5974,
-					"vol": 106771.56,
-					"amount": 33199.205,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 3.1645569620253196,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 81,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20210923",
-					"open": 3.53,
-					"high": 3.62,
-					"low": 3.51,
-					"close": 3.56,
-					"pre_close": 3.51,
-					"change": 0.05,
-					"pct_chg": 1.4245,
-					"vol": 245973.83,
-					"amount": 87653.157,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 14.556962025316453,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 41,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "中原高速",
-				"industry": "路桥",
-				"area": "河南",
-				"buy_point_date": "20211123",
-				"close": 3.18,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600020.SH",
-				"re_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20211209",
-					"open": 3.17,
-					"high": 3.21,
-					"low": 3.17,
-					"close": 3.19,
-					"pre_close": 3.17,
-					"change": 0.02,
-					"pct_chg": 0.6309,
-					"vol": 69564.48,
-					"amount": 22195.258,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 16,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20220316",
-					"open": 3.11,
-					"high": 3.17,
-					"low": 3.06,
-					"close": 3.17,
-					"pre_close": 3.08,
-					"change": 0.09,
-					"pct_chg": 2.9221,
-					"vol": 119053.52,
-					"amount": 37145.775,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 3.7735849056603805,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 113,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20220412",
-					"open": 3.35,
-					"high": 3.44,
-					"low": 3.3,
-					"close": 3.43,
-					"pre_close": 3.32,
-					"change": 0.11,
-					"pct_chg": 3.3133,
-					"vol": 223002.53,
-					"amount": 75481.543,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 8.17610062893081,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 140,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "中原高速",
-				"industry": "路桥",
-				"area": "河南",
-				"buy_point_date": "20211201",
-				"close": 3.17,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600020.SH",
-				"re_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20211203",
-					"open": 3.16,
-					"high": 3.19,
-					"low": 3.16,
-					"close": 3.18,
-					"pre_close": 3.14,
-					"change": 0.04,
-					"pct_chg": 1.2739,
-					"vol": 80311.3,
-					"amount": 25511.473,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 2,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20220316",
-					"open": 3.11,
-					"high": 3.17,
-					"low": 3.06,
-					"close": 3.17,
-					"pre_close": 3.08,
-					"change": 0.09,
-					"pct_chg": 2.9221,
-					"vol": 119053.52,
-					"amount": 37145.775,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 3.4700315457413216,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 105,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "中原高速",
-					"industry": "路桥",
-					"area": "河南",
-					"ts_code": "600020.SH",
-					"trade_date": "20220412",
-					"open": 3.35,
-					"high": 3.44,
-					"low": 3.3,
-					"close": 3.43,
-					"pre_close": 3.32,
-					"change": 0.11,
-					"pct_chg": 3.3133,
-					"vol": 223002.53,
-					"amount": 75481.543,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 8.517350157728707,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 132,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			}
-		],
-		[
-			{
-				"name": "新钢股份",
-				"industry": "普钢",
-				"area": "江西",
-				"buy_point_date": "20201029",
-				"close": 4.15,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600782.SH",
-				"re_trade_date": {
-					"name": "新钢股份",
-					"industry": "普钢",
-					"area": "江西",
-					"ts_code": "600782.SH",
-					"trade_date": "20201104",
-					"open": 4.12,
-					"high": 4.19,
-					"low": 4.11,
-					"close": 4.17,
-					"pre_close": 4.12,
-					"change": 0.05,
-					"pct_chg": 1.2136,
-					"vol": 301205.54,
-					"amount": 124936.833,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 6,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "新钢股份",
-					"industry": "普钢",
-					"area": "江西",
-					"ts_code": "600782.SH",
-					"trade_date": "20210203",
-					"open": 4.02,
-					"high": 4.04,
-					"low": 3.94,
-					"close": 4,
-					"pre_close": 4.01,
-					"change": -0.01,
-					"pct_chg": -0.2494,
-					"vol": 247542.1,
-					"amount": 98479.022,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 5.06024096385543,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 97,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "新钢股份",
-					"industry": "普钢",
-					"area": "江西",
-					"ts_code": "600782.SH",
-					"trade_date": "20210910",
-					"open": 10.22,
-					"high": 10.78,
-					"low": 10.01,
-					"close": 10.1,
-					"pre_close": 10.42,
-					"change": -0.32,
-					"pct_chg": -3.071,
-					"vol": 1048358.09,
-					"amount": 1074957.311,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 159.75903614457826,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 316,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "新钢股份",
-				"industry": "普钢",
-				"area": "江西",
-				"buy_point_date": "20201030",
-				"close": 4.15,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600782.SH",
-				"re_trade_date": {
-					"name": "新钢股份",
-					"industry": "普钢",
-					"area": "江西",
-					"ts_code": "600782.SH",
-					"trade_date": "20201104",
-					"open": 4.12,
-					"high": 4.19,
-					"low": 4.11,
-					"close": 4.17,
-					"pre_close": 4.12,
-					"change": 0.05,
-					"pct_chg": 1.2136,
-					"vol": 301205.54,
-					"amount": 124936.833,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 5,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "新钢股份",
-					"industry": "普钢",
-					"area": "江西",
-					"ts_code": "600782.SH",
-					"trade_date": "20210203",
-					"open": 4.02,
-					"high": 4.04,
-					"low": 3.94,
-					"close": 4,
-					"pre_close": 4.01,
-					"change": -0.01,
-					"pct_chg": -0.2494,
-					"vol": 247542.1,
-					"amount": 98479.022,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 5.06024096385543,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 96,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "新钢股份",
-					"industry": "普钢",
-					"area": "江西",
-					"ts_code": "600782.SH",
-					"trade_date": "20210910",
-					"open": 10.22,
-					"high": 10.78,
-					"low": 10.01,
-					"close": 10.1,
-					"pre_close": 10.42,
-					"change": -0.32,
-					"pct_chg": -3.071,
-					"vol": 1048358.09,
-					"amount": 1074957.311,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 159.75903614457826,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 315,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			}
-		],
-		[
-			{
-				"name": "赣粤高速",
-				"industry": "路桥",
-				"area": "江西",
-				"buy_point_date": "20200218",
-				"close": 3.74,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600269.SH",
-				"re_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20200220",
-					"open": 3.75,
-					"high": 3.81,
-					"low": 3.74,
-					"close": 3.8,
-					"pre_close": 3.74,
-					"change": 0.06,
-					"pct_chg": 1.6043,
-					"vol": 109323.01,
-					"amount": 41303.873,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 2,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210204",
-					"open": 3.26,
-					"high": 3.27,
-					"low": 3.2,
-					"close": 3.21,
-					"pre_close": 3.26,
-					"change": -0.05,
-					"pct_chg": -1.5337,
-					"vol": 59780,
-					"amount": 19271.117,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 14.43850267379679,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 352,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20200709",
-					"open": 3.79,
-					"high": 3.92,
-					"low": 3.77,
-					"close": 3.88,
-					"pre_close": 3.79,
-					"change": 0.09,
-					"pct_chg": 2.3747,
-					"vol": 323142.23,
-					"amount": 124418.201,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 4.812834224598923,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 142,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "赣粤高速",
-				"industry": "路桥",
-				"area": "江西",
-				"buy_point_date": "20200527",
-				"close": 3.51,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600269.SH",
-				"re_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20200601",
-					"open": 3.51,
-					"high": 3.56,
-					"low": 3.49,
-					"close": 3.55,
-					"pre_close": 3.51,
-					"change": 0.04,
-					"pct_chg": 1.1396,
-					"vol": 58403.39,
-					"amount": 20632.156,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 5,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210204",
-					"open": 3.26,
-					"high": 3.27,
-					"low": 3.2,
-					"close": 3.21,
-					"pre_close": 3.26,
-					"change": -0.05,
-					"pct_chg": -1.5337,
-					"vol": 59780,
-					"amount": 19271.117,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 8.831908831908821,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 253,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20200709",
-					"open": 3.79,
-					"high": 3.92,
-					"low": 3.77,
-					"close": 3.88,
-					"pre_close": 3.79,
-					"change": 0.09,
-					"pct_chg": 2.3747,
-					"vol": 323142.23,
-					"amount": 124418.201,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 11.680911680911686,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 43,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "赣粤高速",
-				"industry": "路桥",
-				"area": "江西",
-				"buy_point_date": "20200528",
-				"close": 3.51,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600269.SH",
-				"re_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20200601",
-					"open": 3.51,
-					"high": 3.56,
-					"low": 3.49,
-					"close": 3.55,
-					"pre_close": 3.51,
-					"change": 0.04,
-					"pct_chg": 1.1396,
-					"vol": 58403.39,
-					"amount": 20632.156,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 4,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210204",
-					"open": 3.26,
-					"high": 3.27,
-					"low": 3.2,
-					"close": 3.21,
-					"pre_close": 3.26,
-					"change": -0.05,
-					"pct_chg": -1.5337,
-					"vol": 59780,
-					"amount": 19271.117,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 8.831908831908821,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 252,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20200709",
-					"open": 3.79,
-					"high": 3.92,
-					"low": 3.77,
-					"close": 3.88,
-					"pre_close": 3.79,
-					"change": 0.09,
-					"pct_chg": 2.3747,
-					"vol": 323142.23,
-					"amount": 124418.201,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 11.680911680911686,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 42,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "赣粤高速",
-				"industry": "路桥",
-				"area": "江西",
-				"buy_point_date": "20201231",
-				"close": 3.42,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600269.SH",
-				"re_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210222",
-					"open": 3.42,
-					"high": 3.47,
-					"low": 3.41,
-					"close": 3.43,
-					"pre_close": 3.39,
-					"change": 0.04,
-					"pct_chg": 1.1799,
-					"vol": 132401.52,
-					"amount": 45538.068,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 53,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210204",
-					"open": 3.26,
-					"high": 3.27,
-					"low": 3.2,
-					"close": 3.21,
-					"pre_close": 3.26,
-					"change": -0.05,
-					"pct_chg": -1.5337,
-					"vol": 59780,
-					"amount": 19271.117,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 6.432748538011689,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 35,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210419",
-					"open": 3.7,
-					"high": 3.75,
-					"low": 3.7,
-					"close": 3.74,
-					"pre_close": 3.7,
-					"change": 0.04,
-					"pct_chg": 1.0811,
-					"vol": 106407.68,
-					"amount": 39726.336,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 9.649122807017546,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 109,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "赣粤高速",
-				"industry": "路桥",
-				"area": "江西",
-				"buy_point_date": "20210119",
-				"close": 3.35,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600269.SH",
-				"re_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210219",
-					"open": 3.31,
-					"high": 3.41,
-					"low": 3.3,
-					"close": 3.39,
-					"pre_close": 3.3,
-					"change": 0.09,
-					"pct_chg": 2.7273,
-					"vol": 119488.74,
-					"amount": 40275.431,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 31,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210204",
-					"open": 3.26,
-					"high": 3.27,
-					"low": 3.2,
-					"close": 3.21,
-					"pre_close": 3.26,
-					"change": -0.05,
-					"pct_chg": -1.5337,
-					"vol": 59780,
-					"amount": 19271.117,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 4.477611940298504,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 16,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210419",
-					"open": 3.7,
-					"high": 3.75,
-					"low": 3.7,
-					"close": 3.74,
-					"pre_close": 3.7,
-					"change": 0.04,
-					"pct_chg": 1.0811,
-					"vol": 106407.68,
-					"amount": 39726.336,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 11.940298507462684,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 90,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "赣粤高速",
-				"industry": "路桥",
-				"area": "江西",
-				"buy_point_date": "20210209",
-				"close": 3.25,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600269.SH",
-				"re_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210210",
-					"open": 3.24,
-					"high": 3.27,
-					"low": 3.23,
-					"close": 3.26,
-					"pre_close": 3.25,
-					"change": 0.01,
-					"pct_chg": 0.3077,
-					"vol": 31986.71,
-					"amount": 10410.855,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 1,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210802",
-					"open": 3.24,
-					"high": 3.28,
-					"low": 3.21,
-					"close": 3.27,
-					"pre_close": 3.26,
-					"change": 0.01,
-					"pct_chg": 0.3067,
-					"vol": 58924.72,
-					"amount": 19130.564,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 1.2307692307692317,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 174,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210419",
-					"open": 3.7,
-					"high": 3.75,
-					"low": 3.7,
-					"close": 3.74,
-					"pre_close": 3.7,
-					"change": 0.04,
-					"pct_chg": 1.0811,
-					"vol": 106407.68,
-					"amount": 39726.336,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 15.384615384615385,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 69,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "赣粤高速",
-				"industry": "路桥",
-				"area": "江西",
-				"buy_point_date": "20210210",
-				"close": 3.26,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600269.SH",
-				"re_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210218",
-					"open": 3.28,
-					"high": 3.31,
-					"low": 3.28,
-					"close": 3.3,
-					"pre_close": 3.26,
-					"change": 0.04,
-					"pct_chg": 1.227,
-					"vol": 55483.96,
-					"amount": 18297.169,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 8,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210802",
-					"open": 3.24,
-					"high": 3.28,
-					"low": 3.21,
-					"close": 3.27,
-					"pre_close": 3.26,
-					"change": 0.01,
-					"pct_chg": 0.3067,
-					"vol": 58924.72,
-					"amount": 19130.564,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 1.5337423312883383,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 173,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210419",
-					"open": 3.7,
-					"high": 3.75,
-					"low": 3.7,
-					"close": 3.74,
-					"pre_close": 3.7,
-					"change": 0.04,
-					"pct_chg": 1.0811,
-					"vol": 106407.68,
-					"amount": 39726.336,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 15.030674846625775,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 68,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "赣粤高速",
-				"industry": "路桥",
-				"area": "江西",
-				"buy_point_date": "20210218",
-				"close": 3.3,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600269.SH",
-				"re_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210219",
-					"open": 3.31,
-					"high": 3.41,
-					"low": 3.3,
-					"close": 3.39,
-					"pre_close": 3.3,
-					"change": 0.09,
-					"pct_chg": 2.7273,
-					"vol": 119488.74,
-					"amount": 40275.431,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 1,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210802",
-					"open": 3.24,
-					"high": 3.28,
-					"low": 3.21,
-					"close": 3.27,
-					"pre_close": 3.26,
-					"change": 0.01,
-					"pct_chg": 0.3067,
-					"vol": 58924.72,
-					"amount": 19130.564,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 2.727272727272723,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 165,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210419",
-					"open": 3.7,
-					"high": 3.75,
-					"low": 3.7,
-					"close": 3.74,
-					"pre_close": 3.7,
-					"change": 0.04,
-					"pct_chg": 1.0811,
-					"vol": 106407.68,
-					"amount": 39726.336,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 13.636363636363644,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 60,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "赣粤高速",
-				"industry": "路桥",
-				"area": "江西",
-				"buy_point_date": "20210525",
-				"close": 3.43,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600269.SH",
-				"re_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210903",
-					"open": 3.45,
-					"high": 3.46,
-					"low": 3.43,
-					"close": 3.44,
-					"pre_close": 3.43,
-					"change": 0.01,
-					"pct_chg": 0.2915,
-					"vol": 138680.01,
-					"amount": 47745.527,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 101,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210802",
-					"open": 3.24,
-					"high": 3.28,
-					"low": 3.21,
-					"close": 3.27,
-					"pre_close": 3.26,
-					"change": 0.01,
-					"pct_chg": 0.3067,
-					"vol": 58924.72,
-					"amount": 19130.564,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 6.413994169096215,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 69,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "赣粤高速",
-					"industry": "路桥",
-					"area": "江西",
-					"ts_code": "600269.SH",
-					"trade_date": "20210923",
-					"open": 3.64,
-					"high": 3.75,
-					"low": 3.64,
-					"close": 3.7,
-					"pre_close": 3.65,
-					"change": 0.05,
-					"pct_chg": 1.3699,
-					"vol": 269174.52,
-					"amount": 99492.317,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 9.329446064139937,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 121,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			}
-		],
-		[
-			{
-				"name": "福建高速",
-				"industry": "路桥",
-				"area": "福建",
-				"buy_point_date": "20200601",
-				"close": 2.71,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600033.SH",
-				"re_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20200603",
-					"open": 2.71,
-					"high": 2.73,
-					"low": 2.7,
-					"close": 2.72,
-					"pre_close": 2.71,
-					"change": 0.01,
-					"pct_chg": 0.369,
-					"vol": 58228.37,
-					"amount": 15811.306,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 2,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20210204",
-					"open": 2.51,
-					"high": 2.52,
-					"low": 2.46,
-					"close": 2.47,
-					"pre_close": 2.51,
-					"change": -0.04,
-					"pct_chg": -1.5936,
-					"vol": 45335.3,
-					"amount": 11262.691,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 9.22509225092251,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 248,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20210923",
-					"open": 2.93,
-					"high": 3.07,
-					"low": 2.91,
-					"close": 3,
-					"pre_close": 2.93,
-					"change": 0.07,
-					"pct_chg": 2.3891,
-					"vol": 407306.65,
-					"amount": 121858.768,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 13.284132841328407,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 479,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "福建高速",
-				"industry": "路桥",
-				"area": "福建",
-				"buy_point_date": "20200903",
-				"close": 2.76,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600033.SH",
-				"re_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20200908",
-					"open": 2.72,
-					"high": 2.8,
-					"low": 2.71,
-					"close": 2.78,
-					"pre_close": 2.72,
-					"change": 0.06,
-					"pct_chg": 2.2059,
-					"vol": 165128.6,
-					"amount": 45523.365,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 5,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20210204",
-					"open": 2.51,
-					"high": 2.52,
-					"low": 2.46,
-					"close": 2.47,
-					"pre_close": 2.51,
-					"change": -0.04,
-					"pct_chg": -1.5936,
-					"vol": 45335.3,
-					"amount": 11262.691,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 10.8695652173913,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 154,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20210923",
-					"open": 2.93,
-					"high": 3.07,
-					"low": 2.91,
-					"close": 3,
-					"pre_close": 2.93,
-					"change": 0.07,
-					"pct_chg": 2.3891,
-					"vol": 407306.65,
-					"amount": 121858.768,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 11.231884057971017,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 385,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "福建高速",
-				"industry": "路桥",
-				"area": "福建",
-				"buy_point_date": "20201009",
-				"close": 2.7,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600033.SH",
-				"re_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20201012",
-					"open": 2.71,
-					"high": 2.73,
-					"low": 2.7,
-					"close": 2.72,
-					"pre_close": 2.7,
-					"change": 0.02,
-					"pct_chg": 0.7407,
-					"vol": 50137.36,
-					"amount": 13610.125,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 3,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20210204",
-					"open": 2.51,
-					"high": 2.52,
-					"low": 2.46,
-					"close": 2.47,
-					"pre_close": 2.51,
-					"change": -0.04,
-					"pct_chg": -1.5936,
-					"vol": 45335.3,
-					"amount": 11262.691,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 8.888888888888896,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 118,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20210923",
-					"open": 2.93,
-					"high": 3.07,
-					"low": 2.91,
-					"close": 3,
-					"pre_close": 2.93,
-					"change": 0.07,
-					"pct_chg": 2.3891,
-					"vol": 407306.65,
-					"amount": 121858.768,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 13.70370370370369,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 349,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "福建高速",
-				"industry": "路桥",
-				"area": "福建",
-				"buy_point_date": "20210210",
-				"close": 2.57,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600033.SH",
-				"re_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20210219",
-					"open": 2.57,
-					"high": 2.61,
-					"low": 2.57,
-					"close": 2.6,
-					"pre_close": 2.57,
-					"change": 0.03,
-					"pct_chg": 1.1673,
-					"vol": 44981.87,
-					"amount": 11676.569,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 9,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20210729",
-					"open": 2.53,
-					"high": 2.54,
-					"low": 2.5,
-					"close": 2.52,
-					"pre_close": 2.52,
-					"change": 0,
-					"pct_chg": 0,
-					"vol": 53308.18,
-					"amount": 13437.856,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 2.723735408560305,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 169,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20210923",
-					"open": 2.93,
-					"high": 3.07,
-					"low": 2.91,
-					"close": 3,
-					"pre_close": 2.93,
-					"change": 0.07,
-					"pct_chg": 2.3891,
-					"vol": 407306.65,
-					"amount": 121858.768,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 19.45525291828794,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 225,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "福建高速",
-				"industry": "路桥",
-				"area": "福建",
-				"buy_point_date": "20210218",
-				"close": 2.57,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600033.SH",
-				"re_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20210219",
-					"open": 2.57,
-					"high": 2.61,
-					"low": 2.57,
-					"close": 2.6,
-					"pre_close": 2.57,
-					"change": 0.03,
-					"pct_chg": 1.1673,
-					"vol": 44981.87,
-					"amount": 11676.569,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 1,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20210729",
-					"open": 2.53,
-					"high": 2.54,
-					"low": 2.5,
-					"close": 2.52,
-					"pre_close": 2.52,
-					"change": 0,
-					"pct_chg": 0,
-					"vol": 53308.18,
-					"amount": 13437.856,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 2.723735408560305,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 161,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "福建高速",
-					"industry": "路桥",
-					"area": "福建",
-					"ts_code": "600033.SH",
-					"trade_date": "20210923",
-					"open": 2.93,
-					"high": 3.07,
-					"low": 2.91,
-					"close": 3,
-					"pre_close": 2.93,
-					"change": 0.07,
-					"pct_chg": 2.3891,
-					"vol": 407306.65,
-					"amount": 121858.768,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 19.45525291828794,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 217,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			}
-		],
-		[
-			{
-				"name": "凌钢股份",
-				"industry": "普钢",
-				"area": "辽宁",
-				"buy_point_date": "20200506",
-				"close": 2.18,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600231.SH",
-				"re_trade_date": {
-					"name": "凌钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "600231.SH",
-					"trade_date": "20200508",
-					"open": 2.17,
-					"high": 2.19,
-					"low": 2.17,
-					"close": 2.19,
-					"pre_close": 2.17,
-					"change": 0.02,
-					"pct_chg": 0.9217,
-					"vol": 54708.27,
-					"amount": 11911.651,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 2,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "凌钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "600231.SH",
-					"trade_date": "20201030",
-					"open": 2.14,
-					"high": 2.15,
-					"low": 2.11,
-					"close": 2.13,
-					"pre_close": 2.14,
-					"change": -0.01,
-					"pct_chg": -0.4673,
-					"vol": 48697.26,
-					"amount": 10381.325,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 3.2110091743119393,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 177,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "凌钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "600231.SH",
-					"trade_date": "20210913",
-					"open": 3.91,
-					"high": 4.1,
-					"low": 3.88,
-					"close": 4.04,
-					"pre_close": 3.88,
-					"change": 0.16,
-					"pct_chg": 4.1237,
-					"vol": 753762.24,
-					"amount": 301148.378,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 88.07339449541281,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 495,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "凌钢股份",
-				"industry": "普钢",
-				"area": "辽宁",
-				"buy_point_date": "20200602",
-				"close": 2.22,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600231.SH",
-				"re_trade_date": {
-					"name": "凌钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "600231.SH",
-					"trade_date": "20200603",
-					"open": 2.21,
-					"high": 2.24,
-					"low": 2.21,
-					"close": 2.23,
-					"pre_close": 2.22,
-					"change": 0.01,
-					"pct_chg": 0.4505,
-					"vol": 43180.63,
-					"amount": 9609.036,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 1,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "凌钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "600231.SH",
-					"trade_date": "20201030",
-					"open": 2.14,
-					"high": 2.15,
-					"low": 2.11,
-					"close": 2.13,
-					"pre_close": 2.14,
-					"change": -0.01,
-					"pct_chg": -0.4673,
-					"vol": 48697.26,
-					"amount": 10381.325,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 4.954954954954969,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 150,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "凌钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "600231.SH",
-					"trade_date": "20210913",
-					"open": 3.91,
-					"high": 4.1,
-					"low": 3.88,
-					"close": 4.04,
-					"pre_close": 3.88,
-					"change": 0.16,
-					"pct_chg": 4.1237,
-					"vol": 753762.24,
-					"amount": 301148.378,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 84.68468468468465,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 468,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "凌钢股份",
-				"industry": "普钢",
-				"area": "辽宁",
-				"buy_point_date": "20201019",
-				"close": 2.23,
-				"chinese_desc": "买点交易日",
-				"ts_code": "600231.SH",
-				"re_trade_date": {
-					"name": "凌钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "600231.SH",
-					"trade_date": "20201105",
-					"open": 2.2,
-					"high": 2.25,
-					"low": 2.19,
-					"close": 2.24,
-					"pre_close": 2.2,
-					"change": 0.04,
-					"pct_chg": 1.8182,
-					"vol": 114409.52,
-					"amount": 25416.098,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 17,
-						"chinese_desc": "回本天数"
-					}
-				},
-				"low_trade_date": {
-					"name": "凌钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "600231.SH",
-					"trade_date": "20201030",
-					"open": 2.14,
-					"high": 2.15,
-					"low": 2.11,
-					"close": 2.13,
-					"pre_close": 2.14,
-					"change": -0.01,
-					"pct_chg": -0.4673,
-					"vol": 48697.26,
-					"amount": 10381.325,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 5.381165919282516,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 11,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "凌钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "600231.SH",
-					"trade_date": "20210913",
-					"open": 3.91,
-					"high": 4.1,
-					"low": 3.88,
-					"close": 4.04,
-					"pre_close": 3.88,
-					"change": 0.16,
-					"pct_chg": 4.1237,
-					"vol": 753762.24,
-					"amount": 301148.378,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 83.85650224215246,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 329,
-						"chinese_desc": "涨幅天数"
+					"current_average_day_yield": {
+						"value": 0.12546249310755409,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			}
@@ -4155,6 +391,34 @@
 						"value": 289,
 						"chinese_desc": "涨幅天数"
 					}
+				},
+				"current_trade_date": {
+					"name": "山鹰国际",
+					"industry": "造纸",
+					"area": "安徽",
+					"ts_code": "600567.SH",
+					"trade_date": "20220419",
+					"open": 3.01,
+					"high": 3.03,
+					"low": 2.99,
+					"close": 3.01,
+					"pre_close": 3.02,
+					"change": -0.01,
+					"pct_chg": -0.3311,
+					"vol": 240397.08,
+					"amount": 72297.482,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": -0.9868421052631637
+					},
+					"current_hold_day": {
+						"value": 708,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": -0.0013938447814451464,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
 				}
 			},
 			{
@@ -4235,6 +499,34 @@
 						"value": 266,
 						"chinese_desc": "涨幅天数"
 					}
+				},
+				"current_trade_date": {
+					"name": "山鹰国际",
+					"industry": "造纸",
+					"area": "安徽",
+					"ts_code": "600567.SH",
+					"trade_date": "20220419",
+					"open": 3.01,
+					"high": 3.03,
+					"low": 2.99,
+					"close": 3.01,
+					"pre_close": 3.02,
+					"change": -0.01,
+					"pct_chg": -0.3311,
+					"vol": 240397.08,
+					"amount": 72297.482,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 0.6688963210702115
+					},
+					"current_hold_day": {
+						"value": 685,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.0009764909796645423,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
 				}
 			},
 			{
@@ -4286,6 +578,2204 @@
 					"high_day": {
 						"value": -1,
 						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "山鹰国际",
+					"industry": "造纸",
+					"area": "安徽",
+					"ts_code": "600567.SH",
+					"trade_date": "20220419",
+					"open": 3.01,
+					"high": 3.03,
+					"low": 2.99,
+					"close": 3.01,
+					"pre_close": 3.02,
+					"change": -0.01,
+					"pct_chg": -0.3311,
+					"vol": 240397.08,
+					"amount": 72297.482,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": -2.272727272727282
+					},
+					"current_hold_day": {
+						"value": 13,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": -0.1748251748251755,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			}
+		],
+		[
+			{
+				"name": "新钢股份",
+				"industry": "普钢",
+				"area": "江西",
+				"buy_point_date": "20201029",
+				"close": 4.15,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600782.SH",
+				"re_trade_date": {
+					"name": "新钢股份",
+					"industry": "普钢",
+					"area": "江西",
+					"ts_code": "600782.SH",
+					"trade_date": "20201104",
+					"open": 4.12,
+					"high": 4.19,
+					"low": 4.11,
+					"close": 4.17,
+					"pre_close": 4.12,
+					"change": 0.05,
+					"pct_chg": 1.2136,
+					"vol": 301205.54,
+					"amount": 124936.833,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 6,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "新钢股份",
+					"industry": "普钢",
+					"area": "江西",
+					"ts_code": "600782.SH",
+					"trade_date": "20210203",
+					"open": 4.02,
+					"high": 4.04,
+					"low": 3.94,
+					"close": 4,
+					"pre_close": 4.01,
+					"change": -0.01,
+					"pct_chg": -0.2494,
+					"vol": 247542.1,
+					"amount": 98479.022,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 5.06024096385543,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 97,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "新钢股份",
+					"industry": "普钢",
+					"area": "江西",
+					"ts_code": "600782.SH",
+					"trade_date": "20210910",
+					"open": 10.22,
+					"high": 10.78,
+					"low": 10.01,
+					"close": 10.1,
+					"pre_close": 10.42,
+					"change": -0.32,
+					"pct_chg": -3.071,
+					"vol": 1048358.09,
+					"amount": 1074957.311,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 159.75903614457826,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 316,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "新钢股份",
+					"industry": "普钢",
+					"area": "江西",
+					"ts_code": "600782.SH",
+					"trade_date": "20220419",
+					"open": 6.55,
+					"high": 6.71,
+					"low": 6.37,
+					"close": 6.71,
+					"pre_close": 6.54,
+					"change": 0.17,
+					"pct_chg": 2.5994,
+					"vol": 1198748.84,
+					"amount": 783718.794,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 61.6867469879518
+					},
+					"current_hold_day": {
+						"value": 537,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.11487289941890466,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "新钢股份",
+				"industry": "普钢",
+				"area": "江西",
+				"buy_point_date": "20201030",
+				"close": 4.15,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600782.SH",
+				"re_trade_date": {
+					"name": "新钢股份",
+					"industry": "普钢",
+					"area": "江西",
+					"ts_code": "600782.SH",
+					"trade_date": "20201104",
+					"open": 4.12,
+					"high": 4.19,
+					"low": 4.11,
+					"close": 4.17,
+					"pre_close": 4.12,
+					"change": 0.05,
+					"pct_chg": 1.2136,
+					"vol": 301205.54,
+					"amount": 124936.833,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 5,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "新钢股份",
+					"industry": "普钢",
+					"area": "江西",
+					"ts_code": "600782.SH",
+					"trade_date": "20210203",
+					"open": 4.02,
+					"high": 4.04,
+					"low": 3.94,
+					"close": 4,
+					"pre_close": 4.01,
+					"change": -0.01,
+					"pct_chg": -0.2494,
+					"vol": 247542.1,
+					"amount": 98479.022,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 5.06024096385543,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 96,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "新钢股份",
+					"industry": "普钢",
+					"area": "江西",
+					"ts_code": "600782.SH",
+					"trade_date": "20210910",
+					"open": 10.22,
+					"high": 10.78,
+					"low": 10.01,
+					"close": 10.1,
+					"pre_close": 10.42,
+					"change": -0.32,
+					"pct_chg": -3.071,
+					"vol": 1048358.09,
+					"amount": 1074957.311,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 159.75903614457826,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 315,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "新钢股份",
+					"industry": "普钢",
+					"area": "江西",
+					"ts_code": "600782.SH",
+					"trade_date": "20220419",
+					"open": 6.55,
+					"high": 6.71,
+					"low": 6.37,
+					"close": 6.71,
+					"pre_close": 6.54,
+					"change": 0.17,
+					"pct_chg": 2.5994,
+					"vol": 1198748.84,
+					"amount": 783718.794,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 61.6867469879518
+					},
+					"current_hold_day": {
+						"value": 536,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.11508721452976083,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			}
+		],
+		[
+			{
+				"name": "新兴铸管",
+				"industry": "钢加工",
+				"area": "河北",
+				"buy_point_date": "20200506",
+				"close": 3.47,
+				"chinese_desc": "买点交易日",
+				"ts_code": "000778.SZ",
+				"re_trade_date": {
+					"name": "新兴铸管",
+					"industry": "钢加工",
+					"area": "河北",
+					"ts_code": "000778.SZ",
+					"trade_date": "20200508",
+					"open": 3.46,
+					"high": 3.49,
+					"low": 3.45,
+					"close": 3.48,
+					"pre_close": 3.46,
+					"change": 0.02,
+					"pct_chg": 0.578,
+					"vol": 282645.5,
+					"amount": 98122.652,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 2,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "新兴铸管",
+					"industry": "钢加工",
+					"area": "河北",
+					"ts_code": "000778.SZ",
+					"trade_date": "20200525",
+					"open": 3.32,
+					"high": 3.33,
+					"low": 3.3,
+					"close": 3.32,
+					"pre_close": 3.32,
+					"change": 0,
+					"pct_chg": 0,
+					"vol": 153686.25,
+					"amount": 50988.771,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 4.899135446685889,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 19,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "新兴铸管",
+					"industry": "钢加工",
+					"area": "河北",
+					"ts_code": "000778.SZ",
+					"trade_date": "20220211",
+					"open": 5.29,
+					"high": 5.65,
+					"low": 5.24,
+					"close": 5.32,
+					"pre_close": 5.29,
+					"change": 0.03,
+					"pct_chg": 0.5671,
+					"vol": 1857154.3,
+					"amount": 1006209.815,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 62.824207492795395,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 646,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "新兴铸管",
+					"industry": "钢加工",
+					"area": "河北",
+					"ts_code": "000778.SZ",
+					"trade_date": "20220419",
+					"open": 5.03,
+					"high": 5.04,
+					"low": 4.75,
+					"close": 4.87,
+					"pre_close": 5.13,
+					"change": -0.26,
+					"pct_chg": -5.0682,
+					"vol": 1553310.27,
+					"amount": 749754.319,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 40.345821325648416
+					},
+					"current_hold_day": {
+						"value": 713,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.05658600466430353,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			}
+		],
+		[
+			{
+				"name": "凌钢股份",
+				"industry": "普钢",
+				"area": "辽宁",
+				"buy_point_date": "20200506",
+				"close": 2.18,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600231.SH",
+				"re_trade_date": {
+					"name": "凌钢股份",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "600231.SH",
+					"trade_date": "20200508",
+					"open": 2.17,
+					"high": 2.19,
+					"low": 2.17,
+					"close": 2.19,
+					"pre_close": 2.17,
+					"change": 0.02,
+					"pct_chg": 0.9217,
+					"vol": 54708.27,
+					"amount": 11911.651,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 2,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "凌钢股份",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "600231.SH",
+					"trade_date": "20201030",
+					"open": 2.14,
+					"high": 2.15,
+					"low": 2.11,
+					"close": 2.13,
+					"pre_close": 2.14,
+					"change": -0.01,
+					"pct_chg": -0.4673,
+					"vol": 48697.26,
+					"amount": 10381.325,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 3.2110091743119393,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 177,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "凌钢股份",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "600231.SH",
+					"trade_date": "20210913",
+					"open": 3.91,
+					"high": 4.1,
+					"low": 3.88,
+					"close": 4.04,
+					"pre_close": 3.88,
+					"change": 0.16,
+					"pct_chg": 4.1237,
+					"vol": 753762.24,
+					"amount": 301148.378,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 88.07339449541281,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 495,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "凌钢股份",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "600231.SH",
+					"trade_date": "20220419",
+					"open": 2.83,
+					"high": 2.89,
+					"low": 2.8,
+					"close": 2.87,
+					"pre_close": 2.83,
+					"change": 0.04,
+					"pct_chg": 1.4134,
+					"vol": 328998.33,
+					"amount": 93654.365,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 31.65137614678899
+					},
+					"current_hold_day": {
+						"value": 713,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.04439183190292986,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "凌钢股份",
+				"industry": "普钢",
+				"area": "辽宁",
+				"buy_point_date": "20200602",
+				"close": 2.22,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600231.SH",
+				"re_trade_date": {
+					"name": "凌钢股份",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "600231.SH",
+					"trade_date": "20200603",
+					"open": 2.21,
+					"high": 2.24,
+					"low": 2.21,
+					"close": 2.23,
+					"pre_close": 2.22,
+					"change": 0.01,
+					"pct_chg": 0.4505,
+					"vol": 43180.63,
+					"amount": 9609.036,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 1,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "凌钢股份",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "600231.SH",
+					"trade_date": "20201030",
+					"open": 2.14,
+					"high": 2.15,
+					"low": 2.11,
+					"close": 2.13,
+					"pre_close": 2.14,
+					"change": -0.01,
+					"pct_chg": -0.4673,
+					"vol": 48697.26,
+					"amount": 10381.325,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 4.954954954954969,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 150,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "凌钢股份",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "600231.SH",
+					"trade_date": "20210913",
+					"open": 3.91,
+					"high": 4.1,
+					"low": 3.88,
+					"close": 4.04,
+					"pre_close": 3.88,
+					"change": 0.16,
+					"pct_chg": 4.1237,
+					"vol": 753762.24,
+					"amount": 301148.378,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 84.68468468468465,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 468,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "凌钢股份",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "600231.SH",
+					"trade_date": "20220419",
+					"open": 2.83,
+					"high": 2.89,
+					"low": 2.8,
+					"close": 2.87,
+					"pre_close": 2.83,
+					"change": 0.04,
+					"pct_chg": 1.4134,
+					"vol": 328998.33,
+					"amount": 93654.365,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 29.27927927927927
+					},
+					"current_hold_day": {
+						"value": 686,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.04268116513014471,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "凌钢股份",
+				"industry": "普钢",
+				"area": "辽宁",
+				"buy_point_date": "20201019",
+				"close": 2.23,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600231.SH",
+				"re_trade_date": {
+					"name": "凌钢股份",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "600231.SH",
+					"trade_date": "20201105",
+					"open": 2.2,
+					"high": 2.25,
+					"low": 2.19,
+					"close": 2.24,
+					"pre_close": 2.2,
+					"change": 0.04,
+					"pct_chg": 1.8182,
+					"vol": 114409.52,
+					"amount": 25416.098,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 17,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "凌钢股份",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "600231.SH",
+					"trade_date": "20201030",
+					"open": 2.14,
+					"high": 2.15,
+					"low": 2.11,
+					"close": 2.13,
+					"pre_close": 2.14,
+					"change": -0.01,
+					"pct_chg": -0.4673,
+					"vol": 48697.26,
+					"amount": 10381.325,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 5.381165919282516,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 11,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "凌钢股份",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "600231.SH",
+					"trade_date": "20210913",
+					"open": 3.91,
+					"high": 4.1,
+					"low": 3.88,
+					"close": 4.04,
+					"pre_close": 3.88,
+					"change": 0.16,
+					"pct_chg": 4.1237,
+					"vol": 753762.24,
+					"amount": 301148.378,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 83.85650224215246,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 329,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "凌钢股份",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "600231.SH",
+					"trade_date": "20220419",
+					"open": 2.83,
+					"high": 2.89,
+					"low": 2.8,
+					"close": 2.87,
+					"pre_close": 2.83,
+					"change": 0.04,
+					"pct_chg": 1.4134,
+					"vol": 328998.33,
+					"amount": 93654.365,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 28.699551569506742
+					},
+					"current_hold_day": {
+						"value": 547,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.0524671875128094,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			}
+		],
+		[
+			{
+				"name": "赣粤高速",
+				"industry": "路桥",
+				"area": "江西",
+				"buy_point_date": "20200218",
+				"close": 3.74,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600269.SH",
+				"re_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20200220",
+					"open": 3.75,
+					"high": 3.81,
+					"low": 3.74,
+					"close": 3.8,
+					"pre_close": 3.74,
+					"change": 0.06,
+					"pct_chg": 1.6043,
+					"vol": 109323.01,
+					"amount": 41303.873,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 2,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210204",
+					"open": 3.26,
+					"high": 3.27,
+					"low": 3.2,
+					"close": 3.21,
+					"pre_close": 3.26,
+					"change": -0.05,
+					"pct_chg": -1.5337,
+					"vol": 59780,
+					"amount": 19271.117,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 14.43850267379679,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 352,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20200709",
+					"open": 3.79,
+					"high": 3.92,
+					"low": 3.77,
+					"close": 3.88,
+					"pre_close": 3.79,
+					"change": 0.09,
+					"pct_chg": 2.3747,
+					"vol": 323142.23,
+					"amount": 124418.201,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 4.812834224598923,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 142,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20220419",
+					"open": 3.56,
+					"high": 3.59,
+					"low": 3.54,
+					"close": 3.58,
+					"pre_close": 3.55,
+					"change": 0.03,
+					"pct_chg": 0.8451,
+					"vol": 125824.98,
+					"amount": 44777.923,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": -4.278074866310167
+					},
+					"current_hold_day": {
+						"value": 791,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": -0.005408438516194901,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "赣粤高速",
+				"industry": "路桥",
+				"area": "江西",
+				"buy_point_date": "20200527",
+				"close": 3.51,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600269.SH",
+				"re_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20200601",
+					"open": 3.51,
+					"high": 3.56,
+					"low": 3.49,
+					"close": 3.55,
+					"pre_close": 3.51,
+					"change": 0.04,
+					"pct_chg": 1.1396,
+					"vol": 58403.39,
+					"amount": 20632.156,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 5,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210204",
+					"open": 3.26,
+					"high": 3.27,
+					"low": 3.2,
+					"close": 3.21,
+					"pre_close": 3.26,
+					"change": -0.05,
+					"pct_chg": -1.5337,
+					"vol": 59780,
+					"amount": 19271.117,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 8.831908831908821,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 253,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20200709",
+					"open": 3.79,
+					"high": 3.92,
+					"low": 3.77,
+					"close": 3.88,
+					"pre_close": 3.79,
+					"change": 0.09,
+					"pct_chg": 2.3747,
+					"vol": 323142.23,
+					"amount": 124418.201,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 11.680911680911686,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 43,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20220419",
+					"open": 3.56,
+					"high": 3.59,
+					"low": 3.54,
+					"close": 3.58,
+					"pre_close": 3.55,
+					"change": 0.03,
+					"pct_chg": 0.8451,
+					"vol": 125824.98,
+					"amount": 44777.923,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 1.9943019943019946
+					},
+					"current_hold_day": {
+						"value": 692,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.0028819392981242697,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "赣粤高速",
+				"industry": "路桥",
+				"area": "江西",
+				"buy_point_date": "20200528",
+				"close": 3.51,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600269.SH",
+				"re_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20200601",
+					"open": 3.51,
+					"high": 3.56,
+					"low": 3.49,
+					"close": 3.55,
+					"pre_close": 3.51,
+					"change": 0.04,
+					"pct_chg": 1.1396,
+					"vol": 58403.39,
+					"amount": 20632.156,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 4,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210204",
+					"open": 3.26,
+					"high": 3.27,
+					"low": 3.2,
+					"close": 3.21,
+					"pre_close": 3.26,
+					"change": -0.05,
+					"pct_chg": -1.5337,
+					"vol": 59780,
+					"amount": 19271.117,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 8.831908831908821,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 252,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20200709",
+					"open": 3.79,
+					"high": 3.92,
+					"low": 3.77,
+					"close": 3.88,
+					"pre_close": 3.79,
+					"change": 0.09,
+					"pct_chg": 2.3747,
+					"vol": 323142.23,
+					"amount": 124418.201,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 11.680911680911686,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 42,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20220419",
+					"open": 3.56,
+					"high": 3.59,
+					"low": 3.54,
+					"close": 3.58,
+					"pre_close": 3.55,
+					"change": 0.03,
+					"pct_chg": 0.8451,
+					"vol": 125824.98,
+					"amount": 44777.923,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 1.9943019943019946
+					},
+					"current_hold_day": {
+						"value": 691,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.002886109977282192,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "赣粤高速",
+				"industry": "路桥",
+				"area": "江西",
+				"buy_point_date": "20201231",
+				"close": 3.42,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600269.SH",
+				"re_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210222",
+					"open": 3.42,
+					"high": 3.47,
+					"low": 3.41,
+					"close": 3.43,
+					"pre_close": 3.39,
+					"change": 0.04,
+					"pct_chg": 1.1799,
+					"vol": 132401.52,
+					"amount": 45538.068,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 53,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210204",
+					"open": 3.26,
+					"high": 3.27,
+					"low": 3.2,
+					"close": 3.21,
+					"pre_close": 3.26,
+					"change": -0.05,
+					"pct_chg": -1.5337,
+					"vol": 59780,
+					"amount": 19271.117,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 6.432748538011689,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 35,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210419",
+					"open": 3.7,
+					"high": 3.75,
+					"low": 3.7,
+					"close": 3.74,
+					"pre_close": 3.7,
+					"change": 0.04,
+					"pct_chg": 1.0811,
+					"vol": 106407.68,
+					"amount": 39726.336,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 9.649122807017546,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 109,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20220419",
+					"open": 3.56,
+					"high": 3.59,
+					"low": 3.54,
+					"close": 3.58,
+					"pre_close": 3.55,
+					"change": 0.03,
+					"pct_chg": 0.8451,
+					"vol": 125824.98,
+					"amount": 44777.923,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 4.678362573099415
+					},
+					"current_hold_day": {
+						"value": 474,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.009869963234386952,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "赣粤高速",
+				"industry": "路桥",
+				"area": "江西",
+				"buy_point_date": "20210119",
+				"close": 3.35,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600269.SH",
+				"re_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210219",
+					"open": 3.31,
+					"high": 3.41,
+					"low": 3.3,
+					"close": 3.39,
+					"pre_close": 3.3,
+					"change": 0.09,
+					"pct_chg": 2.7273,
+					"vol": 119488.74,
+					"amount": 40275.431,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 31,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210204",
+					"open": 3.26,
+					"high": 3.27,
+					"low": 3.2,
+					"close": 3.21,
+					"pre_close": 3.26,
+					"change": -0.05,
+					"pct_chg": -1.5337,
+					"vol": 59780,
+					"amount": 19271.117,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 4.477611940298504,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 16,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210419",
+					"open": 3.7,
+					"high": 3.75,
+					"low": 3.7,
+					"close": 3.74,
+					"pre_close": 3.7,
+					"change": 0.04,
+					"pct_chg": 1.0811,
+					"vol": 106407.68,
+					"amount": 39726.336,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 11.940298507462684,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 90,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20220419",
+					"open": 3.56,
+					"high": 3.59,
+					"low": 3.54,
+					"close": 3.58,
+					"pre_close": 3.55,
+					"change": 0.03,
+					"pct_chg": 0.8451,
+					"vol": 125824.98,
+					"amount": 44777.923,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 6.865671641791038
+					},
+					"current_hold_day": {
+						"value": 455,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.015089388223716567,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "赣粤高速",
+				"industry": "路桥",
+				"area": "江西",
+				"buy_point_date": "20210209",
+				"close": 3.25,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600269.SH",
+				"re_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210210",
+					"open": 3.24,
+					"high": 3.27,
+					"low": 3.23,
+					"close": 3.26,
+					"pre_close": 3.25,
+					"change": 0.01,
+					"pct_chg": 0.3077,
+					"vol": 31986.71,
+					"amount": 10410.855,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 1,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210802",
+					"open": 3.24,
+					"high": 3.28,
+					"low": 3.21,
+					"close": 3.27,
+					"pre_close": 3.26,
+					"change": 0.01,
+					"pct_chg": 0.3067,
+					"vol": 58924.72,
+					"amount": 19130.564,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 1.2307692307692317,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 174,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210419",
+					"open": 3.7,
+					"high": 3.75,
+					"low": 3.7,
+					"close": 3.74,
+					"pre_close": 3.7,
+					"change": 0.04,
+					"pct_chg": 1.0811,
+					"vol": 106407.68,
+					"amount": 39726.336,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 15.384615384615385,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 69,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20220419",
+					"open": 3.56,
+					"high": 3.59,
+					"low": 3.54,
+					"close": 3.58,
+					"pre_close": 3.55,
+					"change": 0.03,
+					"pct_chg": 0.8451,
+					"vol": 125824.98,
+					"amount": 44777.923,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 10.153846153846157
+					},
+					"current_hold_day": {
+						"value": 434,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.023395958879829856,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "赣粤高速",
+				"industry": "路桥",
+				"area": "江西",
+				"buy_point_date": "20210210",
+				"close": 3.26,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600269.SH",
+				"re_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210218",
+					"open": 3.28,
+					"high": 3.31,
+					"low": 3.28,
+					"close": 3.3,
+					"pre_close": 3.26,
+					"change": 0.04,
+					"pct_chg": 1.227,
+					"vol": 55483.96,
+					"amount": 18297.169,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 8,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210802",
+					"open": 3.24,
+					"high": 3.28,
+					"low": 3.21,
+					"close": 3.27,
+					"pre_close": 3.26,
+					"change": 0.01,
+					"pct_chg": 0.3067,
+					"vol": 58924.72,
+					"amount": 19130.564,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 1.5337423312883383,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 173,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210419",
+					"open": 3.7,
+					"high": 3.75,
+					"low": 3.7,
+					"close": 3.74,
+					"pre_close": 3.7,
+					"change": 0.04,
+					"pct_chg": 1.0811,
+					"vol": 106407.68,
+					"amount": 39726.336,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 15.030674846625775,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 68,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20220419",
+					"open": 3.56,
+					"high": 3.59,
+					"low": 3.54,
+					"close": 3.58,
+					"pre_close": 3.55,
+					"change": 0.03,
+					"pct_chg": 0.8451,
+					"vol": 125824.98,
+					"amount": 44777.923,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 9.81595092024541
+					},
+					"current_hold_day": {
+						"value": 433,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.022669632610266534,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "赣粤高速",
+				"industry": "路桥",
+				"area": "江西",
+				"buy_point_date": "20210218",
+				"close": 3.3,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600269.SH",
+				"re_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210219",
+					"open": 3.31,
+					"high": 3.41,
+					"low": 3.3,
+					"close": 3.39,
+					"pre_close": 3.3,
+					"change": 0.09,
+					"pct_chg": 2.7273,
+					"vol": 119488.74,
+					"amount": 40275.431,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 1,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210802",
+					"open": 3.24,
+					"high": 3.28,
+					"low": 3.21,
+					"close": 3.27,
+					"pre_close": 3.26,
+					"change": 0.01,
+					"pct_chg": 0.3067,
+					"vol": 58924.72,
+					"amount": 19130.564,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 2.727272727272723,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 165,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210419",
+					"open": 3.7,
+					"high": 3.75,
+					"low": 3.7,
+					"close": 3.74,
+					"pre_close": 3.7,
+					"change": 0.04,
+					"pct_chg": 1.0811,
+					"vol": 106407.68,
+					"amount": 39726.336,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 13.636363636363644,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 60,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20220419",
+					"open": 3.56,
+					"high": 3.59,
+					"low": 3.54,
+					"close": 3.58,
+					"pre_close": 3.55,
+					"change": 0.03,
+					"pct_chg": 0.8451,
+					"vol": 125824.98,
+					"amount": 44777.923,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 8.484848484848495
+					},
+					"current_hold_day": {
+						"value": 425,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.019964349376114104,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "赣粤高速",
+				"industry": "路桥",
+				"area": "江西",
+				"buy_point_date": "20210525",
+				"close": 3.43,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600269.SH",
+				"re_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210903",
+					"open": 3.45,
+					"high": 3.46,
+					"low": 3.43,
+					"close": 3.44,
+					"pre_close": 3.43,
+					"change": 0.01,
+					"pct_chg": 0.2915,
+					"vol": 138680.01,
+					"amount": 47745.527,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 101,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210802",
+					"open": 3.24,
+					"high": 3.28,
+					"low": 3.21,
+					"close": 3.27,
+					"pre_close": 3.26,
+					"change": 0.01,
+					"pct_chg": 0.3067,
+					"vol": 58924.72,
+					"amount": 19130.564,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 6.413994169096215,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 69,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20210923",
+					"open": 3.64,
+					"high": 3.75,
+					"low": 3.64,
+					"close": 3.7,
+					"pre_close": 3.65,
+					"change": 0.05,
+					"pct_chg": 1.3699,
+					"vol": 269174.52,
+					"amount": 99492.317,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 9.329446064139937,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 121,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "赣粤高速",
+					"industry": "路桥",
+					"area": "江西",
+					"ts_code": "600269.SH",
+					"trade_date": "20220419",
+					"open": 3.56,
+					"high": 3.59,
+					"low": 3.54,
+					"close": 3.58,
+					"pre_close": 3.55,
+					"change": 0.03,
+					"pct_chg": 0.8451,
+					"vol": 125824.98,
+					"amount": 44777.923,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 4.37317784256559
+					},
+					"current_hold_day": {
+						"value": 329,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.013292333867980516,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			}
+		],
+		[
+			{
+				"name": "福建高速",
+				"industry": "路桥",
+				"area": "福建",
+				"buy_point_date": "20200601",
+				"close": 2.71,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600033.SH",
+				"re_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20200603",
+					"open": 2.71,
+					"high": 2.73,
+					"low": 2.7,
+					"close": 2.72,
+					"pre_close": 2.71,
+					"change": 0.01,
+					"pct_chg": 0.369,
+					"vol": 58228.37,
+					"amount": 15811.306,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 2,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20210204",
+					"open": 2.51,
+					"high": 2.52,
+					"low": 2.46,
+					"close": 2.47,
+					"pre_close": 2.51,
+					"change": -0.04,
+					"pct_chg": -1.5936,
+					"vol": 45335.3,
+					"amount": 11262.691,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 9.22509225092251,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 248,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20210923",
+					"open": 2.93,
+					"high": 3.07,
+					"low": 2.91,
+					"close": 3,
+					"pre_close": 2.93,
+					"change": 0.07,
+					"pct_chg": 2.3891,
+					"vol": 407306.65,
+					"amount": 121858.768,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 13.284132841328407,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 479,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20220419",
+					"open": 2.97,
+					"high": 2.99,
+					"low": 2.95,
+					"close": 2.98,
+					"pre_close": 2.97,
+					"change": 0.01,
+					"pct_chg": 0.3367,
+					"vol": 73261.24,
+					"amount": 21748.194,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 9.963099630996307
+					},
+					"current_hold_day": {
+						"value": 687,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.014502328429397828,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "福建高速",
+				"industry": "路桥",
+				"area": "福建",
+				"buy_point_date": "20200903",
+				"close": 2.76,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600033.SH",
+				"re_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20200908",
+					"open": 2.72,
+					"high": 2.8,
+					"low": 2.71,
+					"close": 2.78,
+					"pre_close": 2.72,
+					"change": 0.06,
+					"pct_chg": 2.2059,
+					"vol": 165128.6,
+					"amount": 45523.365,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 5,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20210204",
+					"open": 2.51,
+					"high": 2.52,
+					"low": 2.46,
+					"close": 2.47,
+					"pre_close": 2.51,
+					"change": -0.04,
+					"pct_chg": -1.5936,
+					"vol": 45335.3,
+					"amount": 11262.691,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 10.8695652173913,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 154,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20210923",
+					"open": 2.93,
+					"high": 3.07,
+					"low": 2.91,
+					"close": 3,
+					"pre_close": 2.93,
+					"change": 0.07,
+					"pct_chg": 2.3891,
+					"vol": 407306.65,
+					"amount": 121858.768,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 11.231884057971017,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 385,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20220419",
+					"open": 2.97,
+					"high": 2.99,
+					"low": 2.95,
+					"close": 2.98,
+					"pre_close": 2.97,
+					"change": 0.01,
+					"pct_chg": 0.3367,
+					"vol": 73261.24,
+					"amount": 21748.194,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 7.971014492753636
+					},
+					"current_hold_day": {
+						"value": 593,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.013441845687611528,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "福建高速",
+				"industry": "路桥",
+				"area": "福建",
+				"buy_point_date": "20201009",
+				"close": 2.7,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600033.SH",
+				"re_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20201012",
+					"open": 2.71,
+					"high": 2.73,
+					"low": 2.7,
+					"close": 2.72,
+					"pre_close": 2.7,
+					"change": 0.02,
+					"pct_chg": 0.7407,
+					"vol": 50137.36,
+					"amount": 13610.125,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 3,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20210204",
+					"open": 2.51,
+					"high": 2.52,
+					"low": 2.46,
+					"close": 2.47,
+					"pre_close": 2.51,
+					"change": -0.04,
+					"pct_chg": -1.5936,
+					"vol": 45335.3,
+					"amount": 11262.691,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 8.888888888888896,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 118,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20210923",
+					"open": 2.93,
+					"high": 3.07,
+					"low": 2.91,
+					"close": 3,
+					"pre_close": 2.93,
+					"change": 0.07,
+					"pct_chg": 2.3891,
+					"vol": 407306.65,
+					"amount": 121858.768,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 13.70370370370369,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 349,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20220419",
+					"open": 2.97,
+					"high": 2.99,
+					"low": 2.95,
+					"close": 2.98,
+					"pre_close": 2.97,
+					"change": 0.01,
+					"pct_chg": 0.3367,
+					"vol": 73261.24,
+					"amount": 21748.194,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 10.370370370370363
+					},
+					"current_hold_day": {
+						"value": 557,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.018618259192765465,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "福建高速",
+				"industry": "路桥",
+				"area": "福建",
+				"buy_point_date": "20210210",
+				"close": 2.57,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600033.SH",
+				"re_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20210219",
+					"open": 2.57,
+					"high": 2.61,
+					"low": 2.57,
+					"close": 2.6,
+					"pre_close": 2.57,
+					"change": 0.03,
+					"pct_chg": 1.1673,
+					"vol": 44981.87,
+					"amount": 11676.569,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 9,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20210729",
+					"open": 2.53,
+					"high": 2.54,
+					"low": 2.5,
+					"close": 2.52,
+					"pre_close": 2.52,
+					"change": 0,
+					"pct_chg": 0,
+					"vol": 53308.18,
+					"amount": 13437.856,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 2.723735408560305,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 169,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20210923",
+					"open": 2.93,
+					"high": 3.07,
+					"low": 2.91,
+					"close": 3,
+					"pre_close": 2.93,
+					"change": 0.07,
+					"pct_chg": 2.3891,
+					"vol": 407306.65,
+					"amount": 121858.768,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 19.45525291828794,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 225,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20220419",
+					"open": 2.97,
+					"high": 2.99,
+					"low": 2.95,
+					"close": 2.98,
+					"pre_close": 2.97,
+					"change": 0.01,
+					"pct_chg": 0.3367,
+					"vol": 73261.24,
+					"amount": 21748.194,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 15.95330739299612
+					},
+					"current_hold_day": {
+						"value": 433,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.03684366603463307,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "福建高速",
+				"industry": "路桥",
+				"area": "福建",
+				"buy_point_date": "20210218",
+				"close": 2.57,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600033.SH",
+				"re_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20210219",
+					"open": 2.57,
+					"high": 2.61,
+					"low": 2.57,
+					"close": 2.6,
+					"pre_close": 2.57,
+					"change": 0.03,
+					"pct_chg": 1.1673,
+					"vol": 44981.87,
+					"amount": 11676.569,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 1,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20210729",
+					"open": 2.53,
+					"high": 2.54,
+					"low": 2.5,
+					"close": 2.52,
+					"pre_close": 2.52,
+					"change": 0,
+					"pct_chg": 0,
+					"vol": 53308.18,
+					"amount": 13437.856,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 2.723735408560305,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 161,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20210923",
+					"open": 2.93,
+					"high": 3.07,
+					"low": 2.91,
+					"close": 3,
+					"pre_close": 2.93,
+					"change": 0.07,
+					"pct_chg": 2.3891,
+					"vol": 407306.65,
+					"amount": 121858.768,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 19.45525291828794,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 217,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "福建高速",
+					"industry": "路桥",
+					"area": "福建",
+					"ts_code": "600033.SH",
+					"trade_date": "20220419",
+					"open": 2.97,
+					"high": 2.99,
+					"low": 2.95,
+					"close": 2.98,
+					"pre_close": 2.97,
+					"change": 0.01,
+					"pct_chg": 0.3367,
+					"vol": 73261.24,
+					"amount": 21748.194,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 15.95330739299612
+					},
+					"current_hold_day": {
+						"value": 425,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.037537193865873224,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			}
@@ -4354,6 +2844,34 @@
 					"high_day": {
 						"value": 321,
 						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "安阳钢铁",
+					"industry": "普钢",
+					"area": "河南",
+					"ts_code": "600569.SH",
+					"trade_date": "20220419",
+					"open": 3.44,
+					"high": 3.57,
+					"low": 3.39,
+					"close": 3.53,
+					"pre_close": 3.44,
+					"change": 0.09,
+					"pct_chg": 2.6163,
+					"vol": 623830.78,
+					"amount": 218340.667,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 74.75247524752476
+					},
+					"current_hold_day": {
+						"value": 691,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.10818013784012266,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -4435,6 +2953,34 @@
 						"value": 317,
 						"chinese_desc": "涨幅天数"
 					}
+				},
+				"current_trade_date": {
+					"name": "安阳钢铁",
+					"industry": "普钢",
+					"area": "河南",
+					"ts_code": "600569.SH",
+					"trade_date": "20220419",
+					"open": 3.44,
+					"high": 3.57,
+					"low": 3.39,
+					"close": 3.53,
+					"pre_close": 3.44,
+					"change": 0.09,
+					"pct_chg": 2.6163,
+					"vol": 623830.78,
+					"amount": 218340.667,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 73.03921568627449
+					},
+					"current_hold_day": {
+						"value": 687,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.10631618003824525,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
 				}
 			},
 			{
@@ -4514,6 +3060,34 @@
 					"high_day": {
 						"value": 316,
 						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "安阳钢铁",
+					"industry": "普钢",
+					"area": "河南",
+					"ts_code": "600569.SH",
+					"trade_date": "20220419",
+					"open": 3.44,
+					"high": 3.57,
+					"low": 3.39,
+					"close": 3.53,
+					"pre_close": 3.44,
+					"change": 0.09,
+					"pct_chg": 2.6163,
+					"vol": 623830.78,
+					"amount": 218340.667,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 72.1951219512195
+					},
+					"current_hold_day": {
+						"value": 686,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.10524070255279812,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -4595,6 +3169,34 @@
 						"value": 286,
 						"chinese_desc": "涨幅天数"
 					}
+				},
+				"current_trade_date": {
+					"name": "安阳钢铁",
+					"industry": "普钢",
+					"area": "河南",
+					"ts_code": "600569.SH",
+					"trade_date": "20220419",
+					"open": 3.44,
+					"high": 3.57,
+					"low": 3.39,
+					"close": 3.53,
+					"pre_close": 3.44,
+					"change": 0.09,
+					"pct_chg": 2.6163,
+					"vol": 623830.78,
+					"amount": 218340.667,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 68.09523809523807
+					},
+					"current_hold_day": {
+						"value": 656,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.10380371660859462,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
 				}
 			},
 			{
@@ -4660,6 +3262,34 @@
 					"high_day": {
 						"value": 160,
 						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "安阳钢铁",
+					"industry": "普钢",
+					"area": "河南",
+					"ts_code": "600569.SH",
+					"trade_date": "20220419",
+					"open": 3.44,
+					"high": 3.57,
+					"low": 3.39,
+					"close": 3.53,
+					"pre_close": 3.44,
+					"change": 0.09,
+					"pct_chg": 2.6163,
+					"vol": 623830.78,
+					"amount": 218340.667,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 68.89952153110048
+					},
+					"current_hold_day": {
+						"value": 530,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.12999909722849146,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -4727,33 +3357,61 @@
 						"value": 159,
 						"chinese_desc": "涨幅天数"
 					}
+				},
+				"current_trade_date": {
+					"name": "安阳钢铁",
+					"industry": "普钢",
+					"area": "河南",
+					"ts_code": "600569.SH",
+					"trade_date": "20220419",
+					"open": 3.44,
+					"high": 3.57,
+					"low": 3.39,
+					"close": 3.53,
+					"pre_close": 3.44,
+					"change": 0.09,
+					"pct_chg": 2.6163,
+					"vol": 623830.78,
+					"amount": 218340.667,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 69.71153846153844
+					},
+					"current_hold_day": {
+						"value": 529,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.13177984586302163,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
 				}
 			}
 		],
 		[
 			{
-				"name": "浙江交科",
-				"industry": "建筑工程",
-				"area": "浙江",
-				"buy_point_date": "20210114",
-				"close": 5.1,
+				"name": "中铁工业",
+				"industry": "运输设备",
+				"area": "北京",
+				"buy_point_date": "20200917",
+				"close": 9.29,
 				"chinese_desc": "买点交易日",
-				"ts_code": "002061.SZ",
+				"ts_code": "600528.SH",
 				"re_trade_date": {
-					"name": "浙江交科",
-					"industry": "建筑工程",
-					"area": "浙江",
-					"ts_code": "002061.SZ",
-					"trade_date": "20210115",
-					"open": 5.08,
-					"high": 5.15,
-					"low": 5.07,
-					"close": 5.13,
-					"pre_close": 5.1,
-					"change": 0.03,
-					"pct_chg": 0.5882,
-					"vol": 31858.64,
-					"amount": 16287.755,
+					"name": "中铁工业",
+					"industry": "运输设备",
+					"area": "北京",
+					"ts_code": "600528.SH",
+					"trade_date": "20200918",
+					"open": 9.29,
+					"high": 9.5,
+					"low": 9.29,
+					"close": 9.44,
+					"pre_close": 9.29,
+					"change": 0.15,
+					"pct_chg": 1.6146,
+					"vol": 88808.05,
+					"amount": 83803.008,
 					"chinese_desc": "回本交易日",
 					"re_day": {
 						"value": 1,
@@ -4761,227 +3419,543 @@
 					}
 				},
 				"low_trade_date": {
-					"name": "浙江交科",
-					"industry": "建筑工程",
-					"area": "浙江",
-					"ts_code": "002061.SZ",
-					"trade_date": "20210728",
-					"open": 4.96,
-					"high": 4.96,
-					"low": 4.86,
-					"close": 4.88,
-					"pre_close": 4.96,
-					"change": -0.08,
-					"pct_chg": -1.6129,
-					"vol": 50995.63,
-					"amount": 24922.645,
+					"name": "中铁工业",
+					"industry": "运输设备",
+					"area": "北京",
+					"ts_code": "600528.SH",
+					"trade_date": "20220316",
+					"open": 7.67,
+					"high": 7.7,
+					"low": 7.27,
+					"close": 7.62,
+					"pre_close": 7.56,
+					"change": 0.06,
+					"pct_chg": 0.7937,
+					"vol": 253891.37,
+					"amount": 190612.236,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 4.705882352941163,
+						"value": 21.743810548977393,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 195,
+						"value": 545,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "浙江交科",
-					"industry": "建筑工程",
-					"area": "浙江",
-					"ts_code": "002061.SZ",
-					"trade_date": "20220322",
-					"open": 7.98,
-					"high": 8.09,
-					"low": 7.04,
-					"close": 7.31,
-					"pre_close": 7.35,
-					"change": -0.04,
-					"pct_chg": -0.5442,
-					"vol": 2374964.9,
-					"amount": 1802765.173,
+					"name": "中铁工业",
+					"industry": "运输设备",
+					"area": "北京",
+					"ts_code": "600528.SH",
+					"trade_date": "20210114",
+					"open": 9.2,
+					"high": 9.79,
+					"low": 9.15,
+					"close": 9.58,
+					"pre_close": 9.27,
+					"change": 0.31,
+					"pct_chg": 3.3441,
+					"vol": 565872.24,
+					"amount": 541802.918,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 58.62745098039217,
+						"value": 5.382131324004306,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 432,
+						"value": 119,
 						"chinese_desc": "涨幅天数"
 					}
-				}
-			},
-			{
-				"name": "浙江交科",
-				"industry": "建筑工程",
-				"area": "浙江",
-				"buy_point_date": "20210811",
-				"close": 5.06,
-				"chinese_desc": "买点交易日",
-				"ts_code": "002061.SZ",
-				"re_trade_date": {
-					"name": "浙江交科",
-					"industry": "建筑工程",
-					"area": "浙江",
-					"ts_code": "002061.SZ",
-					"trade_date": "20210812",
-					"open": 5.06,
-					"high": 5.13,
-					"low": 5.01,
-					"close": 5.13,
-					"pre_close": 5.06,
-					"change": 0.07,
-					"pct_chg": 1.3834,
-					"vol": 54971,
-					"amount": 27837.907,
-					"chinese_desc": "回本交易日",
-					"re_day": {
-						"value": 1,
-						"chinese_desc": "回本天数"
-					}
 				},
-				"low_trade_date": {
-					"name": "浙江交科",
-					"industry": "建筑工程",
-					"area": "浙江",
-					"ts_code": "002061.SZ",
-					"trade_date": "20210812",
-					"open": 5.06,
-					"high": 5.13,
-					"low": 5.01,
-					"close": 5.13,
-					"pre_close": 5.06,
-					"change": 0.07,
-					"pct_chg": 1.3834,
-					"vol": 54971,
-					"amount": 27837.907,
-					"chinese_desc": "最低价格交易日",
-					"low_percent": {
-						"value": 0.9881422924901151,
-						"chinese_desc": "回撤比例(%)"
-					},
-					"low_day": {
-						"value": 1,
-						"chinese_desc": "回撤天数"
-					}
-				},
-				"high_trade_date": {
-					"name": "浙江交科",
-					"industry": "建筑工程",
-					"area": "浙江",
-					"ts_code": "002061.SZ",
-					"trade_date": "20220322",
+				"current_trade_date": {
+					"name": "中铁工业",
+					"industry": "运输设备",
+					"area": "北京",
+					"ts_code": "600528.SH",
+					"trade_date": "20220419",
 					"open": 7.98,
-					"high": 8.09,
-					"low": 7.04,
-					"close": 7.31,
-					"pre_close": 7.35,
-					"change": -0.04,
-					"pct_chg": -0.5442,
-					"vol": 2374964.9,
-					"amount": 1802765.173,
-					"chinese_desc": "最高价格交易日",
-					"high_percent": {
-						"value": 59.881422924901194,
-						"chinese_desc": "涨幅比例(%)"
-					},
-					"high_day": {
-						"value": 223,
-						"chinese_desc": "涨幅天数"
-					}
-				}
-			},
-			{
-				"name": "浙江交科",
-				"industry": "建筑工程",
-				"area": "浙江",
-				"buy_point_date": "20210812",
-				"close": 5.13,
-				"chinese_desc": "买点交易日",
-				"ts_code": "002061.SZ",
-				"re_trade_date": {
-					"name": "浙江交科",
-					"industry": "建筑工程",
-					"area": "浙江",
-					"ts_code": "002061.SZ",
-					"trade_date": "20210813",
-					"open": 5.17,
-					"high": 5.36,
-					"low": 5.17,
-					"close": 5.23,
-					"pre_close": 5.13,
+					"high": 8.12,
+					"low": 7.95,
+					"close": 8.09,
+					"pre_close": 7.99,
 					"change": 0.1,
-					"pct_chg": 1.9493,
-					"vol": 196774.7,
-					"amount": 103484.738,
+					"pct_chg": 1.2516,
+					"vol": 68472.5,
+					"amount": 55057.105,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": -12.917115177610327
+					},
+					"current_hold_day": {
+						"value": 579,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": -0.022309352638359804,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "中铁工业",
+				"industry": "运输设备",
+				"area": "北京",
+				"buy_point_date": "20201231",
+				"close": 8.74,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600528.SH",
+				"re_trade_date": {
+					"name": "中铁工业",
+					"industry": "运输设备",
+					"area": "北京",
+					"ts_code": "600528.SH",
+					"trade_date": "20210104",
+					"open": 8.76,
+					"high": 8.92,
+					"low": 8.63,
+					"close": 8.87,
+					"pre_close": 8.74,
+					"change": 0.13,
+					"pct_chg": 1.4874,
+					"vol": 98432.21,
+					"amount": 85949.7,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 1,
+						"value": 4,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
+					"name": "中铁工业",
+					"industry": "运输设备",
+					"area": "北京",
+					"ts_code": "600528.SH",
+					"trade_date": "20220316",
+					"open": 7.67,
+					"high": 7.7,
+					"low": 7.27,
+					"close": 7.62,
+					"pre_close": 7.56,
+					"change": 0.06,
+					"pct_chg": 0.7937,
+					"vol": 253891.37,
+					"amount": 190612.236,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 0,
+						"value": 16.819221967963394,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 0,
+						"value": 440,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "浙江交科",
-					"industry": "建筑工程",
-					"area": "浙江",
-					"ts_code": "002061.SZ",
-					"trade_date": "20220322",
-					"open": 7.98,
-					"high": 8.09,
-					"low": 7.04,
-					"close": 7.31,
-					"pre_close": 7.35,
-					"change": -0.04,
-					"pct_chg": -0.5442,
-					"vol": 2374964.9,
-					"amount": 1802765.173,
+					"name": "中铁工业",
+					"industry": "运输设备",
+					"area": "北京",
+					"ts_code": "600528.SH",
+					"trade_date": "20210114",
+					"open": 9.2,
+					"high": 9.79,
+					"low": 9.15,
+					"close": 9.58,
+					"pre_close": 9.27,
+					"change": 0.31,
+					"pct_chg": 3.3441,
+					"vol": 565872.24,
+					"amount": 541802.918,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 57.69980506822612,
+						"value": 12.013729977116693,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 222,
+						"value": 14,
 						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "中铁工业",
+					"industry": "运输设备",
+					"area": "北京",
+					"ts_code": "600528.SH",
+					"trade_date": "20220419",
+					"open": 7.98,
+					"high": 8.12,
+					"low": 7.95,
+					"close": 8.09,
+					"pre_close": 7.99,
+					"change": 0.1,
+					"pct_chg": 1.2516,
+					"vol": 68472.5,
+					"amount": 55057.105,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": -7.437070938215107
+					},
+					"current_hold_day": {
+						"value": 474,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": -0.01569002307640318,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "中铁工业",
+				"industry": "运输设备",
+				"area": "北京",
+				"buy_point_date": "20211108",
+				"close": 7.93,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600528.SH",
+				"re_trade_date": {
+					"name": "中铁工业",
+					"industry": "运输设备",
+					"area": "北京",
+					"ts_code": "600528.SH",
+					"trade_date": "20211203",
+					"open": 7.92,
+					"high": 7.99,
+					"low": 7.86,
+					"close": 7.94,
+					"pre_close": 7.89,
+					"change": 0.05,
+					"pct_chg": 0.6337,
+					"vol": 101886.53,
+					"amount": 80734.16,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 25,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "中铁工业",
+					"industry": "运输设备",
+					"area": "北京",
+					"ts_code": "600528.SH",
+					"trade_date": "20220316",
+					"open": 7.67,
+					"high": 7.7,
+					"low": 7.27,
+					"close": 7.62,
+					"pre_close": 7.56,
+					"change": 0.06,
+					"pct_chg": 0.7937,
+					"vol": 253891.37,
+					"amount": 190612.236,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 8.322824716267341,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 128,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "中铁工业",
+					"industry": "运输设备",
+					"area": "北京",
+					"ts_code": "600528.SH",
+					"trade_date": "20220110",
+					"open": 8.83,
+					"high": 9.41,
+					"low": 8.82,
+					"close": 9.22,
+					"pre_close": 8.55,
+					"change": 0.67,
+					"pct_chg": 7.8363,
+					"vol": 966840.66,
+					"amount": 896163.659,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 18.663303909205556,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 63,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "中铁工业",
+					"industry": "运输设备",
+					"area": "北京",
+					"ts_code": "600528.SH",
+					"trade_date": "20220419",
+					"open": 7.98,
+					"high": 8.12,
+					"low": 7.95,
+					"close": 8.09,
+					"pre_close": 7.99,
+					"change": 0.1,
+					"pct_chg": 1.2516,
+					"vol": 68472.5,
+					"amount": 55057.105,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 2.0176544766708826
+					},
+					"current_hold_day": {
+						"value": 162,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.01245465726340051,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			}
 		],
 		[
 			{
-				"name": "英 力 特",
+				"name": "华谊集团",
 				"industry": "化工原料",
-				"area": "宁夏",
-				"buy_point_date": "20200506",
-				"close": 6.9,
+				"area": "上海",
+				"buy_point_date": "20200617",
+				"close": 5.24,
 				"chinese_desc": "买点交易日",
-				"ts_code": "000635.SZ",
+				"ts_code": "600623.SH",
 				"re_trade_date": {
-					"name": "英 力 特",
+					"name": "华谊集团",
 					"industry": "化工原料",
-					"area": "宁夏",
-					"ts_code": "000635.SZ",
-					"trade_date": "20200507",
-					"open": 6.9,
-					"high": 6.96,
-					"low": 6.83,
-					"close": 6.95,
-					"pre_close": 6.9,
+					"area": "上海",
+					"ts_code": "600623.SH",
+					"trade_date": "20200619",
+					"open": 5.24,
+					"high": 5.32,
+					"low": 5.24,
+					"close": 5.28,
+					"pre_close": 5.24,
+					"change": 0.04,
+					"pct_chg": 0.7634,
+					"vol": 50934.99,
+					"amount": 26894.058,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 2,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "华谊集团",
+					"industry": "化工原料",
+					"area": "上海",
+					"ts_code": "600623.SH",
+					"trade_date": "20200629",
+					"open": 5.18,
+					"high": 5.18,
+					"low": 5.1,
+					"close": 5.12,
+					"pre_close": 5.18,
+					"change": -0.06,
+					"pct_chg": -1.1583,
+					"vol": 36741.01,
+					"amount": 18834.513,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 2.6717557251908506,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 12,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "华谊集团",
+					"industry": "化工原料",
+					"area": "上海",
+					"ts_code": "600623.SH",
+					"trade_date": "20210916",
+					"open": 15.98,
+					"high": 16.15,
+					"low": 14.8,
+					"close": 15.01,
+					"pre_close": 15.41,
+					"change": -0.4,
+					"pct_chg": -2.5957,
+					"vol": 689934.83,
+					"amount": 1049364.81,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 208.20610687022895,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 456,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "华谊集团",
+					"industry": "化工原料",
+					"area": "上海",
+					"ts_code": "600623.SH",
+					"trade_date": "20220419",
+					"open": 8.45,
+					"high": 8.59,
+					"low": 8.29,
+					"close": 8.51,
+					"pre_close": 8.32,
+					"change": 0.19,
+					"pct_chg": 2.2837,
+					"vol": 157942.8,
+					"amount": 133920.704,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 62.40458015267174
+					},
+					"current_hold_day": {
+						"value": 671,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.09300235492201452,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			},
+			{
+				"name": "华谊集团",
+				"industry": "化工原料",
+				"area": "上海",
+				"buy_point_date": "20200618",
+				"close": 5.24,
+				"chinese_desc": "买点交易日",
+				"ts_code": "600623.SH",
+				"re_trade_date": {
+					"name": "华谊集团",
+					"industry": "化工原料",
+					"area": "上海",
+					"ts_code": "600623.SH",
+					"trade_date": "20200619",
+					"open": 5.24,
+					"high": 5.32,
+					"low": 5.24,
+					"close": 5.28,
+					"pre_close": 5.24,
+					"change": 0.04,
+					"pct_chg": 0.7634,
+					"vol": 50934.99,
+					"amount": 26894.058,
+					"chinese_desc": "回本交易日",
+					"re_day": {
+						"value": 1,
+						"chinese_desc": "回本天数"
+					}
+				},
+				"low_trade_date": {
+					"name": "华谊集团",
+					"industry": "化工原料",
+					"area": "上海",
+					"ts_code": "600623.SH",
+					"trade_date": "20200629",
+					"open": 5.18,
+					"high": 5.18,
+					"low": 5.1,
+					"close": 5.12,
+					"pre_close": 5.18,
+					"change": -0.06,
+					"pct_chg": -1.1583,
+					"vol": 36741.01,
+					"amount": 18834.513,
+					"chinese_desc": "最低价格交易日",
+					"low_percent": {
+						"value": 2.6717557251908506,
+						"chinese_desc": "回撤比例(%)"
+					},
+					"low_day": {
+						"value": 11,
+						"chinese_desc": "回撤天数"
+					}
+				},
+				"high_trade_date": {
+					"name": "华谊集团",
+					"industry": "化工原料",
+					"area": "上海",
+					"ts_code": "600623.SH",
+					"trade_date": "20210916",
+					"open": 15.98,
+					"high": 16.15,
+					"low": 14.8,
+					"close": 15.01,
+					"pre_close": 15.41,
+					"change": -0.4,
+					"pct_chg": -2.5957,
+					"vol": 689934.83,
+					"amount": 1049364.81,
+					"chinese_desc": "最高价格交易日",
+					"high_percent": {
+						"value": 208.20610687022895,
+						"chinese_desc": "涨幅比例(%)"
+					},
+					"high_day": {
+						"value": 455,
+						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "华谊集团",
+					"industry": "化工原料",
+					"area": "上海",
+					"ts_code": "600623.SH",
+					"trade_date": "20220419",
+					"open": 8.45,
+					"high": 8.59,
+					"low": 8.29,
+					"close": 8.51,
+					"pre_close": 8.32,
+					"change": 0.19,
+					"pct_chg": 2.2837,
+					"vol": 157942.8,
+					"amount": 133920.704,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 62.40458015267174
+					},
+					"current_hold_day": {
+						"value": 670,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.09314116440697275,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
+					}
+				}
+			}
+		],
+		[
+			{
+				"name": "本钢板材",
+				"industry": "普钢",
+				"area": "辽宁",
+				"buy_point_date": "20200324",
+				"close": 3.39,
+				"chinese_desc": "买点交易日",
+				"ts_code": "000761.SZ",
+				"re_trade_date": {
+					"name": "本钢板材",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "000761.SZ",
+					"trade_date": "20200325",
+					"open": 3.44,
+					"high": 3.46,
+					"low": 3.41,
+					"close": 3.44,
+					"pre_close": 3.39,
 					"change": 0.05,
-					"pct_chg": 0.7246,
-					"vol": 16429.01,
-					"amount": 11327.603,
+					"pct_chg": 1.4749,
+					"vol": 44056.39,
+					"amount": 15154.317,
 					"chinese_desc": "回本交易日",
 					"re_day": {
 						"value": 1,
@@ -4989,159 +3963,215 @@
 					}
 				},
 				"low_trade_date": {
-					"name": "英 力 特",
-					"industry": "化工原料",
-					"area": "宁夏",
-					"ts_code": "000635.SZ",
-					"trade_date": "20200522",
-					"open": 6.75,
-					"high": 6.84,
-					"low": 6.61,
-					"close": 6.7,
-					"pre_close": 6.8,
-					"change": -0.1,
-					"pct_chg": -1.4706,
-					"vol": 12172.86,
-					"amount": 8209.892,
+					"name": "本钢板材",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "000761.SZ",
+					"trade_date": "20210204",
+					"open": 2.81,
+					"high": 2.83,
+					"low": 2.76,
+					"close": 2.81,
+					"pre_close": 2.81,
+					"change": 0,
+					"pct_chg": 0,
+					"vol": 33436.7,
+					"amount": 9311.282,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 4.202898550724639,
+						"value": 18.584070796460185,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 16,
+						"value": 317,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "英 力 特",
-					"industry": "化工原料",
-					"area": "宁夏",
-					"ts_code": "000635.SZ",
-					"trade_date": "20210923",
-					"open": 17.65,
-					"high": 18.3,
-					"low": 16.6,
-					"close": 17.34,
-					"pre_close": 17.66,
-					"change": -0.32,
-					"pct_chg": -1.812,
-					"vol": 250324.85,
-					"amount": 438308.265,
+					"name": "本钢板材",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "000761.SZ",
+					"trade_date": "20210909",
+					"open": 6.95,
+					"high": 7.48,
+					"low": 6.78,
+					"close": 7.35,
+					"pre_close": 6.91,
+					"change": 0.44,
+					"pct_chg": 6.3676,
+					"vol": 1382311.93,
+					"amount": 991356.094,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 165.2173913043478,
+						"value": 120.6489675516224,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 505,
+						"value": 534,
 						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "本钢板材",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "000761.SZ",
+					"trade_date": "20220419",
+					"open": 4.45,
+					"high": 4.55,
+					"low": 4.41,
+					"close": 4.51,
+					"pre_close": 4.43,
+					"change": 0.08,
+					"pct_chg": 1.8059,
+					"vol": 247213.86,
+					"amount": 110893.267,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 33.03834808259587
+					},
+					"current_hold_day": {
+						"value": 756,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.04370151862777231,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
 			{
-				"name": "英 力 特",
-				"industry": "化工原料",
-				"area": "宁夏",
-				"buy_point_date": "20200507",
-				"close": 6.95,
+				"name": "本钢板材",
+				"industry": "普钢",
+				"area": "辽宁",
+				"buy_point_date": "20200527",
+				"close": 3.31,
 				"chinese_desc": "买点交易日",
-				"ts_code": "000635.SZ",
+				"ts_code": "000761.SZ",
 				"re_trade_date": {
-					"name": "英 力 特",
-					"industry": "化工原料",
-					"area": "宁夏",
-					"ts_code": "000635.SZ",
-					"trade_date": "20200508",
-					"open": 6.98,
-					"high": 7.07,
-					"low": 6.91,
-					"close": 7.06,
-					"pre_close": 6.95,
-					"change": 0.11,
-					"pct_chg": 1.5827,
-					"vol": 19357.3,
-					"amount": 13540.27,
+					"name": "本钢板材",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "000761.SZ",
+					"trade_date": "20200601",
+					"open": 3.27,
+					"high": 3.39,
+					"low": 3.27,
+					"close": 3.34,
+					"pre_close": 3.28,
+					"change": 0.06,
+					"pct_chg": 1.8293,
+					"vol": 65307.11,
+					"amount": 21933.301,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 1,
+						"value": 5,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "英 力 特",
-					"industry": "化工原料",
-					"area": "宁夏",
-					"ts_code": "000635.SZ",
-					"trade_date": "20200522",
-					"open": 6.75,
-					"high": 6.84,
-					"low": 6.61,
-					"close": 6.7,
-					"pre_close": 6.8,
-					"change": -0.1,
-					"pct_chg": -1.4706,
-					"vol": 12172.86,
-					"amount": 8209.892,
+					"name": "本钢板材",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "000761.SZ",
+					"trade_date": "20210204",
+					"open": 2.81,
+					"high": 2.83,
+					"low": 2.76,
+					"close": 2.81,
+					"pre_close": 2.81,
+					"change": 0,
+					"pct_chg": 0,
+					"vol": 33436.7,
+					"amount": 9311.282,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 4.89208633093525,
+						"value": 16.61631419939578,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 15,
+						"value": 253,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "英 力 特",
-					"industry": "化工原料",
-					"area": "宁夏",
-					"ts_code": "000635.SZ",
-					"trade_date": "20210923",
-					"open": 17.65,
-					"high": 18.3,
-					"low": 16.6,
-					"close": 17.34,
-					"pre_close": 17.66,
-					"change": -0.32,
-					"pct_chg": -1.812,
-					"vol": 250324.85,
-					"amount": 438308.265,
+					"name": "本钢板材",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "000761.SZ",
+					"trade_date": "20210909",
+					"open": 6.95,
+					"high": 7.48,
+					"low": 6.78,
+					"close": 7.35,
+					"pre_close": 6.91,
+					"change": 0.44,
+					"pct_chg": 6.3676,
+					"vol": 1382311.93,
+					"amount": 991356.094,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 163.30935251798562,
+						"value": 125.98187311178248,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 504,
+						"value": 470,
 						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "本钢板材",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "000761.SZ",
+					"trade_date": "20220419",
+					"open": 4.45,
+					"high": 4.55,
+					"low": 4.41,
+					"close": 4.51,
+					"pre_close": 4.43,
+					"change": 0.08,
+					"pct_chg": 1.8059,
+					"vol": 247213.86,
+					"amount": 110893.267,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 36.2537764350453
+					},
+					"current_hold_day": {
+						"value": 692,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.05238985033966084,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
 			{
-				"name": "英 力 特",
-				"industry": "化工原料",
-				"area": "宁夏",
-				"buy_point_date": "20200601",
-				"close": 7.03,
+				"name": "本钢板材",
+				"industry": "普钢",
+				"area": "辽宁",
+				"buy_point_date": "20201124",
+				"close": 3.41,
 				"chinese_desc": "买点交易日",
-				"ts_code": "000635.SZ",
+				"ts_code": "000761.SZ",
 				"re_trade_date": {
-					"name": "英 力 特",
-					"industry": "化工原料",
-					"area": "宁夏",
-					"ts_code": "000635.SZ",
-					"trade_date": "20200609",
-					"open": 7.09,
-					"high": 7.33,
-					"low": 7.01,
-					"close": 7.14,
-					"pre_close": 6.98,
-					"change": 0.16,
-					"pct_chg": 2.2923,
-					"vol": 61957.04,
-					"amount": 44448.411,
+					"name": "本钢板材",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "000761.SZ",
+					"trade_date": "20201202",
+					"open": 3.39,
+					"high": 3.44,
+					"low": 3.38,
+					"close": 3.42,
+					"pre_close": 3.4,
+					"change": 0.02,
+					"pct_chg": 0.5882,
+					"vol": 50010.68,
+					"amount": 17086.767,
 					"chinese_desc": "回本交易日",
 					"re_day": {
 						"value": 8,
@@ -5149,53 +4179,81 @@
 					}
 				},
 				"low_trade_date": {
-					"name": "英 力 特",
-					"industry": "化工原料",
-					"area": "宁夏",
-					"ts_code": "000635.SZ",
-					"trade_date": "20200629",
-					"open": 6.72,
-					"high": 6.73,
-					"low": 6.65,
-					"close": 6.67,
-					"pre_close": 6.76,
-					"change": -0.09,
-					"pct_chg": -1.3314,
-					"vol": 13813.01,
-					"amount": 9227.383,
+					"name": "本钢板材",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "000761.SZ",
+					"trade_date": "20210204",
+					"open": 2.81,
+					"high": 2.83,
+					"low": 2.76,
+					"close": 2.81,
+					"pre_close": 2.81,
+					"change": 0,
+					"pct_chg": 0,
+					"vol": 33436.7,
+					"amount": 9311.282,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 5.4054054054054035,
+						"value": 19.06158357771262,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 28,
+						"value": 72,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "英 力 特",
-					"industry": "化工原料",
-					"area": "宁夏",
-					"ts_code": "000635.SZ",
-					"trade_date": "20210923",
-					"open": 17.65,
-					"high": 18.3,
-					"low": 16.6,
-					"close": 17.34,
-					"pre_close": 17.66,
-					"change": -0.32,
-					"pct_chg": -1.812,
-					"vol": 250324.85,
-					"amount": 438308.265,
+					"name": "本钢板材",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "000761.SZ",
+					"trade_date": "20210909",
+					"open": 6.95,
+					"high": 7.48,
+					"low": 6.78,
+					"close": 7.35,
+					"pre_close": 6.91,
+					"change": 0.44,
+					"pct_chg": 6.3676,
+					"vol": 1382311.93,
+					"amount": 991356.094,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 160.31294452347083,
+						"value": 119.35483870967742,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 479,
+						"value": 289,
 						"chinese_desc": "涨幅天数"
+					}
+				},
+				"current_trade_date": {
+					"name": "本钢板材",
+					"industry": "普钢",
+					"area": "辽宁",
+					"ts_code": "000761.SZ",
+					"trade_date": "20220419",
+					"open": 4.45,
+					"high": 4.55,
+					"low": 4.41,
+					"close": 4.51,
+					"pre_close": 4.43,
+					"change": 0.08,
+					"pct_chg": 1.8059,
+					"vol": 247213.86,
+					"amount": 110893.267,
+					"current_yield": {
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 (+收益率)/(-回撤率)(%)",
+						"value": 32.258064516129025
+					},
+					"current_hold_day": {
+						"value": 511,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 持有天数"
+					},
+					"current_average_day_yield": {
+						"value": 0.06312732782021335,
+						"chinese_desc": "buy_point_date持有到 当前20220419交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			}

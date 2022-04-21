@@ -15,22 +15,40 @@ export class FLexLayoutWrapper extends React.PureComponent {
         };
     }
     async componentDidMount () {
-      const stockHistoryList = await this.getStockHistory(); // 过滤的低谷股票列表
-      console.log("stockHistoryList", stockHistoryList)// 低估股票历史数据
-      // console.log("stockHistoryList", stockHistoryList['002067.SZ'])// 低估股票历史数据
+      const lowStockList = await this.getLowStock();
+      console.log("lowStockList", lowStockList)
+      // console.log("lowStockList.lenght", lowStockList[tradeDate].length)
 
-      const analyseStock = await this.getAnalyseStock(); // 过滤的低谷股票列表
-      console.log("analyseStock", analyseStock)// 低估股票历史数据
+      const stockHistoryList = await this.getStockHistory();
+      console.log("stockHistoryList", stockHistoryList)
+      console.log("stockHistoryList.length", Object.values(stockHistoryList))
 
 
-      const buyPointReportList = await this.getBuyPointReport(); // 过滤的低谷股票列表
+      // console.log("stockHistoryList", stockHistoryList['002067.SZ'])
+
+      const analyseStock = await this.getAnalyseStock();
+      console.log("analyseStock", analyseStock)
+      console.log('analyseStock.length', this.deepFlatten(analyseStock.formatBuyPointStockItem).length)
+
+
+      const buyPointReportList = await this.getBuyPointReport();
       console.log('buyPointReportList', buyPointReportList)
-      console.log('length', this.deepFlatten(analyseStock.formatBuyPointStockItem).length)
       
     }
 
     deepFlatten = arr => [].concat(...arr.map(v => (Array.isArray(v) ? this.deepFlatten(v) : v)))    
 
+
+    getLowStock = async () => {
+      return await fetch('./database/low-valuations-stock-list.json', {
+        method: "GET",
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+          },
+      })
+      .then(response => response.json())
+    }
 
     getStockHistory = async () => {
       return await fetch('./database/stock-history.json', {
