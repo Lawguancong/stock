@@ -15,6 +15,36 @@ export class FLexLayoutWrapper extends React.PureComponent {
         };
     }
     async componentDidMount () {
+
+      // const aaa = await axios.post(`https://api.tushare.pro`, {
+      //     api_name: 'bak_basic', // bak_daily: 每日最多50次请求
+      //     // api_name: 'daily',  // daily 接口可以用很多次
+      //     token: '570dcc44159a349b38caea234613cbdcecddc365716efd3335bf13cf',
+      //     params: {
+      //       // trade_date: '20220424',
+
+      //       ts_code: "000616.SZ",
+			// 	// "ts_code": "000616.SZ",
+
+      //     },
+      //     fields: null,
+      // })
+
+    //   const aa2 = await axios.post(`https://api.tushare.pro`, {
+    //     api_name: 'bak_daily', // bak_daily: 每日最多50次请求
+    //     // api_name: 'daily',  // daily 接口可以用很多次
+    //     token: '570dcc44159a349b38caea234613cbdcecddc365716efd3335bf13cf',
+    //     params: {
+    //       trade_date: '20220425',
+
+    //       // ts_code: "000616.SZ",
+    //   // "ts_code": "000616.SZ",
+
+    //     },
+    //     fields: null,
+    // })
+
+      // return
       const lowStockList = await this.getLowStock();
       console.log("lowStockList", lowStockList)
       // console.log("lowStockList.lenght", lowStockList[tradeDate].length)

@@ -4,16 +4,19 @@
 
 module.exports = {
     token: '570dcc44159a349b38caea234613cbdcecddc365716efd3335bf13cf',
-    tradeDate: '20220419',
+    preDay: 2000, // 向前多少天 非交易日；超过2000，分析报告失真，以前可能是高估值的
+    latest_trade_date: '20220422',
+    tradeDate: '20220426',
     // tradeDate: '20210224',
-    // tradeDate: '20200331',
     // tradeDate: '20201019',
-
-
-    // tradeDate: '20190110',
+    // tradeDate: '20200331',
     // tradeDate: '20200110',
 
-    preDay: 2000, // 向前多少天 非交易日；超过2000，分析报告失真，以前可能是高估值的
+
+    // tradeDate: '20190403',
+
+    // tradeDate: '20190122',
+    // tradeDate: '20190110',
 
 
 

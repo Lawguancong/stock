@@ -19,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "analyse-stock:latest": "node server/get-all-stock-list.js && node server/get-low-valuations-stock.js && node server/get-stock-history.js &&  node server/analyse-stock.js && node server/buy-point-report.js ",
+    "get-low-valuations-stock": "node server/get-low-valuations-stock.js && node server/get-stock-history.js &&  node server/analyse-stock.js && node server/buy-point-report.js "
   },
   "devDependencies": {},
   "browserslist": {

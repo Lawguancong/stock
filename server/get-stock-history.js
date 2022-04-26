@@ -53,6 +53,7 @@ function patchFetchStock(stockList) {
   stockList.forEach(async (item, idx) => {
     try {
       await getData(item)
+      console.log('try - Object.values(temp).length', Object.values(temp).length)
       if (stockList.length === Object.values(temp).length) {
       // if (stockList.length === Object.keys(temp).length) {
       // if (stockList.length === Object.entries(temp).length) {
@@ -68,7 +69,18 @@ function patchFetchStock(stockList) {
       }
     } catch (e) {
       // console.log('e',e )
+      errorList.push(item)
+
+
       console.log('item', item)
+      console.log('stockList.length', stockList.length)
+      console.log('errorList.length', errorList.length)
+      console.log('Object.values(temp).length', Object.values(temp).length)
+      if (stockList.length === (Object.values(temp).length + errorList.length)) {
+        const newArr = cloneDeep(errorList)
+        errorList = [];
+        patchFetchStock(newArr);
+      }
       console.log('errorCatchDatabase[tradeDate]', errorCatchDatabase[tradeDate])
       // let str2 = JSON.stringify({
       //   ...errorCatchDatabase,

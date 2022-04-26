@@ -3,10 +3,16 @@ const { resolve } = require('path');
 const fs = require('fs');
 const getPathBySource = (...paths) => resolve(__dirname, '../', ...paths);
 const stockHistoryDatabase = require('../public/database/stock-history.json');
+const allStockListDatabase = require('../public/database/all-stock-list.json');
 const analyseStockPath = getPathBySource('./public/database/analyse-stock.json');
 const { map, get, join, minBy, maxBy, reverse, sortBy, cloneDeep } =  require('loadsh');
 const moment = require('moment');
+
+
+const dayTimes = (24 * 60 * 60 * 1000);
+
 const { 
+  latest_trade_date,
   tradeDate, 
   preDay, 
   token,
@@ -59,8 +65,8 @@ function getBuyPoint({
     }
 
     const pre_0_currentDate = rangeDate[rangeDate.length - 1] || {} // 最近一个交易日的数据
-    const flat_industry = ['银行'].includes(pre_0_currentDate.industry); // 过滤特殊行业
-    if (flat_industry) continue;
+    // const flat_industry = ['银行'].includes(pre_0_currentDate.industry); // 过滤特殊行业
+    // if (flat_industry) continue;
     const pre_1_currentDate = rangeDate[rangeDate.length - 2] || {} // 最近一个交易日的前1天
     const pre_2_currentDate = rangeDate[rangeDate.length - 3] || {} // 最近一个交易日的前2天
     const up_3 = (pre_2_currentDate[close_key] > pre_2_currentDate[open_key]) || (pre_2_currentDate[close_key] === pre_2_currentDate[open_key] && pre_2_currentDate[close_key] > pre_2_currentDate[pre_close_key])//  阳线
@@ -77,8 +83,8 @@ function getBuyPoint({
     const min_low_obj = [...rangeDate].sort((prev, next) => prev[low_key] - next[low_key])[0]
     const flat1 = (pre_0_currentDate[close_key] / min_low_obj[low_key]) // < 1.1; （最近一个交易日的收盘价 - 最低价） / 最低价；最近 dayNum
     const flat2 = (pre_0_currentDate[vol_key] / min_low_obj[vol_key]) //< 1.1；（最近一个交易日的成交量 - 最低价的成交量） / 最低价；最近 dayNum
-    const flat3 = (pre_0_currentDate[vol_key] / sort_min_vol[Math.floor(sort_min_vol.length / 50)][vol_key]) //< 1.1； 最近 pre_trade_date TD相对比较低成交量
-    const flat10 = (pre_0_currentDate[vol_key] / half_trade_date_range[Math.floor(half_trade_date_range.length / 50)][vol_key]) // 
+    const flat3 = (pre_0_currentDate[vol_key] / sort_min_vol[Math.floor(sort_min_vol.length / 10)][vol_key]) //< 1.1； 最近 pre_trade_date TD相对比较低成交量
+    const flat10 = (pre_0_currentDate[vol_key] / half_trade_date_range[Math.floor(half_trade_date_range.length / 10)][vol_key]) // 
     // todo W底判断。。 至少2重底 3重底
     if(!(
       flat1 <= 1.10
@@ -105,26 +111,34 @@ function getBuyPoint({
   
     const current_trade_date = sourceData[sourceData.length - 1];
 
+    // console.log('allStockListDatabase', allStockListDatabase[latest_trade_date].formatItems[0])
+    // console.log('allStockListDatabase', allStockListDatabase[latest_trade_date].formatItems.find(item => item[ts_code_key] === pre_0_currentDate[ts_code_key]))
+      // const current_trade_date = allStockListDatabase[latest_trade_date].formatItems.find(item => item[ts_code_key] === pre_0_currentDate[ts_code_key])
+      // console.log('current_trade_date', current_trade_date)
+
+
     const current_yield = ((current_trade_date[close_key] / pre_0_currentDate[close_key]) - 1) * 100;
-    const current_hold_day = (moment(current_trade_date[trade_date_key]).valueOf() - moment(pre_0_currentDate[trade_date_key]).valueOf()) / (24 * 60 * 60 * 1000)
-    console.log('current_hold_day', current_hold_day)
-    // buy_point_date持有到 当前trade_date 收益率 平均 最高 最低
-    // buy_point_date持有到 当前trade_date 回撤率 平均 最高 最低
+    const current_hold_day = (moment(current_trade_date[trade_date_key]).valueOf() - moment(pre_0_currentDate[trade_date_key]).valueOf()) / (dayTimes)
+    // console.log('current_hold_day', current_hold_day)
+
+
+    // 在买点持有到 当前trade_date 收益率 平均 最高 最低
+    // 在买点持有到 当前trade_date 回撤率 平均 最高 最低
 
 
     // todo 180 360天 涨幅 回撤？
     if (re_trade_date) {
-      re_day = (moment(re_trade_date[trade_date_key]).valueOf() - moment(pre_0_currentDate[trade_date_key]).valueOf()) / (24 * 60 * 60 * 1000)
+      re_day = (moment(re_trade_date[trade_date_key]).valueOf() - moment(pre_0_currentDate[trade_date_key]).valueOf()) / (dayTimes)
       low_percent = 0;
       low_day = 0
     }
     if (high_trade_date) {
       high_percent =  (((Number(high_trade_date[high_key]) - Number(pre_0_currentDate[close_key])) / Number(pre_0_currentDate[close_key])) * 100)
-      high_day = (moment(high_trade_date[trade_date_key]).valueOf() - moment(pre_0_currentDate[trade_date_key]).valueOf()) / (24 * 60 * 60 * 1000) 
+      high_day = (moment(high_trade_date[trade_date_key]).valueOf() - moment(pre_0_currentDate[trade_date_key]).valueOf()) / (dayTimes) 
     }
     if (low_trade_date) {
       low_percent =  (((Number(pre_0_currentDate[close_key]) - Number(low_trade_date[low_key])) / Number(pre_0_currentDate[close_key])) * 100) 
-      low_day = (moment(low_trade_date[trade_date_key]).valueOf() - moment(pre_0_currentDate[trade_date_key]).valueOf()) / (24 * 60 * 60 * 1000)
+      low_day = (moment(low_trade_date[trade_date_key]).valueOf() - moment(pre_0_currentDate[trade_date_key]).valueOf()) / (dayTimes)
     }
     const params = {
       chinese_desc: '买点交易日',
@@ -163,16 +177,16 @@ function getBuyPoint({
       current_trade_date: {
         ...current_trade_date,
         current_yield: {
-          chinese_desc: `buy_point_date持有到 当前${tradeDate}交易日 (+收益率)/(-回撤率)(%)`,
+          chinese_desc: `在买点持有到 当前${tradeDate}交易日 总(+收益率)/(-回撤率)(%)`,
           value: current_yield,
         },
         current_hold_day : {
           value: current_hold_day,
-          chinese_desc: `buy_point_date持有到 当前${tradeDate}交易日 持有天数`,
+          chinese_desc: `在买点持有到 当前${tradeDate}交易日 持有天数`,
         },
-        current_average_day_yield: {
+        current_daily_yield: {
           value: current_yield / current_hold_day,
-          chinese_desc: `buy_point_date持有到 当前${tradeDate}交易日 平均每天(+收益率)/(-回撤率)(%)`,
+          chinese_desc: `在买点持有到 当前${tradeDate}交易日 平均每天(+收益率)/(-回撤率)(%)`,
         }
       }
     }
