@@ -15,5 +15,19 @@
 11. 为啥 // tradeDate: '20190110', 很多 buy_point_date未来走跌？ 基本面变坏？
 12. current_trade_date 取 all-stock-list // 不行 数据结构不对
 
+pe < 1.1 倍数 pe是 短期 盈利的表现  也要考虑 buy-pointdate 的 pe是否在低位
+pb < 1.1 倍数 pb是 长期 安全边际的表现
+
+
 筛选 高 ROE
 // 成交量平稳  方差 平方
+
+
+
+sell-point-trade-date
+
+
+// 备用列表：bak_basic https://tushare.pro/document/2?doc_id=262
+
+// 备用行情：bak_daily https://tushare.pro/document/2?doc_id=255
+

@@ -12,7 +12,6 @@ const moment = require('moment');
 const dayTimes = (24 * 60 * 60 * 1000);
 
 const { 
-  latest_trade_date,
   tradeDate, 
   preDay, 
   token,
@@ -39,32 +38,33 @@ function getBuyPoint({
   formatItems, 
 }) {
   let trade_date_range = 800;// 样本范围
-  let pre_trade_date = 600;// 先前多少个交易日
+  let pre_trade_date = 100;// 先前多少个交易日；太多没意义，可能不符合 低估的
   if (formatItems.length < trade_date_range) {
     trade_date_range = formatItems.length;
     pre_trade_date = 0;
   } else if (formatItems.length < (trade_date_range + pre_trade_date)) {
     pre_trade_date = formatItems.length - trade_date_range;
   }
-  let changeList = []
-  for (let i = pre_trade_date ; i > 0; i--) {
+  let changeList = [];
+  let sellPointList = [];
+  for (let i = pre_trade_date ; i >= 0; i--) {
     const sourceData = [...formatItems].reverse();
-    let rangeDate = [...sourceData].slice(-trade_date_range - i, -i);
-    const shouldConsole =  rangeDate[rangeDate.length - 1][ts_code_key] === "000900.SZ" && rangeDate[rangeDate.length - 1][trade_date_key] === "20210811" && true
-    if (shouldConsole) {
-      // console.log('flat1', flat1, flat1 < 1.10)
-      // console.log('flat2', flat2, flat2 < 1.10)
-      // console.log('flat3', flat3, flat3 < 1.10)
-      // console.log('flat10', flat10, flat10 < 1.10)
-      // console.log('1连阳', up_3)
-      // console.log('2连阳', up_2)
-      // console.log('3连阳', up_1)
-      // console.log('保证趋势向上', flat7)
-      // console.log('< 0.2 如果是急跌,则筑底不够稳', flat8, flat8 < 0.2)
-      // console.log('成交量逐渐放量', flat9)
+    let rangeDate = []
+    if (i === 0) {
+      rangeDate = [...sourceData].slice(-trade_date_range);
+    } else { 
+      rangeDate = [...sourceData].slice(-trade_date_range - i, -i);
     }
+    // console.log('_____________________')
+    // console.log('trade_date_range', trade_date_range)
+    // console.log('pre_trade_date', pre_trade_date)
+    // console.log('rangeDate', rangeDate[0].trade_date)
+    // console.log('rangeDate', rangeDate[rangeDate.length-1].trade_date)
+    
+
 
     const pre_0_currentDate = rangeDate[rangeDate.length - 1] || {} // 最近一个交易日的数据
+    // console.log('pre_0_currentDate', pre_0_currentDate[trade_date_key])
     // const flat_industry = ['银行'].includes(pre_0_currentDate.industry); // 过滤特殊行业
     // if (flat_industry) continue;
     const pre_1_currentDate = rangeDate[rangeDate.length - 2] || {} // 最近一个交易日的前1天
@@ -78,28 +78,86 @@ function getBuyPoint({
     if (!flat7) continue;
     if (!flat9) continue;
     const sort_min_vol = [...rangeDate].sort((prev, next) => prev[vol_key] - next[vol_key]) // vol 从小到大排序，然后去掉前10，取第【10】；前10可能太小 有误差
-    const half_trade_date_range = [...rangeDate].slice(-trade_date_range / 2); // 该交易日最近200交易日区间
+    const sort_min_vol_half_trade_date_range = [...rangeDate].slice(-trade_date_range / 2).sort((prev, next) => prev[vol_key] - next[vol_key]); // 该交易日最近200交易日区间
     const pre_0_currentDate_pct_change = pre_0_currentDate[pct_chg_key] || 0 // 涨跌幅
     const min_low_obj = [...rangeDate].sort((prev, next) => prev[low_key] - next[low_key])[0]
-    const flat1 = (pre_0_currentDate[close_key] / min_low_obj[low_key]) // < 1.1; （最近一个交易日的收盘价 - 最低价） / 最低价；最近 dayNum
-    const flat2 = (pre_0_currentDate[vol_key] / min_low_obj[vol_key]) //< 1.1；（最近一个交易日的成交量 - 最低价的成交量） / 最低价；最近 dayNum
+    const flat1 = (pre_0_currentDate[close_key] / min_low_obj[low_key]) // < 1.1; （最近一个交易日的收盘价 / 最低价）；最近 dayNum
+    const flat2 = (pre_0_currentDate[vol_key] / min_low_obj[vol_key]) //< 1.1；（最近一个交易日的成交量 / 最低价的成交量）；最近 dayNum
     const flat3 = (pre_0_currentDate[vol_key] / sort_min_vol[Math.floor(sort_min_vol.length / 10)][vol_key]) //< 1.1； 最近 pre_trade_date TD相对比较低成交量
-    const flat10 = (pre_0_currentDate[vol_key] / half_trade_date_range[Math.floor(half_trade_date_range.length / 10)][vol_key]) // 
+    const flat10 = (pre_0_currentDate[vol_key] / sort_min_vol_half_trade_date_range[Math.floor(sort_min_vol_half_trade_date_range.length / 10)][vol_key]) // 
     // todo W底判断。。 至少2重底 3重底
     if(!(
       flat1 <= 1.10
       && flat2 <= 1.10
       &&  
       (
-        ((flat3 <= 1.10|| flat10 <= 1.10))
-        || ((flat3 <= 1.25 || flat10 <= 1.25) && pre_0_currentDate_pct_change > 1)
-        || ((flat3 <= 1.5 || flat10 <= 1.5) && pre_0_currentDate_pct_change > 1.5)
-        || ((flat3 <= 1.75 || flat10 <= 1.75) && pre_0_currentDate_pct_change > 2)
-        || ((flat3 <= 2 || flat10 <= 2) && pre_0_currentDate_pct_change > 2.5)
-        || ((flat3 <= 2.25 || flat10 <= 2.25) && pre_0_currentDate_pct_change > 3)
-        || ((flat3 <= 2.5 || flat10 <= 2.5) && pre_0_currentDate_pct_change > 3.5)
+        flat3 <= 1.10
+        || ((flat3 <= 1.25) && pre_0_currentDate_pct_change > 1)
+        || ((flat3 <= 1.5) && pre_0_currentDate_pct_change > 1.5)
+        || ((flat3 <= 1.75) && pre_0_currentDate_pct_change > 2)
+        || ((flat3 <= 2) && pre_0_currentDate_pct_change > 2.5)
+        || ((flat3 <= 2.25) && pre_0_currentDate_pct_change > 3)
+        || ((flat3 <= 2.5) && pre_0_currentDate_pct_change > 3.5)
+
+        // || ((flat3 <= 1.10 || flat10 <= 1.10))
+        // || ((flat3 <= 1.25 || flat10 <= 1.25) && pre_0_currentDate_pct_change > 1)
+        // || ((flat3 <= 1.5 || flat10 <= 1.5) && pre_0_currentDate_pct_change > 1.5)
+        // || ((flat3 <= 1.75 || flat10 <= 1.75) && pre_0_currentDate_pct_change > 2)
+        // || ((flat3 <= 2 || flat10 <= 2) && pre_0_currentDate_pct_change > 2.5)
+        // || ((flat3 <= 2.25 || flat10 <= 2.25) && pre_0_currentDate_pct_change > 3)
+        // || ((flat3 <= 2.5 || flat10 <= 2.5) && pre_0_currentDate_pct_change > 3.5)
       )
     )) continue;
+
+    const shouldConsole =  (
+      rangeDate[rangeDate.length - 1][ts_code_key] === "002853.SZ"
+      // && rangeDate[rangeDate.length - 1][trade_date_key] === "20200618" 
+      && true
+      )
+   
+    // if (shouldConsole) {
+
+    //   const trade_date_range_100 = [...rangeDate].slice(-20).map(item => item[vol_key]); // 该交易日最近200交易日区间
+    //   const vol_total = trade_date_range_100.reduce((prev, next) => prev + next, 0);
+   
+  
+    //   const vol_average = vol_total / trade_date_range_100.length
+    //   const fangcha = trade_date_range_100.reduce((prev, next) => {
+    //       return prev + ((next - vol_average) * (next - vol_average))
+    //   }, 0)
+    //   const xxx = fangcha / (vol_average * vol_average)
+  
+    //     // console.log('trade_date_range_100', trade_date_range_100)
+    //   console.log('---------------------------------')
+    //   console.log('rangeDate[rangeDate.length - 1][trade_date_key]', rangeDate[rangeDate.length - 1][trade_date_key])
+    //   // console.log('trade_date_range_1 ', trade_date_range_100[0])
+    //   // console.log('trade_date_range_100[trade_date_range_100.length-1], ', trade_date_range_100[trade_date_range_100.length-1])
+    //   // console.log('vol_totalobj', vol_total)
+    //   // console.log('vol_average', vol_average)
+    //   // console.log('fangcha', fangcha)
+    //   console.log('xxx', xxx)
+    //   if (xxx > 3) continue;
+  
+    //     // console.log('flat1', flat1, flat1 < 1.10)
+    //     // console.log('flat2', flat2, flat2 < 1.10)
+    //     // console.log('flat3', flat3, flat3 < 1.10)
+    //     // console.log('flat10', flat10, flat10 < 1.10)
+    //     // console.log('1连阳', up_3)
+    //     // console.log('2连阳', up_2)
+    //     // console.log('3连阳', up_1)
+    //     // console.log('保证趋势向上', flat7)
+    //     // console.log('< 0.2 如果是急跌,则筑底不够稳', flat8, flat8 < 0.2)
+    //     // console.log('成交量逐渐放量', flat9)
+    //     // if (
+    //     //   flat3 >= 10
+    //     //   && pre_0_currentDate[pct_chg_key] < 0
+    //     //   && (pre_0_currentDate[open_key] < pre_0_currentDate[pre_close_key])
+    //     //   ) {
+    
+    //     //     console.log('放量跌', pre_0_currentDate)
+    //     //   }
+  
+    //   }
     let re_day = -1;  // 回本天数
     let high_percent = -1;  // 涨幅比例(%)
     let high_day = -1; // 涨幅天数
@@ -111,10 +169,6 @@ function getBuyPoint({
   
     const current_trade_date = sourceData[sourceData.length - 1];
 
-    // console.log('allStockListDatabase', allStockListDatabase[latest_trade_date].formatItems[0])
-    // console.log('allStockListDatabase', allStockListDatabase[latest_trade_date].formatItems.find(item => item[ts_code_key] === pre_0_currentDate[ts_code_key]))
-      // const current_trade_date = allStockListDatabase[latest_trade_date].formatItems.find(item => item[ts_code_key] === pre_0_currentDate[ts_code_key])
-      // console.log('current_trade_date', current_trade_date)
 
 
     const current_yield = ((current_trade_date[close_key] / pre_0_currentDate[close_key]) - 1) * 100;

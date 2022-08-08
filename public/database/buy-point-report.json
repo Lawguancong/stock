@@ -2,139 +2,623 @@
 	"other": {
 		"invalid": {
 			"chinese_desc": "最差买点（最大收益<最大回撤）",
-			"invalid_num": 12,
+			"invalid_num": 8,
 			"invalid_trade_date": [
 				{
-					"name": "闰土股份",
-					"industry": "染料涂料",
-					"area": "浙江",
-					"buy_point_date": "20211102",
-					"close": 9.05,
+					"name": "碧水源",
+					"industry": "环境保护",
+					"area": "北京",
+					"buy_point_date": "20220401",
+					"close": 5.97,
 					"chinese_desc": "买点交易日",
-					"ts_code": "002440.SZ",
+					"ts_code": "300070.SZ",
 					"re_trade_date": {
-						"name": "闰土股份",
-						"industry": "染料涂料",
-						"area": "浙江",
-						"ts_code": "002440.SZ",
-						"trade_date": "20211103",
-						"open": 9.13,
-						"high": 9.16,
-						"low": 9.05,
-						"close": 9.07,
-						"pre_close": 9.05,
-						"change": 0.02,
-						"pct_chg": 0.221,
-						"vol": 54827.17,
-						"amount": 49994.977,
+						"name": "碧水源",
+						"industry": "环境保护",
+						"area": "北京",
+						"ts_code": "300070.SZ",
+						"trade_date": "20220406",
+						"open": 5.95,
+						"high": 6.09,
+						"low": 5.93,
+						"close": 6.08,
+						"pre_close": 5.97,
+						"change": 0.11,
+						"pct_chg": 1.8425,
+						"vol": 222466.43,
+						"amount": 134280.172,
 						"chinese_desc": "回本交易日",
 						"re_day": {
-							"value": 1,
+							"value": 5,
 							"chinese_desc": "回本天数"
 						}
 					},
 					"low_trade_date": {
-						"name": "闰土股份",
-						"industry": "染料涂料",
-						"area": "浙江",
-						"ts_code": "002440.SZ",
-						"trade_date": "20220426",
-						"open": 7.72,
-						"high": 7.83,
-						"low": 7.5,
-						"close": 7.53,
-						"pre_close": 7.69,
-						"change": -0.16,
-						"pct_chg": -2.0806,
-						"vol": 107039.53,
-						"amount": 81910.216,
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 17.127071823204425,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 175,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "闰土股份",
-						"industry": "染料涂料",
-						"area": "浙江",
-						"ts_code": "002440.SZ",
-						"trade_date": "20220111",
-						"open": 9.67,
-						"high": 10.28,
-						"low": 9.62,
-						"close": 10,
-						"pre_close": 9.66,
-						"change": 0.34,
-						"pct_chg": 3.5197,
-						"vol": 290897,
-						"amount": 289139.123,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 13.591160220994459,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 70,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "闰土股份",
-						"industry": "染料涂料",
-						"area": "浙江",
-						"ts_code": "002440.SZ",
-						"trade_date": "20220426",
-						"open": 7.72,
-						"high": 7.83,
-						"low": 7.5,
-						"close": 7.53,
-						"pre_close": 7.69,
-						"change": -0.16,
-						"pct_chg": -2.0806,
-						"vol": 107039.53,
-						"amount": 81910.216,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": -16.795580110497244
-						},
-						"current_hold_day": {
-							"value": 175,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": -0.09597474348855568,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "闰土股份",
-					"industry": "染料涂料",
-					"area": "浙江",
-					"buy_point_date": "20211202",
-					"close": 9.15,
-					"chinese_desc": "买点交易日",
-					"ts_code": "002440.SZ",
-					"re_trade_date": {
-						"name": "闰土股份",
-						"industry": "染料涂料",
-						"area": "浙江",
-						"ts_code": "002440.SZ",
-						"trade_date": "20211203",
-						"open": 9.22,
-						"high": 9.23,
-						"low": 9.11,
-						"close": 9.2,
-						"pre_close": 9.15,
+						"name": "碧水源",
+						"industry": "环境保护",
+						"area": "北京",
+						"ts_code": "300070.SZ",
+						"trade_date": "20220427",
+						"open": 4.55,
+						"high": 4.64,
+						"low": 4.43,
+						"close": 4.61,
+						"pre_close": 4.56,
 						"change": 0.05,
-						"pct_chg": 0.5464,
-						"vol": 54191.87,
-						"amount": 49714.093,
+						"pct_chg": 1.0965,
+						"vol": 435830.13,
+						"amount": 197866.719,
+						"chinese_desc": "最低价格交易日",
+						"low_percent": {
+							"value": 25.795644891122283,
+							"chinese_desc": "回撤比例(%)"
+						},
+						"low_day": {
+							"value": 26,
+							"chinese_desc": "回撤天数"
+						}
+					},
+					"high_trade_date": {
+						"name": "碧水源",
+						"industry": "环境保护",
+						"area": "北京",
+						"ts_code": "300070.SZ",
+						"trade_date": "20220406",
+						"open": 5.95,
+						"high": 6.09,
+						"low": 5.93,
+						"close": 6.08,
+						"pre_close": 5.97,
+						"change": 0.11,
+						"pct_chg": 1.8425,
+						"vol": 222466.43,
+						"amount": 134280.172,
+						"chinese_desc": "最高价格交易日",
+						"high_percent": {
+							"value": 2.010050251256283,
+							"chinese_desc": "涨幅比例(%)"
+						},
+						"high_day": {
+							"value": 5,
+							"chinese_desc": "涨幅天数"
+						}
+					},
+					"current_trade_date": {
+						"name": "碧水源",
+						"industry": "环境保护",
+						"area": "北京",
+						"ts_code": "300070.SZ",
+						"trade_date": "20220627",
+						"open": 4.93,
+						"high": 5.05,
+						"low": 4.92,
+						"close": 5.02,
+						"pre_close": 4.9,
+						"change": 0.12,
+						"pct_chg": 2.449,
+						"vol": 504921.81,
+						"amount": 252273.861,
+						"current_yield": {
+							"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+							"value": -15.91289782244556
+						},
+						"current_hold_day": {
+							"value": 87,
+							"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
+						},
+						"current_daily_yield": {
+							"value": -0.18290687152236276,
+							"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
+						}
+					}
+				},
+				{
+					"name": "碧水源",
+					"industry": "环境保护",
+					"area": "北京",
+					"buy_point_date": "20220406",
+					"close": 6.08,
+					"chinese_desc": "买点交易日",
+					"ts_code": "300070.SZ",
+					"re_trade_date": {
+						"chinese_desc": "回本交易日",
+						"re_day": {
+							"value": -1,
+							"chinese_desc": "回本天数"
+						}
+					},
+					"low_trade_date": {
+						"name": "碧水源",
+						"industry": "环境保护",
+						"area": "北京",
+						"ts_code": "300070.SZ",
+						"trade_date": "20220427",
+						"open": 4.55,
+						"high": 4.64,
+						"low": 4.43,
+						"close": 4.61,
+						"pre_close": 4.56,
+						"change": 0.05,
+						"pct_chg": 1.0965,
+						"vol": 435830.13,
+						"amount": 197866.719,
+						"chinese_desc": "最低价格交易日",
+						"low_percent": {
+							"value": 27.138157894736846,
+							"chinese_desc": "回撤比例(%)"
+						},
+						"low_day": {
+							"value": 21,
+							"chinese_desc": "回撤天数"
+						}
+					},
+					"high_trade_date": {
+						"chinese_desc": "最高价格交易日",
+						"high_percent": {
+							"value": -1,
+							"chinese_desc": "涨幅比例(%)"
+						},
+						"high_day": {
+							"value": -1,
+							"chinese_desc": "涨幅天数"
+						}
+					},
+					"current_trade_date": {
+						"name": "碧水源",
+						"industry": "环境保护",
+						"area": "北京",
+						"ts_code": "300070.SZ",
+						"trade_date": "20220627",
+						"open": 4.93,
+						"high": 5.05,
+						"low": 4.92,
+						"close": 5.02,
+						"pre_close": 4.9,
+						"change": 0.12,
+						"pct_chg": 2.449,
+						"vol": 504921.81,
+						"amount": 252273.861,
+						"current_yield": {
+							"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+							"value": -17.434210526315795
+						},
+						"current_hold_day": {
+							"value": 82,
+							"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
+						},
+						"current_daily_yield": {
+							"value": -0.21261232349165604,
+							"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
+						}
+					}
+				},
+				{
+					"name": "好想你",
+					"industry": "食品",
+					"area": "河南",
+					"buy_point_date": "20220322",
+					"close": 7.88,
+					"chinese_desc": "买点交易日",
+					"ts_code": "002582.SZ",
+					"re_trade_date": {
+						"name": "好想你",
+						"industry": "食品",
+						"area": "河南",
+						"ts_code": "002582.SZ",
+						"trade_date": "20220325",
+						"open": 7.79,
+						"high": 7.94,
+						"low": 7.79,
+						"close": 7.9,
+						"pre_close": 7.82,
+						"change": 0.08,
+						"pct_chg": 1.023,
+						"vol": 22072,
+						"amount": 17410.37,
+						"chinese_desc": "回本交易日",
+						"re_day": {
+							"value": 3,
+							"chinese_desc": "回本天数"
+						}
+					},
+					"low_trade_date": {
+						"name": "好想你",
+						"industry": "食品",
+						"area": "河南",
+						"ts_code": "002582.SZ",
+						"trade_date": "20220427",
+						"open": 6.76,
+						"high": 6.93,
+						"low": 6.5,
+						"close": 6.93,
+						"pre_close": 6.82,
+						"change": 0.11,
+						"pct_chg": 1.6129,
+						"vol": 74015.02,
+						"amount": 49500.857,
+						"chinese_desc": "最低价格交易日",
+						"low_percent": {
+							"value": 17.512690355329948,
+							"chinese_desc": "回撤比例(%)"
+						},
+						"low_day": {
+							"value": 36,
+							"chinese_desc": "回撤天数"
+						}
+					},
+					"high_trade_date": {
+						"name": "好想你",
+						"industry": "食品",
+						"area": "河南",
+						"ts_code": "002582.SZ",
+						"trade_date": "20220420",
+						"open": 8.2,
+						"high": 8.55,
+						"low": 8.15,
+						"close": 8.4,
+						"pre_close": 8.21,
+						"change": 0.19,
+						"pct_chg": 2.3143,
+						"vol": 122763.93,
+						"amount": 102869.435,
+						"chinese_desc": "最高价格交易日",
+						"high_percent": {
+							"value": 8.502538071066,
+							"chinese_desc": "涨幅比例(%)"
+						},
+						"high_day": {
+							"value": 29,
+							"chinese_desc": "涨幅天数"
+						}
+					},
+					"current_trade_date": {
+						"name": "好想你",
+						"industry": "食品",
+						"area": "河南",
+						"ts_code": "002582.SZ",
+						"trade_date": "20220627",
+						"open": 7.45,
+						"high": 7.46,
+						"low": 7.3,
+						"close": 7.35,
+						"pre_close": 7.38,
+						"change": -0.03,
+						"pct_chg": -0.4065,
+						"vol": 65161.88,
+						"amount": 48060.117,
+						"current_yield": {
+							"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+							"value": -6.725888324873097
+						},
+						"current_hold_day": {
+							"value": 97,
+							"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
+						},
+						"current_daily_yield": {
+							"value": -0.06933905489559894,
+							"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
+						}
+					}
+				},
+				{
+					"name": "中国联通",
+					"industry": "电信运营",
+					"area": "北京",
+					"buy_point_date": "20220401",
+					"close": 3.58,
+					"chinese_desc": "买点交易日",
+					"ts_code": "600050.SH",
+					"re_trade_date": {
+						"name": "中国联通",
+						"industry": "电信运营",
+						"area": "北京",
+						"ts_code": "600050.SH",
+						"trade_date": "20220406",
+						"open": 3.57,
+						"high": 3.62,
+						"low": 3.56,
+						"close": 3.61,
+						"pre_close": 3.58,
+						"change": 0.03,
+						"pct_chg": 0.838,
+						"vol": 903855.41,
+						"amount": 324969.25,
+						"chinese_desc": "回本交易日",
+						"re_day": {
+							"value": 5,
+							"chinese_desc": "回本天数"
+						}
+					},
+					"low_trade_date": {
+						"name": "中国联通",
+						"industry": "电信运营",
+						"area": "北京",
+						"ts_code": "600050.SH",
+						"trade_date": "20220427",
+						"open": 3.41,
+						"high": 3.49,
+						"low": 3.39,
+						"close": 3.47,
+						"pre_close": 3.43,
+						"change": 0.04,
+						"pct_chg": 1.1662,
+						"vol": 1170528.79,
+						"amount": 404684.86,
+						"chinese_desc": "最低价格交易日",
+						"low_percent": {
+							"value": 5.3072625698324005,
+							"chinese_desc": "回撤比例(%)"
+						},
+						"low_day": {
+							"value": 26,
+							"chinese_desc": "回撤天数"
+						}
+					},
+					"high_trade_date": {
+						"name": "中国联通",
+						"industry": "电信运营",
+						"area": "北京",
+						"ts_code": "600050.SH",
+						"trade_date": "20220406",
+						"open": 3.57,
+						"high": 3.62,
+						"low": 3.56,
+						"close": 3.61,
+						"pre_close": 3.58,
+						"change": 0.03,
+						"pct_chg": 0.838,
+						"vol": 903855.41,
+						"amount": 324969.25,
+						"chinese_desc": "最高价格交易日",
+						"high_percent": {
+							"value": 1.1173184357541908,
+							"chinese_desc": "涨幅比例(%)"
+						},
+						"high_day": {
+							"value": 5,
+							"chinese_desc": "涨幅天数"
+						}
+					},
+					"current_trade_date": {
+						"name": "中国联通",
+						"industry": "电信运营",
+						"area": "北京",
+						"ts_code": "600050.SH",
+						"trade_date": "20220627",
+						"open": 3.48,
+						"high": 3.49,
+						"low": 3.47,
+						"close": 3.48,
+						"pre_close": 3.48,
+						"change": 0,
+						"pct_chg": 0,
+						"vol": 664262.52,
+						"amount": 231216.255,
+						"current_yield": {
+							"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+							"value": -2.7932960893854775
+						},
+						"current_hold_day": {
+							"value": 87,
+							"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
+						},
+						"current_daily_yield": {
+							"value": -0.032106851602131926,
+							"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
+						}
+					}
+				},
+				{
+					"name": "山鹰国际",
+					"industry": "造纸",
+					"area": "安徽",
+					"buy_point_date": "20220523",
+					"close": 2.83,
+					"chinese_desc": "买点交易日",
+					"ts_code": "600567.SH",
+					"re_trade_date": {
+						"name": "山鹰国际",
+						"industry": "造纸",
+						"area": "安徽",
+						"ts_code": "600567.SH",
+						"trade_date": "20220531",
+						"open": 2.8,
+						"high": 2.85,
+						"low": 2.8,
+						"close": 2.85,
+						"pre_close": 2.81,
+						"change": 0.04,
+						"pct_chg": 1.4235,
+						"vol": 368863.6,
+						"amount": 104543.241,
+						"chinese_desc": "回本交易日",
+						"re_day": {
+							"value": 8,
+							"chinese_desc": "回本天数"
+						}
+					},
+					"low_trade_date": {
+						"name": "山鹰国际",
+						"industry": "造纸",
+						"area": "安徽",
+						"ts_code": "600567.SH",
+						"trade_date": "20220614",
+						"open": 2.74,
+						"high": 2.78,
+						"low": 2.7,
+						"close": 2.78,
+						"pre_close": 2.74,
+						"change": 0.04,
+						"pct_chg": 1.4599,
+						"vol": 314078.41,
+						"amount": 86072.352,
+						"chinese_desc": "最低价格交易日",
+						"low_percent": {
+							"value": 4.593639575971728,
+							"chinese_desc": "回撤比例(%)"
+						},
+						"low_day": {
+							"value": 22,
+							"chinese_desc": "回撤天数"
+						}
+					},
+					"high_trade_date": {
+						"name": "山鹰国际",
+						"industry": "造纸",
+						"area": "安徽",
+						"ts_code": "600567.SH",
+						"trade_date": "20220616",
+						"open": 2.8,
+						"high": 2.89,
+						"low": 2.79,
+						"close": 2.83,
+						"pre_close": 2.8,
+						"change": 0.03,
+						"pct_chg": 1.0714,
+						"vol": 506669.71,
+						"amount": 143917.672,
+						"chinese_desc": "最高价格交易日",
+						"high_percent": {
+							"value": 2.1201413427561855,
+							"chinese_desc": "涨幅比例(%)"
+						},
+						"high_day": {
+							"value": 24,
+							"chinese_desc": "涨幅天数"
+						}
+					},
+					"current_trade_date": {
+						"name": "山鹰国际",
+						"industry": "造纸",
+						"area": "安徽",
+						"ts_code": "600567.SH",
+						"trade_date": "20220627",
+						"open": 2.76,
+						"high": 2.77,
+						"low": 2.75,
+						"close": 2.76,
+						"pre_close": 2.76,
+						"change": 0,
+						"pct_chg": 0,
+						"vol": 271658.84,
+						"amount": 74907.428,
+						"current_yield": {
+							"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+							"value": -2.473498233215554
+						},
+						"current_hold_day": {
+							"value": 35,
+							"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
+						},
+						"current_daily_yield": {
+							"value": -0.07067137809187297,
+							"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
+						}
+					}
+				},
+				{
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"buy_point_date": "20220303",
+					"close": 8.46,
+					"chinese_desc": "买点交易日",
+					"ts_code": "600000.SH",
+					"re_trade_date": {
+						"chinese_desc": "回本交易日",
+						"re_day": {
+							"value": -1,
+							"chinese_desc": "回本天数"
+						}
+					},
+					"low_trade_date": {
+						"name": "浦发银行",
+						"industry": "银行",
+						"area": "上海",
+						"ts_code": "600000.SH",
+						"trade_date": "20220316",
+						"open": 7.69,
+						"high": 7.8,
+						"low": 7.52,
+						"close": 7.77,
+						"pre_close": 7.63,
+						"change": 0.14,
+						"pct_chg": 1.8349,
+						"vol": 415200.83,
+						"amount": 318505.39,
+						"chinese_desc": "最低价格交易日",
+						"low_percent": {
+							"value": 11.111111111111125,
+							"chinese_desc": "回撤比例(%)"
+						},
+						"low_day": {
+							"value": 13,
+							"chinese_desc": "回撤天数"
+						}
+					},
+					"high_trade_date": {
+						"chinese_desc": "最高价格交易日",
+						"high_percent": {
+							"value": -1,
+							"chinese_desc": "涨幅比例(%)"
+						},
+						"high_day": {
+							"value": -1,
+							"chinese_desc": "涨幅天数"
+						}
+					},
+					"current_trade_date": {
+						"name": "浦发银行",
+						"industry": "银行",
+						"area": "上海",
+						"ts_code": "600000.SH",
+						"trade_date": "20220627",
+						"open": 7.95,
+						"high": 8.01,
+						"low": 7.94,
+						"close": 7.97,
+						"pre_close": 7.95,
+						"change": 0.02,
+						"pct_chg": 0.2516,
+						"vol": 240677.19,
+						"amount": 192131.006,
+						"current_yield": {
+							"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+							"value": -5.791962174940912
+						},
+						"current_hold_day": {
+							"value": 116,
+							"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
+						},
+						"current_daily_yield": {
+							"value": -0.049930708404663036,
+							"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
+						}
+					}
+				},
+				{
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"buy_point_date": "20220414",
+					"close": 8.11,
+					"chinese_desc": "买点交易日",
+					"ts_code": "600000.SH",
+					"re_trade_date": {
+						"name": "浦发银行",
+						"industry": "银行",
+						"area": "上海",
+						"ts_code": "600000.SH",
+						"trade_date": "20220415",
+						"open": 8.11,
+						"high": 8.18,
+						"low": 8.09,
+						"close": 8.15,
+						"pre_close": 8.11,
+						"change": 0.04,
+						"pct_chg": 0.4932,
+						"vol": 218119.56,
+						"amount": 177849.45,
 						"chinese_desc": "回本交易日",
 						"re_day": {
 							"value": 1,
@@ -142,156 +626,228 @@
 						}
 					},
 					"low_trade_date": {
-						"name": "闰土股份",
-						"industry": "染料涂料",
-						"area": "浙江",
-						"ts_code": "002440.SZ",
-						"trade_date": "20220426",
-						"open": 7.72,
-						"high": 7.83,
-						"low": 7.5,
-						"close": 7.53,
-						"pre_close": 7.69,
-						"change": -0.16,
-						"pct_chg": -2.0806,
-						"vol": 107039.53,
-						"amount": 81910.216,
+						"name": "浦发银行",
+						"industry": "银行",
+						"area": "上海",
+						"ts_code": "600000.SH",
+						"trade_date": "20220510",
+						"open": 7.8,
+						"high": 7.89,
+						"low": 7.71,
+						"close": 7.85,
+						"pre_close": 7.82,
+						"change": 0.03,
+						"pct_chg": 0.3836,
+						"vol": 329910.18,
+						"amount": 257366.422,
 						"chinese_desc": "最低价格交易日",
 						"low_percent": {
-							"value": 18.032786885245905,
+							"value": 4.932182490752152,
 							"chinese_desc": "回撤比例(%)"
 						},
 						"low_day": {
-							"value": 145,
+							"value": 26,
 							"chinese_desc": "回撤天数"
 						}
 					},
 					"high_trade_date": {
-						"name": "闰土股份",
-						"industry": "染料涂料",
-						"area": "浙江",
-						"ts_code": "002440.SZ",
-						"trade_date": "20220111",
-						"open": 9.67,
-						"high": 10.28,
-						"low": 9.62,
-						"close": 10,
-						"pre_close": 9.66,
-						"change": 0.34,
-						"pct_chg": 3.5197,
-						"vol": 290897,
-						"amount": 289139.123,
+						"name": "浦发银行",
+						"industry": "银行",
+						"area": "上海",
+						"ts_code": "600000.SH",
+						"trade_date": "20220415",
+						"open": 8.11,
+						"high": 8.18,
+						"low": 8.09,
+						"close": 8.15,
+						"pre_close": 8.11,
+						"change": 0.04,
+						"pct_chg": 0.4932,
+						"vol": 218119.56,
+						"amount": 177849.45,
 						"chinese_desc": "最高价格交易日",
 						"high_percent": {
-							"value": 12.349726775956272,
+							"value": 0.8631319358816312,
 							"chinese_desc": "涨幅比例(%)"
 						},
 						"high_day": {
-							"value": 40,
+							"value": 1,
 							"chinese_desc": "涨幅天数"
 						}
 					},
 					"current_trade_date": {
-						"name": "闰土股份",
-						"industry": "染料涂料",
-						"area": "浙江",
-						"ts_code": "002440.SZ",
-						"trade_date": "20220426",
-						"open": 7.72,
-						"high": 7.83,
-						"low": 7.5,
-						"close": 7.53,
-						"pre_close": 7.69,
-						"change": -0.16,
-						"pct_chg": -2.0806,
-						"vol": 107039.53,
-						"amount": 81910.216,
+						"name": "浦发银行",
+						"industry": "银行",
+						"area": "上海",
+						"ts_code": "600000.SH",
+						"trade_date": "20220627",
+						"open": 7.95,
+						"high": 8.01,
+						"low": 7.94,
+						"close": 7.97,
+						"pre_close": 7.95,
+						"change": 0.02,
+						"pct_chg": 0.2516,
+						"vol": 240677.19,
+						"amount": 192131.006,
 						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": -17.704918032786885
+							"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+							"value": -1.7262638717632561
 						},
 						"current_hold_day": {
-							"value": 145,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+							"value": 74,
+							"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 						},
 						"current_daily_yield": {
-							"value": -0.12210288298473713,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+							"value": -0.02332789015896292,
+							"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 						}
 					}
 				},
 				{
-					"name": "闰土股份",
-					"industry": "染料涂料",
-					"area": "浙江",
-					"buy_point_date": "20211221",
-					"close": 8.95,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"buy_point_date": "20220415",
+					"close": 8.15,
 					"chinese_desc": "买点交易日",
-					"ts_code": "002440.SZ",
+					"ts_code": "600000.SH",
 					"re_trade_date": {
-						"name": "闰土股份",
-						"industry": "染料涂料",
-						"area": "浙江",
-						"ts_code": "002440.SZ",
-						"trade_date": "20211223",
-						"open": 8.95,
-						"high": 8.97,
-						"low": 8.93,
-						"close": 8.96,
-						"pre_close": 8.93,
-						"change": 0.03,
-						"pct_chg": 0.3359,
-						"vol": 36137.68,
-						"amount": 32342.499,
 						"chinese_desc": "回本交易日",
 						"re_day": {
-							"value": 2,
+							"value": -1,
 							"chinese_desc": "回本天数"
 						}
 					},
 					"low_trade_date": {
-						"name": "闰土股份",
-						"industry": "染料涂料",
-						"area": "浙江",
-						"ts_code": "002440.SZ",
-						"trade_date": "20220426",
-						"open": 7.72,
-						"high": 7.83,
-						"low": 7.5,
-						"close": 7.53,
-						"pre_close": 7.69,
-						"change": -0.16,
-						"pct_chg": -2.0806,
-						"vol": 107039.53,
-						"amount": 81910.216,
+						"name": "浦发银行",
+						"industry": "银行",
+						"area": "上海",
+						"ts_code": "600000.SH",
+						"trade_date": "20220510",
+						"open": 7.8,
+						"high": 7.89,
+						"low": 7.71,
+						"close": 7.85,
+						"pre_close": 7.82,
+						"change": 0.03,
+						"pct_chg": 0.3836,
+						"vol": 329910.18,
+						"amount": 257366.422,
 						"chinese_desc": "最低价格交易日",
 						"low_percent": {
-							"value": 16.20111731843575,
+							"value": 5.398773006134974,
 							"chinese_desc": "回撤比例(%)"
 						},
 						"low_day": {
-							"value": 126,
+							"value": 25,
 							"chinese_desc": "回撤天数"
 						}
 					},
 					"high_trade_date": {
-						"name": "闰土股份",
-						"industry": "染料涂料",
-						"area": "浙江",
-						"ts_code": "002440.SZ",
-						"trade_date": "20220111",
-						"open": 9.67,
-						"high": 10.28,
-						"low": 9.62,
-						"close": 10,
-						"pre_close": 9.66,
-						"change": 0.34,
-						"pct_chg": 3.5197,
-						"vol": 290897,
-						"amount": 289139.123,
 						"chinese_desc": "最高价格交易日",
 						"high_percent": {
-							"value": 14.860335195530727,
+							"value": -1,
+							"chinese_desc": "涨幅比例(%)"
+						},
+						"high_day": {
+							"value": -1,
+							"chinese_desc": "涨幅天数"
+						}
+					},
+					"current_trade_date": {
+						"name": "浦发银行",
+						"industry": "银行",
+						"area": "上海",
+						"ts_code": "600000.SH",
+						"trade_date": "20220627",
+						"open": 7.95,
+						"high": 8.01,
+						"low": 7.94,
+						"close": 7.97,
+						"pre_close": 7.95,
+						"change": 0.02,
+						"pct_chg": 0.2516,
+						"vol": 240677.19,
+						"amount": 192131.006,
+						"current_yield": {
+							"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+							"value": -2.208588957055224
+						},
+						"current_hold_day": {
+							"value": 73,
+							"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
+						},
+						"current_daily_yield": {
+							"value": -0.030254643247331837,
+							"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
+						}
+					}
+				}
+			]
+		},
+		"low_percent_0_num": {
+			"chinese_desc": "最佳买点（无回撤）",
+			"value": 3,
+			"low_percent_0_trade_date": [
+				{
+					"name": "帝欧家居",
+					"industry": "家居用品",
+					"area": "四川",
+					"buy_point_date": "20220510",
+					"close": 8.79,
+					"chinese_desc": "买点交易日",
+					"ts_code": "002798.SZ",
+					"re_trade_date": {
+						"name": "帝欧家居",
+						"industry": "家居用品",
+						"area": "四川",
+						"ts_code": "002798.SZ",
+						"trade_date": "20220516",
+						"open": 8.85,
+						"high": 9.18,
+						"low": 8.78,
+						"close": 8.92,
+						"pre_close": 8.75,
+						"change": 0.17,
+						"pct_chg": 1.9429,
+						"vol": 42782.16,
+						"amount": 38226.009,
+						"chinese_desc": "回本交易日",
+						"re_day": {
+							"value": 6,
+							"chinese_desc": "回本天数"
+						}
+					},
+					"low_trade_date": {
+						"chinese_desc": "最低价格交易日",
+						"low_percent": {
+							"value": 0,
+							"chinese_desc": "回撤比例(%)"
+						},
+						"low_day": {
+							"value": 0,
+							"chinese_desc": "回撤天数"
+						}
+					},
+					"high_trade_date": {
+						"name": "帝欧家居",
+						"industry": "家居用品",
+						"area": "四川",
+						"ts_code": "002798.SZ",
+						"trade_date": "20220531",
+						"open": 9.72,
+						"high": 10.46,
+						"low": 9.51,
+						"close": 9.85,
+						"pre_close": 9.51,
+						"change": 0.34,
+						"pct_chg": 3.5752,
+						"vol": 197429.53,
+						"amount": 198853.746,
+						"chinese_desc": "最高价格交易日",
+						"high_percent": {
+							"value": 18.998862343572263,
 							"chinese_desc": "涨幅比例(%)"
 						},
 						"high_day": {
@@ -300,1790 +856,60 @@
 						}
 					},
 					"current_trade_date": {
-						"name": "闰土股份",
-						"industry": "染料涂料",
-						"area": "浙江",
-						"ts_code": "002440.SZ",
-						"trade_date": "20220426",
-						"open": 7.72,
-						"high": 7.83,
-						"low": 7.5,
-						"close": 7.53,
-						"pre_close": 7.69,
-						"change": -0.16,
-						"pct_chg": -2.0806,
-						"vol": 107039.53,
-						"amount": 81910.216,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": -15.865921787709492
-						},
-						"current_hold_day": {
-							"value": 126,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": -0.1259200141881706,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "大秦铁路",
-					"industry": "铁路",
-					"area": "山西",
-					"buy_point_date": "20200618",
-					"close": 7.09,
-					"chinese_desc": "买点交易日",
-					"ts_code": "601006.SH",
-					"re_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20200619",
-						"open": 7.11,
-						"high": 7.16,
-						"low": 7.07,
-						"close": 7.13,
-						"pre_close": 7.09,
-						"change": 0.04,
-						"pct_chg": 0.5642,
-						"vol": 334287.13,
-						"amount": 238187.924,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 1,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20210809",
-						"open": 5.81,
-						"high": 5.89,
-						"low": 5.8,
-						"close": 5.87,
-						"pre_close": 5.84,
-						"change": 0.03,
-						"pct_chg": 0.5137,
-						"vol": 243214.11,
-						"amount": 142343.814,
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 18.19464033850494,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 417,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220211",
-						"open": 7.15,
-						"high": 7.25,
-						"low": 7.1,
-						"close": 7.14,
-						"pre_close": 7.17,
-						"change": -0.03,
-						"pct_chg": -0.4184,
-						"vol": 799634.92,
-						"amount": 574265.056,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 2.256699576868831,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 603,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220426",
-						"open": 6.88,
-						"high": 6.99,
-						"low": 6.8,
-						"close": 6.82,
-						"pre_close": 6.92,
-						"change": -0.1,
-						"pct_chg": -1.4451,
-						"vol": 468920.44,
-						"amount": 323178.261,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": -3.8081805359661436
-						},
-						"current_hold_day": {
-							"value": 677,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": -0.005625082032446297,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "大秦铁路",
-					"industry": "铁路",
-					"area": "山西",
-					"buy_point_date": "20200831",
-					"close": 6.62,
-					"chinese_desc": "买点交易日",
-					"ts_code": "601006.SH",
-					"re_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20201123",
-						"open": 6.62,
-						"high": 6.7,
-						"low": 6.56,
-						"close": 6.68,
-						"pre_close": 6.61,
-						"change": 0.07,
-						"pct_chg": 1.059,
-						"vol": 577434.69,
-						"amount": 383261.543,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 84,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20210809",
-						"open": 5.81,
-						"high": 5.89,
-						"low": 5.8,
-						"close": 5.87,
-						"pre_close": 5.84,
-						"change": 0.03,
-						"pct_chg": 0.5137,
-						"vol": 243214.11,
-						"amount": 142343.814,
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 12.386706948640487,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 343,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220211",
-						"open": 7.15,
-						"high": 7.25,
-						"low": 7.1,
-						"close": 7.14,
-						"pre_close": 7.17,
-						"change": -0.03,
-						"pct_chg": -0.4184,
-						"vol": 799634.92,
-						"amount": 574265.056,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 9.516616314199394,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 529,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220426",
-						"open": 6.88,
-						"high": 6.99,
-						"low": 6.8,
-						"close": 6.82,
-						"pre_close": 6.92,
-						"change": -0.1,
-						"pct_chg": -1.4451,
-						"vol": 468920.44,
-						"amount": 323178.261,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": 3.0211480362537735
-						},
-						"current_hold_day": {
-							"value": 603,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": 0.005010195748347883,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "阳 光 城",
-					"industry": "区域地产",
-					"area": "福建",
-					"buy_point_date": "20210730",
-					"close": 4.37,
-					"chinese_desc": "买点交易日",
-					"ts_code": "000671.SZ",
-					"re_trade_date": {
-						"name": "阳 光 城",
-						"industry": "区域地产",
-						"area": "福建",
-						"ts_code": "000671.SZ",
-						"trade_date": "20210802",
-						"open": 4.36,
-						"high": 4.43,
-						"low": 4.29,
-						"close": 4.38,
-						"pre_close": 4.37,
-						"change": 0.01,
-						"pct_chg": 0.2288,
-						"vol": 156734.86,
-						"amount": 68457.966,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 3,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"name": "阳 光 城",
-						"industry": "区域地产",
-						"area": "福建",
-						"ts_code": "000671.SZ",
-						"trade_date": "20220316",
-						"open": 2.09,
-						"high": 2.18,
-						"low": 2.01,
-						"close": 2.15,
-						"pre_close": 2.06,
-						"change": 0.09,
-						"pct_chg": 4.3689,
-						"vol": 1062658.09,
-						"amount": 222740.606,
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 54.004576659038904,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 229,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "阳 光 城",
-						"industry": "区域地产",
-						"area": "福建",
-						"ts_code": "000671.SZ",
-						"trade_date": "20210811",
-						"open": 4.53,
-						"high": 4.9,
-						"low": 4.53,
-						"close": 4.65,
-						"pre_close": 4.5,
-						"change": 0.15,
-						"pct_chg": 3.3333,
-						"vol": 719641.04,
-						"amount": 341530.44,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 12.12814645308925,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 12,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "阳 光 城",
-						"industry": "区域地产",
-						"area": "福建",
-						"ts_code": "000671.SZ",
-						"trade_date": "20220426",
-						"open": 2.47,
-						"high": 2.67,
-						"low": 2.41,
-						"close": 2.56,
-						"pre_close": 2.44,
-						"change": 0.12,
-						"pct_chg": 4.918,
-						"vol": 3932887.17,
-						"amount": 1000670.99,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": -41.41876430205949
-						},
-						"current_hold_day": {
-							"value": 270,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": -0.1534028307483685,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "阳 光 城",
-					"industry": "区域地产",
-					"area": "福建",
-					"buy_point_date": "20210802",
-					"close": 4.38,
-					"chinese_desc": "买点交易日",
-					"ts_code": "000671.SZ",
-					"re_trade_date": {
-						"name": "阳 光 城",
-						"industry": "区域地产",
-						"area": "福建",
-						"ts_code": "000671.SZ",
-						"trade_date": "20210805",
-						"open": 4.42,
-						"high": 4.65,
-						"low": 4.4,
-						"close": 4.52,
-						"pre_close": 4.36,
-						"change": 0.16,
-						"pct_chg": 3.6697,
-						"vol": 408704.93,
-						"amount": 184518.478,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 3,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"name": "阳 光 城",
-						"industry": "区域地产",
-						"area": "福建",
-						"ts_code": "000671.SZ",
-						"trade_date": "20220316",
-						"open": 2.09,
-						"high": 2.18,
-						"low": 2.01,
-						"close": 2.15,
-						"pre_close": 2.06,
-						"change": 0.09,
-						"pct_chg": 4.3689,
-						"vol": 1062658.09,
-						"amount": 222740.606,
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 54.109589041095894,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 226,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "阳 光 城",
-						"industry": "区域地产",
-						"area": "福建",
-						"ts_code": "000671.SZ",
-						"trade_date": "20210811",
-						"open": 4.53,
-						"high": 4.9,
-						"low": 4.53,
-						"close": 4.65,
-						"pre_close": 4.5,
-						"change": 0.15,
-						"pct_chg": 3.3333,
-						"vol": 719641.04,
-						"amount": 341530.44,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 11.87214611872147,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 9,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "阳 光 城",
-						"industry": "区域地产",
-						"area": "福建",
-						"ts_code": "000671.SZ",
-						"trade_date": "20220426",
-						"open": 2.47,
-						"high": 2.67,
-						"low": 2.41,
-						"close": 2.56,
-						"pre_close": 2.44,
-						"change": 0.12,
-						"pct_chg": 4.918,
-						"vol": 3932887.17,
-						"amount": 1000670.99,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": -41.5525114155251
-						},
-						"current_hold_day": {
-							"value": 267,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": -0.1556273835787457,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "阳 光 城",
-					"industry": "区域地产",
-					"area": "福建",
-					"buy_point_date": "20210818",
-					"close": 4.59,
-					"chinese_desc": "买点交易日",
-					"ts_code": "000671.SZ",
-					"re_trade_date": {
-						"name": "阳 光 城",
-						"industry": "区域地产",
-						"area": "福建",
-						"ts_code": "000671.SZ",
-						"trade_date": "20210902",
-						"open": 4.54,
-						"high": 4.9,
-						"low": 4.53,
-						"close": 4.81,
-						"pre_close": 4.56,
-						"change": 0.25,
-						"pct_chg": 5.4825,
-						"vol": 878378.79,
-						"amount": 417710.937,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 15,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"name": "阳 光 城",
-						"industry": "区域地产",
-						"area": "福建",
-						"ts_code": "000671.SZ",
-						"trade_date": "20220316",
-						"open": 2.09,
-						"high": 2.18,
-						"low": 2.01,
-						"close": 2.15,
-						"pre_close": 2.06,
-						"change": 0.09,
-						"pct_chg": 4.3689,
-						"vol": 1062658.09,
-						"amount": 222740.606,
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 56.209150326797385,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 210,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "阳 光 城",
-						"industry": "区域地产",
-						"area": "福建",
-						"ts_code": "000671.SZ",
-						"trade_date": "20210902",
-						"open": 4.54,
-						"high": 4.9,
-						"low": 4.53,
-						"close": 4.81,
-						"pre_close": 4.56,
-						"change": 0.25,
-						"pct_chg": 5.4825,
-						"vol": 878378.79,
-						"amount": 417710.937,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 6.753812636165589,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 15,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "阳 光 城",
-						"industry": "区域地产",
-						"area": "福建",
-						"ts_code": "000671.SZ",
-						"trade_date": "20220426",
-						"open": 2.47,
-						"high": 2.67,
-						"low": 2.41,
-						"close": 2.56,
-						"pre_close": 2.44,
-						"change": 0.12,
-						"pct_chg": 4.918,
-						"vol": 3932887.17,
-						"amount": 1000670.99,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": -44.226579520697165
-						},
-						"current_hold_day": {
-							"value": 251,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": -0.17620151203465007,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"buy_point_date": "20211014",
-					"close": 15.82,
-					"chinese_desc": "买点交易日",
-					"ts_code": "002853.SZ",
-					"re_trade_date": {
-						"name": "皮阿诺",
+						"name": "帝欧家居",
 						"industry": "家居用品",
-						"area": "广东",
-						"ts_code": "002853.SZ",
-						"trade_date": "20211018",
-						"open": 15.49,
-						"high": 15.98,
-						"low": 15.36,
-						"close": 15.9,
-						"pre_close": 15.52,
-						"change": 0.38,
-						"pct_chg": 2.4485,
-						"vol": 14171.34,
-						"amount": 22188.546,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 4,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"name": "皮阿诺",
-						"industry": "家居用品",
-						"area": "广东",
-						"ts_code": "002853.SZ",
-						"trade_date": "20220426",
-						"open": 10.85,
-						"high": 10.99,
-						"low": 10.08,
-						"close": 10.35,
-						"pre_close": 10.79,
-						"change": -0.44,
-						"pct_chg": -4.0778,
-						"vol": 21987,
-						"amount": 23461.486,
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 36.283185840707965,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 194,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "皮阿诺",
-						"industry": "家居用品",
-						"area": "广东",
-						"ts_code": "002853.SZ",
-						"trade_date": "20211209",
-						"open": 16.74,
-						"high": 17.88,
-						"low": 16.73,
-						"close": 17.25,
-						"pre_close": 16.57,
-						"change": 0.68,
-						"pct_chg": 4.1038,
-						"vol": 100359.54,
-						"amount": 173876.799,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 13.02149178255372,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 56,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "皮阿诺",
-						"industry": "家居用品",
-						"area": "广东",
-						"ts_code": "002853.SZ",
-						"trade_date": "20220426",
-						"open": 10.85,
-						"high": 10.99,
-						"low": 10.08,
-						"close": 10.35,
-						"pre_close": 10.79,
-						"change": -0.44,
-						"pct_chg": -4.0778,
-						"vol": 21987,
-						"amount": 23461.486,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": -34.57648546144122
-						},
-						"current_hold_day": {
-							"value": 194,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": -0.17822930650227434,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"buy_point_date": "20220303",
-					"close": 13.64,
-					"chinese_desc": "买点交易日",
-					"ts_code": "002853.SZ",
-					"re_trade_date": {
-						"name": "皮阿诺",
-						"industry": "家居用品",
-						"area": "广东",
-						"ts_code": "002853.SZ",
-						"trade_date": "20220323",
-						"open": 13.6,
-						"high": 14.16,
-						"low": 12.85,
-						"close": 13.81,
-						"pre_close": 13.64,
-						"change": 0.17,
-						"pct_chg": 1.2463,
-						"vol": 120589.5,
-						"amount": 161242.638,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 20,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"name": "皮阿诺",
-						"industry": "家居用品",
-						"area": "广东",
-						"ts_code": "002853.SZ",
-						"trade_date": "20220426",
-						"open": 10.85,
-						"high": 10.99,
-						"low": 10.08,
-						"close": 10.35,
-						"pre_close": 10.79,
-						"change": -0.44,
-						"pct_chg": -4.0778,
-						"vol": 21987,
-						"amount": 23461.486,
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 26.09970674486804,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 54,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "皮阿诺",
-						"industry": "家居用品",
-						"area": "广东",
-						"ts_code": "002853.SZ",
-						"trade_date": "20220323",
-						"open": 13.6,
-						"high": 14.16,
-						"low": 12.85,
-						"close": 13.81,
-						"pre_close": 13.64,
-						"change": 0.17,
-						"pct_chg": 1.2463,
-						"vol": 120589.5,
-						"amount": 161242.638,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 3.8123167155425186,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 20,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "皮阿诺",
-						"industry": "家居用品",
-						"area": "广东",
-						"ts_code": "002853.SZ",
-						"trade_date": "20220426",
-						"open": 10.85,
-						"high": 10.99,
-						"low": 10.08,
-						"close": 10.35,
-						"pre_close": 10.79,
-						"change": -0.44,
-						"pct_chg": -4.0778,
-						"vol": 21987,
-						"amount": 23461.486,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": -24.120234604105573
-						},
-						"current_hold_day": {
-							"value": 54,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": -0.44667101118714025,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "航民股份",
-					"industry": "纺织",
-					"area": "浙江",
-					"buy_point_date": "20210312",
-					"close": 5.53,
-					"chinese_desc": "买点交易日",
-					"ts_code": "600987.SH",
-					"re_trade_date": {
-						"name": "航民股份",
-						"industry": "纺织",
-						"area": "浙江",
-						"ts_code": "600987.SH",
-						"trade_date": "20210315",
-						"open": 5.55,
-						"high": 5.58,
-						"low": 5.51,
-						"close": 5.55,
-						"pre_close": 5.53,
-						"change": 0.02,
-						"pct_chg": 0.3617,
-						"vol": 26776.36,
-						"amount": 14858.66,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 3,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"name": "航民股份",
-						"industry": "纺织",
-						"area": "浙江",
-						"ts_code": "600987.SH",
-						"trade_date": "20210730",
-						"open": 4.71,
-						"high": 4.71,
-						"low": 4.61,
-						"close": 4.66,
-						"pre_close": 4.72,
-						"change": -0.06,
-						"pct_chg": -1.2712,
-						"vol": 42551.85,
-						"amount": 19807.901,
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 16.63652802893309,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 140,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "航民股份",
-						"industry": "纺织",
-						"area": "浙江",
-						"ts_code": "600987.SH",
-						"trade_date": "20210924",
-						"open": 6.3,
-						"high": 6.33,
-						"low": 5.85,
-						"close": 5.93,
-						"pre_close": 6.3,
-						"change": -0.37,
-						"pct_chg": -5.873,
-						"vol": 488553.82,
-						"amount": 294696.948,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 14.466546112115727,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 196,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "航民股份",
-						"industry": "纺织",
-						"area": "浙江",
-						"ts_code": "600987.SH",
-						"trade_date": "20220426",
-						"open": 5.36,
-						"high": 5.38,
-						"low": 5.03,
-						"close": 5.03,
-						"pre_close": 5.36,
-						"change": -0.33,
-						"pct_chg": -6.1567,
-						"vol": 123988.87,
-						"amount": 64331.669,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": -9.041591320072328
-						},
-						"current_hold_day": {
-							"value": 410,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": -0.02205266175627397,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "航民股份",
-					"industry": "纺织",
-					"area": "浙江",
-					"buy_point_date": "20210415",
-					"close": 5.59,
-					"chinese_desc": "买点交易日",
-					"ts_code": "600987.SH",
-					"re_trade_date": {
-						"name": "航民股份",
-						"industry": "纺织",
-						"area": "浙江",
-						"ts_code": "600987.SH",
-						"trade_date": "20210416",
-						"open": 5.59,
-						"high": 5.65,
-						"low": 5.57,
-						"close": 5.61,
-						"pre_close": 5.59,
-						"change": 0.02,
-						"pct_chg": 0.3578,
-						"vol": 47433.16,
-						"amount": 26624.956,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 1,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"name": "航民股份",
-						"industry": "纺织",
-						"area": "浙江",
-						"ts_code": "600987.SH",
-						"trade_date": "20210730",
-						"open": 4.71,
-						"high": 4.71,
-						"low": 4.61,
-						"close": 4.66,
-						"pre_close": 4.72,
-						"change": -0.06,
-						"pct_chg": -1.2712,
-						"vol": 42551.85,
-						"amount": 19807.901,
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 17.53130590339892,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 106,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "航民股份",
-						"industry": "纺织",
-						"area": "浙江",
-						"ts_code": "600987.SH",
-						"trade_date": "20210924",
-						"open": 6.3,
-						"high": 6.33,
-						"low": 5.85,
-						"close": 5.93,
-						"pre_close": 6.3,
-						"change": -0.37,
-						"pct_chg": -5.873,
-						"vol": 488553.82,
-						"amount": 294696.948,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 13.237924865831847,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 162,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "航民股份",
-						"industry": "纺织",
-						"area": "浙江",
-						"ts_code": "600987.SH",
-						"trade_date": "20220426",
-						"open": 5.36,
-						"high": 5.38,
-						"low": 5.03,
-						"close": 5.03,
-						"pre_close": 5.36,
-						"change": -0.33,
-						"pct_chg": -6.1567,
-						"vol": 123988.87,
-						"amount": 64331.669,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": -10.017889087656517
-						},
-						"current_hold_day": {
-							"value": 376,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": -0.02664332204163967,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				}
-			]
-		},
-		"low_percent_0_num": {
-			"chinese_desc": "最佳买点（无回撤）",
-			"value": 9,
-			"low_percent_0_trade_date": [
-				{
-					"name": "大秦铁路",
-					"industry": "铁路",
-					"area": "山西",
-					"buy_point_date": "20210811",
-					"close": 5.93,
-					"chinese_desc": "买点交易日",
-					"ts_code": "601006.SH",
-					"re_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20210819",
-						"open": 5.91,
-						"high": 5.99,
-						"low": 5.9,
-						"close": 5.96,
-						"pre_close": 5.91,
-						"change": 0.05,
-						"pct_chg": 0.846,
-						"vol": 285365.66,
-						"amount": 169783.976,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 8,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 0,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 0,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220211",
-						"open": 7.15,
-						"high": 7.25,
-						"low": 7.1,
-						"close": 7.14,
-						"pre_close": 7.17,
-						"change": -0.03,
-						"pct_chg": -0.4184,
-						"vol": 799634.92,
-						"amount": 574265.056,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 22.25969645868466,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 184,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220426",
-						"open": 6.88,
-						"high": 6.99,
-						"low": 6.8,
-						"close": 6.82,
-						"pre_close": 6.92,
-						"change": -0.1,
-						"pct_chg": -1.4451,
-						"vol": 468920.44,
-						"amount": 323178.261,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": 15.00843170320405
-						},
-						"current_hold_day": {
-							"value": 258,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": 0.05817221590389166,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "大秦铁路",
-					"industry": "铁路",
-					"area": "山西",
-					"buy_point_date": "20210818",
-					"close": 5.91,
-					"chinese_desc": "买点交易日",
-					"ts_code": "601006.SH",
-					"re_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20210819",
-						"open": 5.91,
-						"high": 5.99,
-						"low": 5.9,
-						"close": 5.96,
-						"pre_close": 5.91,
-						"change": 0.05,
-						"pct_chg": 0.846,
-						"vol": 285365.66,
-						"amount": 169783.976,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 1,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 0,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 0,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220211",
-						"open": 7.15,
-						"high": 7.25,
-						"low": 7.1,
-						"close": 7.14,
-						"pre_close": 7.17,
-						"change": -0.03,
-						"pct_chg": -0.4184,
-						"vol": 799634.92,
-						"amount": 574265.056,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 22.67343485617597,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 177,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220426",
-						"open": 6.88,
-						"high": 6.99,
-						"low": 6.8,
-						"close": 6.82,
-						"pre_close": 6.92,
-						"change": -0.1,
-						"pct_chg": -1.4451,
-						"vol": 468920.44,
-						"amount": 323178.261,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": 15.39763113367174
-						},
-						"current_hold_day": {
-							"value": 251,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": 0.06134514395885156,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "大秦铁路",
-					"industry": "铁路",
-					"area": "山西",
-					"buy_point_date": "20210827",
-					"close": 6.03,
-					"chinese_desc": "买点交易日",
-					"ts_code": "601006.SH",
-					"re_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20210831",
-						"open": 6.02,
-						"high": 6.1,
-						"low": 6.01,
-						"close": 6.07,
-						"pre_close": 6.03,
-						"change": 0.04,
-						"pct_chg": 0.6633,
-						"vol": 384943.93,
-						"amount": 233292.688,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 4,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 0,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 0,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220211",
-						"open": 7.15,
-						"high": 7.25,
-						"low": 7.1,
-						"close": 7.14,
-						"pre_close": 7.17,
-						"change": -0.03,
-						"pct_chg": -0.4184,
-						"vol": 799634.92,
-						"amount": 574265.056,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 20.232172470978433,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 168,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220426",
-						"open": 6.88,
-						"high": 6.99,
-						"low": 6.8,
-						"close": 6.82,
-						"pre_close": 6.92,
-						"change": -0.1,
-						"pct_chg": -1.4451,
-						"vol": 468920.44,
-						"amount": 323178.261,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": 13.101160862354888
-						},
-						"current_hold_day": {
-							"value": 242,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": 0.05413702835683838,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "大秦铁路",
-					"industry": "铁路",
-					"area": "山西",
-					"buy_point_date": "20211202",
-					"close": 6.15,
-					"chinese_desc": "买点交易日",
-					"ts_code": "601006.SH",
-					"re_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20211203",
-						"open": 6.17,
-						"high": 6.21,
-						"low": 6.15,
-						"close": 6.2,
-						"pre_close": 6.15,
-						"change": 0.05,
-						"pct_chg": 0.813,
-						"vol": 249415.39,
-						"amount": 154268.319,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 1,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 0,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 0,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220211",
-						"open": 7.15,
-						"high": 7.25,
-						"low": 7.1,
-						"close": 7.14,
-						"pre_close": 7.17,
-						"change": -0.03,
-						"pct_chg": -0.4184,
-						"vol": 799634.92,
-						"amount": 574265.056,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 17.88617886178861,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 71,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220426",
-						"open": 6.88,
-						"high": 6.99,
-						"low": 6.8,
-						"close": 6.82,
-						"pre_close": 6.92,
-						"change": -0.1,
-						"pct_chg": -1.4451,
-						"vol": 468920.44,
-						"amount": 323178.261,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": 10.894308943089426
-						},
-						"current_hold_day": {
-							"value": 145,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": 0.07513316512475467,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "大秦铁路",
-					"industry": "铁路",
-					"area": "山西",
-					"buy_point_date": "20211203",
-					"close": 6.2,
-					"chinese_desc": "买点交易日",
-					"ts_code": "601006.SH",
-					"re_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20211206",
-						"open": 6.21,
-						"high": 6.26,
-						"low": 6.19,
-						"close": 6.21,
-						"pre_close": 6.2,
-						"change": 0.01,
-						"pct_chg": 0.1613,
-						"vol": 309388.18,
-						"amount": 192908.18,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 3,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 0,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 0,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220211",
-						"open": 7.15,
-						"high": 7.25,
-						"low": 7.1,
-						"close": 7.14,
-						"pre_close": 7.17,
-						"change": -0.03,
-						"pct_chg": -0.4184,
-						"vol": 799634.92,
-						"amount": 574265.056,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 16.935483870967737,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 70,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "大秦铁路",
-						"industry": "铁路",
-						"area": "山西",
-						"ts_code": "601006.SH",
-						"trade_date": "20220426",
-						"open": 6.88,
-						"high": 6.99,
-						"low": 6.8,
-						"close": 6.82,
-						"pre_close": 6.92,
-						"change": -0.1,
-						"pct_chg": -1.4451,
-						"vol": 468920.44,
-						"amount": 323178.261,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": 10.000000000000009
-						},
-						"current_hold_day": {
-							"value": 144,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": 0.0694444444444445,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"buy_point_date": "20210811",
-					"close": 4.38,
-					"chinese_desc": "买点交易日",
-					"ts_code": "601801.SH",
-					"re_trade_date": {
-						"name": "皖新传媒",
-						"industry": "出版业",
-						"area": "安徽",
-						"ts_code": "601801.SH",
-						"trade_date": "20210816",
-						"open": 4.36,
-						"high": 4.41,
-						"low": 4.33,
-						"close": 4.4,
-						"pre_close": 4.37,
-						"change": 0.03,
-						"pct_chg": 0.6865,
-						"vol": 39819.34,
-						"amount": 17423.092,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 5,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 0,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 0,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "皖新传媒",
-						"industry": "出版业",
-						"area": "安徽",
-						"ts_code": "601801.SH",
-						"trade_date": "20220406",
-						"open": 5.3,
-						"high": 5.56,
-						"low": 5.3,
-						"close": 5.5,
-						"pre_close": 5.32,
-						"change": 0.18,
-						"pct_chg": 3.3835,
-						"vol": 284195.08,
-						"amount": 155767.796,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 26.940639269406386,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 238,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "皖新传媒",
-						"industry": "出版业",
-						"area": "安徽",
-						"ts_code": "601801.SH",
-						"trade_date": "20220426",
-						"open": 4.63,
-						"high": 4.69,
-						"low": 4.44,
-						"close": 4.45,
-						"pre_close": 4.63,
-						"change": -0.18,
-						"pct_chg": -3.8877,
-						"vol": 131654.13,
-						"amount": 60213.636,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": 1.598173515981749
-						},
-						"current_hold_day": {
-							"value": 258,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": 0.006194470992177322,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "经纬纺机",
-					"industry": "多元金融",
-					"area": "北京",
-					"buy_point_date": "20210209",
-					"close": 6.9,
-					"chinese_desc": "买点交易日",
-					"ts_code": "000666.SZ",
-					"re_trade_date": {
-						"name": "经纬纺机",
-						"industry": "多元金融",
-						"area": "北京",
-						"ts_code": "000666.SZ",
-						"trade_date": "20210210",
-						"open": 6.93,
-						"high": 6.97,
-						"low": 6.88,
-						"close": 6.92,
-						"pre_close": 6.9,
-						"change": 0.02,
-						"pct_chg": 0.2899,
-						"vol": 15423,
-						"amount": 10677.026,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 1,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 0,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 0,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "经纬纺机",
-						"industry": "多元金融",
-						"area": "北京",
-						"ts_code": "000666.SZ",
-						"trade_date": "20220406",
-						"open": 11.48,
-						"high": 11.54,
-						"low": 10.59,
-						"close": 10.6,
-						"pre_close": 10.49,
-						"change": 0.11,
-						"pct_chg": 1.0486,
-						"vol": 1059748.13,
-						"amount": 1199617.626,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 67.24637681159417,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 421,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "经纬纺机",
-						"industry": "多元金融",
-						"area": "北京",
-						"ts_code": "000666.SZ",
-						"trade_date": "20220426",
-						"open": 8.05,
-						"high": 8.19,
-						"low": 7.48,
-						"close": 7.53,
-						"pre_close": 8.05,
-						"change": -0.52,
-						"pct_chg": -6.4596,
-						"vol": 205316.17,
-						"amount": 159232.936,
-						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": 9.130434782608688
-						},
-						"current_hold_day": {
-							"value": 441,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
-						},
-						"current_daily_yield": {
-							"value": 0.02070393374741199,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
-						}
-					}
-				},
-				{
-					"name": "四川成渝",
-					"industry": "路桥",
-					"area": "四川",
-					"buy_point_date": "20210210",
-					"close": 2.89,
-					"chinese_desc": "买点交易日",
-					"ts_code": "601107.SH",
-					"re_trade_date": {
-						"name": "四川成渝",
-						"industry": "路桥",
 						"area": "四川",
-						"ts_code": "601107.SH",
-						"trade_date": "20210218",
-						"open": 2.92,
-						"high": 2.95,
-						"low": 2.91,
-						"close": 2.94,
-						"pre_close": 2.89,
-						"change": 0.05,
-						"pct_chg": 1.7301,
-						"vol": 26099.31,
-						"amount": 7651.684,
-						"chinese_desc": "回本交易日",
-						"re_day": {
-							"value": 8,
-							"chinese_desc": "回本天数"
-						}
-					},
-					"low_trade_date": {
-						"chinese_desc": "最低价格交易日",
-						"low_percent": {
-							"value": 0,
-							"chinese_desc": "回撤比例(%)"
-						},
-						"low_day": {
-							"value": 0,
-							"chinese_desc": "回撤天数"
-						}
-					},
-					"high_trade_date": {
-						"name": "四川成渝",
-						"industry": "路桥",
-						"area": "四川",
-						"ts_code": "601107.SH",
-						"trade_date": "20211231",
-						"open": 5.9,
-						"high": 5.96,
-						"low": 5.28,
-						"close": 5.38,
-						"pre_close": 5.87,
-						"change": -0.49,
-						"pct_chg": -8.3475,
-						"vol": 1566778.87,
-						"amount": 868790.198,
-						"chinese_desc": "最高价格交易日",
-						"high_percent": {
-							"value": 106.22837370242213,
-							"chinese_desc": "涨幅比例(%)"
-						},
-						"high_day": {
-							"value": 324,
-							"chinese_desc": "涨幅天数"
-						}
-					},
-					"current_trade_date": {
-						"name": "四川成渝",
-						"industry": "路桥",
-						"area": "四川",
-						"ts_code": "601107.SH",
-						"trade_date": "20220426",
-						"open": 4.07,
-						"high": 4.12,
-						"low": 3.9,
-						"close": 3.94,
-						"pre_close": 4.03,
-						"change": -0.09,
-						"pct_chg": -2.2333,
-						"vol": 150585.12,
-						"amount": 60138.963,
+						"ts_code": "002798.SZ",
+						"trade_date": "20220627",
+						"open": 8.79,
+						"high": 9.39,
+						"low": 8.77,
+						"close": 9.09,
+						"pre_close": 8.74,
+						"change": 0.35,
+						"pct_chg": 4.0046,
+						"vol": 101127.15,
+						"amount": 91962.448,
 						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": 36.332179930795846
+							"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+							"value": 3.412969283276457
 						},
 						"current_hold_day": {
-							"value": 440,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+							"value": 48,
+							"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 						},
 						"current_daily_yield": {
-							"value": 0.08257313620635419,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+							"value": 0.07110352673492619,
+							"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 						}
 					}
 				},
 				{
-					"name": "首钢股份",
-					"industry": "普钢",
-					"area": "北京",
-					"buy_point_date": "20200506",
-					"close": 2.9,
+					"name": "三角轮胎",
+					"industry": "汽车配件",
+					"area": "山东",
+					"buy_point_date": "20220506",
+					"close": 10.76,
 					"chinese_desc": "买点交易日",
-					"ts_code": "000959.SZ",
+					"ts_code": "601163.SH",
 					"re_trade_date": {
-						"name": "首钢股份",
-						"industry": "普钢",
-						"area": "北京",
-						"ts_code": "000959.SZ",
-						"trade_date": "20200508",
-						"open": 2.89,
-						"high": 2.92,
-						"low": 2.89,
-						"close": 2.92,
-						"pre_close": 2.89,
-						"change": 0.03,
-						"pct_chg": 1.0381,
-						"vol": 44615.45,
-						"amount": 12982.396,
+						"name": "三角轮胎",
+						"industry": "汽车配件",
+						"area": "山东",
+						"ts_code": "601163.SH",
+						"trade_date": "20220509",
+						"open": 11.14,
+						"high": 11.14,
+						"low": 10.77,
+						"close": 10.88,
+						"pre_close": 10.76,
+						"change": 0.12,
+						"pct_chg": 1.1152,
+						"vol": 21612,
+						"amount": 23619.511,
 						"chinese_desc": "回本交易日",
 						"re_day": {
-							"value": 2,
+							"value": 3,
 							"chinese_desc": "回本天数"
 						}
 					},
@@ -2099,56 +925,150 @@
 						}
 					},
 					"high_trade_date": {
-						"name": "首钢股份",
-						"industry": "普钢",
-						"area": "北京",
-						"ts_code": "000959.SZ",
-						"trade_date": "20210914",
-						"open": 9.96,
-						"high": 9.99,
-						"low": 8.88,
-						"close": 9.33,
-						"pre_close": 9.08,
-						"change": 0.25,
-						"pct_chg": 2.7533,
-						"vol": 1242353.29,
-						"amount": 1170836.43,
+						"name": "三角轮胎",
+						"industry": "汽车配件",
+						"area": "山东",
+						"ts_code": "601163.SH",
+						"trade_date": "20220623",
+						"open": 11.54,
+						"high": 12.13,
+						"low": 11.54,
+						"close": 12.02,
+						"pre_close": 11.54,
+						"change": 0.48,
+						"pct_chg": 4.1594,
+						"vol": 63177.44,
+						"amount": 75372.05,
 						"chinese_desc": "最高价格交易日",
 						"high_percent": {
-							"value": 244.48275862068965,
+							"value": 12.732342007434955,
 							"chinese_desc": "涨幅比例(%)"
 						},
 						"high_day": {
-							"value": 496,
+							"value": 48,
 							"chinese_desc": "涨幅天数"
 						}
 					},
 					"current_trade_date": {
-						"name": "首钢股份",
-						"industry": "普钢",
-						"area": "北京",
-						"ts_code": "000959.SZ",
-						"trade_date": "20220426",
-						"open": 5,
-						"high": 5.04,
-						"low": 4.71,
-						"close": 4.75,
-						"pre_close": 5.01,
-						"change": -0.26,
-						"pct_chg": -5.1896,
-						"vol": 326391.23,
-						"amount": 159145.213,
+						"name": "三角轮胎",
+						"industry": "汽车配件",
+						"area": "山东",
+						"ts_code": "601163.SH",
+						"trade_date": "20220627",
+						"open": 11.99,
+						"high": 12.04,
+						"low": 11.83,
+						"close": 11.93,
+						"pre_close": 11.93,
+						"change": 0,
+						"pct_chg": 0,
+						"vol": 32964.37,
+						"amount": 39306.411,
 						"current_yield": {
-							"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-							"value": 63.793103448275865
+							"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+							"value": 10.87360594795539
 						},
 						"current_hold_day": {
-							"value": 720,
-							"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+							"value": 52,
+							"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 						},
 						"current_daily_yield": {
-							"value": 0.0886015325670498,
-							"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+							"value": 0.20910780669144982,
+							"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
+						}
+					}
+				},
+				{
+					"name": "海通证券",
+					"industry": "证券",
+					"area": "上海",
+					"buy_point_date": "20220519",
+					"close": 8.93,
+					"chinese_desc": "买点交易日",
+					"ts_code": "600837.SH",
+					"re_trade_date": {
+						"name": "海通证券",
+						"industry": "证券",
+						"area": "上海",
+						"ts_code": "600837.SH",
+						"trade_date": "20220520",
+						"open": 8.95,
+						"high": 9.11,
+						"low": 8.94,
+						"close": 9.05,
+						"pre_close": 8.93,
+						"change": 0.12,
+						"pct_chg": 1.3438,
+						"vol": 440240.66,
+						"amount": 397667.725,
+						"chinese_desc": "回本交易日",
+						"re_day": {
+							"value": 1,
+							"chinese_desc": "回本天数"
+						}
+					},
+					"low_trade_date": {
+						"chinese_desc": "最低价格交易日",
+						"low_percent": {
+							"value": 0,
+							"chinese_desc": "回撤比例(%)"
+						},
+						"low_day": {
+							"value": 0,
+							"chinese_desc": "回撤天数"
+						}
+					},
+					"high_trade_date": {
+						"name": "海通证券",
+						"industry": "证券",
+						"area": "上海",
+						"ts_code": "600837.SH",
+						"trade_date": "20220615",
+						"open": 9.87,
+						"high": 10.41,
+						"low": 9.83,
+						"close": 10.09,
+						"pre_close": 9.81,
+						"change": 0.28,
+						"pct_chg": 2.8542,
+						"vol": 1808218.38,
+						"amount": 1835577.996,
+						"chinese_desc": "最高价格交易日",
+						"high_percent": {
+							"value": 16.57334826427772,
+							"chinese_desc": "涨幅比例(%)"
+						},
+						"high_day": {
+							"value": 27,
+							"chinese_desc": "涨幅天数"
+						}
+					},
+					"current_trade_date": {
+						"name": "海通证券",
+						"industry": "证券",
+						"area": "上海",
+						"ts_code": "600837.SH",
+						"trade_date": "20220627",
+						"open": 9.81,
+						"high": 9.86,
+						"low": 9.75,
+						"close": 9.76,
+						"pre_close": 9.76,
+						"change": 0,
+						"pct_chg": 0,
+						"vol": 384657.89,
+						"amount": 377178.083,
+						"current_yield": {
+							"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+							"value": 9.294512877939521
+						},
+						"current_hold_day": {
+							"value": 39,
+							"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
+						},
+						"current_daily_yield": {
+							"value": 0.2383208430240903,
+							"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 						}
 					}
 				}
@@ -2157,486 +1077,486 @@
 	},
 	"average": {
 		"current_all_average": {
-			"chinese_desc": "在买点持有到 当前20220426交易日 平均总(+收益率)/(-回撤率)(%)",
-			"value": 6.273206560485845
+			"chinese_desc": "在买点持有到 当前20220627交易日 平均总(+收益率)/(-回撤率)(%)",
+			"value": 1.3925542438360778
 		},
 		"current_daily_yield_average": {
-			"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)",
-			"value": 0.013550894626445964
+			"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)",
+			"value": 0.024706607551930413
 		},
 		"current_hold_day_average": {
-			"chinese_desc": "买点交易日持有到 当前20220426交易日 平均-持有天数",
-			"value": 462.9367088607595
+			"chinese_desc": "买点交易日持有到 当前20220627交易日 平均-持有天数",
+			"value": 56.36363636363637
 		},
 		"re_day_average": {
-			"value": 10.734177215189874,
+			"value": 6.052631578947368,
 			"chinese_desc": "平均-回本天数"
 		},
 		"low_percent_average": {
-			"value": 10.347675669908806,
+			"value": 5.9824316856307185,
 			"chinese_desc": "平均-回撤比例(%)"
 		},
 		"low_day_average": {
-			"value": 154.45569620253164,
+			"value": 12.590909090909092,
 			"chinese_desc": "平均-回撤天数"
 		},
 		"high_percent_average": {
-			"value": 60.18622963140228,
+			"value": 11.411932907547223,
 			"chinese_desc": "平均-涨幅比例(%)"
 		},
 		"high_day_average": {
-			"value": 256.75949367088606,
+			"value": 25.63157894736842,
 			"chinese_desc": "平均-涨幅天数"
 		},
 		"high_conversion_rate": {
-			"value": 0.23440702725698975,
+			"value": 0.44522941528418325,
 			"chinese_desc": "平均-每天涨幅(%)"
 		},
 		"low_conversion_rate": {
-			"value": 0.06699445811529223,
+			"value": 0.4751389786421509,
 			"chinese_desc": "平均-每天回撤(%)"
 		}
 	},
 	"max": {
 		"average_yield_max": {
-			"chinese_desc": "在买点持有到 当前20220426交易日 最高总(+收益率)/(-回撤率)(%)",
+			"chinese_desc": "在买点持有到 当前20220627交易日 最高总(+收益率)/(-回撤率)(%)",
 			"value": {
-				"name": "昊华能源",
-				"industry": "煤炭开采",
-				"area": "北京",
-				"buy_point_date": "20200603",
-				"close": 3.51,
+				"name": "东旭光电",
+				"industry": "元器件",
+				"area": "河北",
+				"buy_point_date": "20220511",
+				"close": 1.68,
 				"chinese_desc": "买点交易日",
-				"ts_code": "601101.SH",
+				"ts_code": "000413.SZ",
 				"re_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20200605",
-					"open": 3.51,
-					"high": 3.52,
-					"low": 3.48,
-					"close": 3.52,
-					"pre_close": 3.51,
-					"change": 0.01,
-					"pct_chg": 0.2849,
-					"vol": 31882,
-					"amount": 11164.312,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220518",
+					"open": 1.67,
+					"high": 1.71,
+					"low": 1.66,
+					"close": 1.69,
+					"pre_close": 1.67,
+					"change": 0.02,
+					"pct_chg": 1.1976,
+					"vol": 298118.89,
+					"amount": 50373.037,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 2,
+						"value": 7,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20210204",
-					"open": 3.29,
-					"high": 3.39,
-					"low": 3.19,
-					"close": 3.26,
-					"pre_close": 3.29,
-					"change": -0.03,
-					"pct_chg": -0.9119,
-					"vol": 75094.84,
-					"amount": 24547.709,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220513",
+					"open": 1.69,
+					"high": 1.69,
+					"low": 1.66,
+					"close": 1.68,
+					"pre_close": 1.68,
+					"change": 0,
+					"pct_chg": 0,
+					"vol": 236006,
+					"amount": 39538.656,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 9.116809116809113,
+						"value": 1.1904761904761916,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 246,
+						"value": 2,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20211019",
-					"open": 13.3,
-					"high": 14.07,
-					"low": 13.03,
-					"close": 13.39,
-					"pre_close": 12.9,
-					"change": 0.49,
-					"pct_chg": 3.7984,
-					"vol": 984831.79,
-					"amount": 1331424.252,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220627",
+					"open": 2.14,
+					"high": 2.24,
+					"low": 2.05,
+					"close": 2.06,
+					"pre_close": 2.04,
+					"change": 0.02,
+					"pct_chg": 0.9804,
+					"vol": 4196457.82,
+					"amount": 892132.107,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 300.8547008547009,
+						"value": 33.33333333333336,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 503,
+						"value": 47,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20220426",
-					"open": 7.82,
-					"high": 7.96,
-					"low": 7.61,
-					"close": 7.61,
-					"pre_close": 8.46,
-					"change": -0.85,
-					"pct_chg": -10.0473,
-					"vol": 568215.85,
-					"amount": 436583.079,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220627",
+					"open": 2.14,
+					"high": 2.24,
+					"low": 2.05,
+					"close": 2.06,
+					"pre_close": 2.04,
+					"change": 0.02,
+					"pct_chg": 0.9804,
+					"vol": 4196457.82,
+					"amount": 892132.107,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": 116.80911680911686
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": 22.619047619047628
 					},
 					"current_hold_day": {
-						"value": 692,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 47,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": 0.1687993017472787,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": 0.4812563323201623,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			}
 		},
 		"current_yield_max": {
-			"chinese_desc": "在买点持有到 当前20220426交易日 最大总-(+收益率)/(-回撤率)(%)",
+			"chinese_desc": "在买点持有到 当前20220627交易日 最大总-(+收益率)/(-回撤率)(%)",
 			"value": {
-				"name": "昊华能源",
-				"industry": "煤炭开采",
-				"area": "北京",
-				"buy_point_date": "20200603",
-				"close": 3.51,
+				"name": "东旭光电",
+				"industry": "元器件",
+				"area": "河北",
+				"buy_point_date": "20220511",
+				"close": 1.68,
 				"chinese_desc": "买点交易日",
-				"ts_code": "601101.SH",
+				"ts_code": "000413.SZ",
 				"re_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20200605",
-					"open": 3.51,
-					"high": 3.52,
-					"low": 3.48,
-					"close": 3.52,
-					"pre_close": 3.51,
-					"change": 0.01,
-					"pct_chg": 0.2849,
-					"vol": 31882,
-					"amount": 11164.312,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220518",
+					"open": 1.67,
+					"high": 1.71,
+					"low": 1.66,
+					"close": 1.69,
+					"pre_close": 1.67,
+					"change": 0.02,
+					"pct_chg": 1.1976,
+					"vol": 298118.89,
+					"amount": 50373.037,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 2,
+						"value": 7,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20210204",
-					"open": 3.29,
-					"high": 3.39,
-					"low": 3.19,
-					"close": 3.26,
-					"pre_close": 3.29,
-					"change": -0.03,
-					"pct_chg": -0.9119,
-					"vol": 75094.84,
-					"amount": 24547.709,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220513",
+					"open": 1.69,
+					"high": 1.69,
+					"low": 1.66,
+					"close": 1.68,
+					"pre_close": 1.68,
+					"change": 0,
+					"pct_chg": 0,
+					"vol": 236006,
+					"amount": 39538.656,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 9.116809116809113,
+						"value": 1.1904761904761916,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 246,
+						"value": 2,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20211019",
-					"open": 13.3,
-					"high": 14.07,
-					"low": 13.03,
-					"close": 13.39,
-					"pre_close": 12.9,
-					"change": 0.49,
-					"pct_chg": 3.7984,
-					"vol": 984831.79,
-					"amount": 1331424.252,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220627",
+					"open": 2.14,
+					"high": 2.24,
+					"low": 2.05,
+					"close": 2.06,
+					"pre_close": 2.04,
+					"change": 0.02,
+					"pct_chg": 0.9804,
+					"vol": 4196457.82,
+					"amount": 892132.107,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 300.8547008547009,
+						"value": 33.33333333333336,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 503,
+						"value": 47,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20220426",
-					"open": 7.82,
-					"high": 7.96,
-					"low": 7.61,
-					"close": 7.61,
-					"pre_close": 8.46,
-					"change": -0.85,
-					"pct_chg": -10.0473,
-					"vol": 568215.85,
-					"amount": 436583.079,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220627",
+					"open": 2.14,
+					"high": 2.24,
+					"low": 2.05,
+					"close": 2.06,
+					"pre_close": 2.04,
+					"change": 0.02,
+					"pct_chg": 0.9804,
+					"vol": 4196457.82,
+					"amount": 892132.107,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": 116.80911680911686
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": 22.619047619047628
 					},
 					"current_hold_day": {
-						"value": 692,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 47,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": 0.1687993017472787,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": 0.4812563323201623,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			}
 		},
 		"hold_day_max": {
-			"chinese_desc": "买点交易日持有到 当前20220426交易日 最大-持有天数",
+			"chinese_desc": "买点交易日持有到 当前20220627交易日 最大-持有天数",
 			"value": {
-				"name": "昊华能源",
-				"industry": "煤炭开采",
-				"area": "北京",
-				"buy_point_date": "20200603",
-				"close": 3.51,
+				"name": "东旭光电",
+				"industry": "元器件",
+				"area": "河北",
+				"buy_point_date": "20220511",
+				"close": 1.68,
 				"chinese_desc": "买点交易日",
-				"ts_code": "601101.SH",
+				"ts_code": "000413.SZ",
 				"re_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20200605",
-					"open": 3.51,
-					"high": 3.52,
-					"low": 3.48,
-					"close": 3.52,
-					"pre_close": 3.51,
-					"change": 0.01,
-					"pct_chg": 0.2849,
-					"vol": 31882,
-					"amount": 11164.312,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220518",
+					"open": 1.67,
+					"high": 1.71,
+					"low": 1.66,
+					"close": 1.69,
+					"pre_close": 1.67,
+					"change": 0.02,
+					"pct_chg": 1.1976,
+					"vol": 298118.89,
+					"amount": 50373.037,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 2,
+						"value": 7,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20210204",
-					"open": 3.29,
-					"high": 3.39,
-					"low": 3.19,
-					"close": 3.26,
-					"pre_close": 3.29,
-					"change": -0.03,
-					"pct_chg": -0.9119,
-					"vol": 75094.84,
-					"amount": 24547.709,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220513",
+					"open": 1.69,
+					"high": 1.69,
+					"low": 1.66,
+					"close": 1.68,
+					"pre_close": 1.68,
+					"change": 0,
+					"pct_chg": 0,
+					"vol": 236006,
+					"amount": 39538.656,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 9.116809116809113,
+						"value": 1.1904761904761916,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 246,
+						"value": 2,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20211019",
-					"open": 13.3,
-					"high": 14.07,
-					"low": 13.03,
-					"close": 13.39,
-					"pre_close": 12.9,
-					"change": 0.49,
-					"pct_chg": 3.7984,
-					"vol": 984831.79,
-					"amount": 1331424.252,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220627",
+					"open": 2.14,
+					"high": 2.24,
+					"low": 2.05,
+					"close": 2.06,
+					"pre_close": 2.04,
+					"change": 0.02,
+					"pct_chg": 0.9804,
+					"vol": 4196457.82,
+					"amount": 892132.107,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 300.8547008547009,
+						"value": 33.33333333333336,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 503,
+						"value": 47,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20220426",
-					"open": 7.82,
-					"high": 7.96,
-					"low": 7.61,
-					"close": 7.61,
-					"pre_close": 8.46,
-					"change": -0.85,
-					"pct_chg": -10.0473,
-					"vol": 568215.85,
-					"amount": 436583.079,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220627",
+					"open": 2.14,
+					"high": 2.24,
+					"low": 2.05,
+					"close": 2.06,
+					"pre_close": 2.04,
+					"change": 0.02,
+					"pct_chg": 0.9804,
+					"vol": 4196457.82,
+					"amount": 892132.107,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": 116.80911680911686
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": 22.619047619047628
 					},
 					"current_hold_day": {
-						"value": 692,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 47,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": 0.1687993017472787,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": 0.4812563323201623,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			}
 		},
 		"re_day_max": {
 			"value": {
-				"name": "鞍钢股份",
-				"industry": "普钢",
-				"area": "辽宁",
-				"buy_point_date": "20200409",
-				"close": 2.72,
+				"name": "深天马Ａ",
+				"industry": "元器件",
+				"area": "深圳",
+				"buy_point_date": "20220429",
+				"close": 9.16,
 				"chinese_desc": "买点交易日",
-				"ts_code": "000898.SZ",
+				"ts_code": "000050.SZ",
 				"re_trade_date": {
-					"name": "鞍钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000898.SZ",
-					"trade_date": "20200706",
-					"open": 2.66,
-					"high": 2.86,
-					"low": 2.66,
-					"close": 2.85,
-					"pre_close": 2.63,
-					"change": 0.22,
-					"pct_chg": 8.365,
-					"vol": 847597.22,
-					"amount": 233337.986,
+					"name": "深天马Ａ",
+					"industry": "元器件",
+					"area": "深圳",
+					"ts_code": "000050.SZ",
+					"trade_date": "20220519",
+					"open": 8.87,
+					"high": 9.22,
+					"low": 8.86,
+					"close": 9.19,
+					"pre_close": 9.09,
+					"change": 0.1,
+					"pct_chg": 1.1001,
+					"vol": 77490.81,
+					"amount": 70500.46,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 88,
+						"value": 20,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "鞍钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000898.SZ",
-					"trade_date": "20200525",
-					"open": 2.47,
-					"high": 2.48,
-					"low": 2.42,
-					"close": 2.44,
-					"pre_close": 2.48,
-					"change": -0.04,
-					"pct_chg": -1.6129,
-					"vol": 171500.64,
-					"amount": 42073.666,
+					"name": "深天马Ａ",
+					"industry": "元器件",
+					"area": "深圳",
+					"ts_code": "000050.SZ",
+					"trade_date": "20220505",
+					"open": 9.1,
+					"high": 9.1,
+					"low": 8.5,
+					"close": 8.97,
+					"pre_close": 9.16,
+					"change": -0.19,
+					"pct_chg": -2.0742,
+					"vol": 130782,
+					"amount": 116350.374,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 11.029411764705891,
+						"value": 7.205240174672491,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 46,
+						"value": 6,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "鞍钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000898.SZ",
-					"trade_date": "20210909",
-					"open": 6.1,
-					"high": 6.62,
-					"low": 6.01,
-					"close": 6.62,
-					"pre_close": 6.02,
-					"change": 0.6,
-					"pct_chg": 9.9668,
-					"vol": 2765356.29,
-					"amount": 1764893.777,
+					"name": "深天马Ａ",
+					"industry": "元器件",
+					"area": "深圳",
+					"ts_code": "000050.SZ",
+					"trade_date": "20220615",
+					"open": 9.34,
+					"high": 10.2,
+					"low": 9.34,
+					"close": 9.84,
+					"pre_close": 9.34,
+					"change": 0.5,
+					"pct_chg": 5.3533,
+					"vol": 321952.7,
+					"amount": 316033.285,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 143.38235294117646,
+						"value": 11.353711790393003,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 518,
+						"value": 47,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "鞍钢股份",
-					"industry": "普钢",
-					"area": "辽宁",
-					"ts_code": "000898.SZ",
-					"trade_date": "20220426",
-					"open": 3.3,
-					"high": 3.33,
-					"low": 3.18,
-					"close": 3.19,
-					"pre_close": 3.26,
-					"change": -0.07,
-					"pct_chg": -2.1472,
-					"vol": 705643.61,
-					"amount": 228239.282,
+					"name": "深天马Ａ",
+					"industry": "元器件",
+					"area": "深圳",
+					"ts_code": "000050.SZ",
+					"trade_date": "20220627",
+					"open": 9.86,
+					"high": 9.92,
+					"low": 9.79,
+					"close": 9.81,
+					"pre_close": 9.86,
+					"change": -0.05,
+					"pct_chg": -0.5071,
+					"vol": 115783.54,
+					"amount": 114118.748,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": 17.279411764705866
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": 7.096069868995647
 					},
 					"current_hold_day": {
-						"value": 747,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 59,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": 0.023131742656902095,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": 0.12027237066094316,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -2644,110 +1564,82 @@
 		},
 		"low_percent_max": {
 			"value": {
-				"name": "阳 光 城",
-				"industry": "区域地产",
-				"area": "福建",
-				"buy_point_date": "20210818",
-				"close": 4.59,
+				"name": "碧水源",
+				"industry": "环境保护",
+				"area": "北京",
+				"buy_point_date": "20220406",
+				"close": 6.08,
 				"chinese_desc": "买点交易日",
-				"ts_code": "000671.SZ",
+				"ts_code": "300070.SZ",
 				"re_trade_date": {
-					"name": "阳 光 城",
-					"industry": "区域地产",
-					"area": "福建",
-					"ts_code": "000671.SZ",
-					"trade_date": "20210902",
-					"open": 4.54,
-					"high": 4.9,
-					"low": 4.53,
-					"close": 4.81,
-					"pre_close": 4.56,
-					"change": 0.25,
-					"pct_chg": 5.4825,
-					"vol": 878378.79,
-					"amount": 417710.937,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 15,
+						"value": -1,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "阳 光 城",
-					"industry": "区域地产",
-					"area": "福建",
-					"ts_code": "000671.SZ",
-					"trade_date": "20220316",
-					"open": 2.09,
-					"high": 2.18,
-					"low": 2.01,
-					"close": 2.15,
-					"pre_close": 2.06,
-					"change": 0.09,
-					"pct_chg": 4.3689,
-					"vol": 1062658.09,
-					"amount": 222740.606,
+					"name": "碧水源",
+					"industry": "环境保护",
+					"area": "北京",
+					"ts_code": "300070.SZ",
+					"trade_date": "20220427",
+					"open": 4.55,
+					"high": 4.64,
+					"low": 4.43,
+					"close": 4.61,
+					"pre_close": 4.56,
+					"change": 0.05,
+					"pct_chg": 1.0965,
+					"vol": 435830.13,
+					"amount": 197866.719,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 56.209150326797385,
+						"value": 27.138157894736846,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 210,
+						"value": 21,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "阳 光 城",
-					"industry": "区域地产",
-					"area": "福建",
-					"ts_code": "000671.SZ",
-					"trade_date": "20210902",
-					"open": 4.54,
-					"high": 4.9,
-					"low": 4.53,
-					"close": 4.81,
-					"pre_close": 4.56,
-					"change": 0.25,
-					"pct_chg": 5.4825,
-					"vol": 878378.79,
-					"amount": 417710.937,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 6.753812636165589,
+						"value": -1,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 15,
+						"value": -1,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "阳 光 城",
-					"industry": "区域地产",
-					"area": "福建",
-					"ts_code": "000671.SZ",
-					"trade_date": "20220426",
-					"open": 2.47,
-					"high": 2.67,
-					"low": 2.41,
-					"close": 2.56,
-					"pre_close": 2.44,
+					"name": "碧水源",
+					"industry": "环境保护",
+					"area": "北京",
+					"ts_code": "300070.SZ",
+					"trade_date": "20220627",
+					"open": 4.93,
+					"high": 5.05,
+					"low": 4.92,
+					"close": 5.02,
+					"pre_close": 4.9,
 					"change": 0.12,
-					"pct_chg": 4.918,
-					"vol": 3932887.17,
-					"amount": 1000670.99,
+					"pct_chg": 2.449,
+					"vol": 504921.81,
+					"amount": 252273.861,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": -44.226579520697165
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": -17.434210526315795
 					},
 					"current_hold_day": {
-						"value": 251,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 82,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": -0.17620151203465007,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": -0.21261232349165604,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -2755,110 +1647,110 @@
 		},
 		"low_day_max": {
 			"value": {
-				"name": "好莱客",
-				"industry": "家居用品",
-				"area": "广东",
-				"buy_point_date": "20200409",
-				"close": 14.25,
+				"name": "好想你",
+				"industry": "食品",
+				"area": "河南",
+				"buy_point_date": "20220322",
+				"close": 7.88,
 				"chinese_desc": "买点交易日",
-				"ts_code": "603898.SH",
+				"ts_code": "002582.SZ",
 				"re_trade_date": {
-					"name": "好莱客",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "603898.SH",
-					"trade_date": "20200421",
-					"open": 14.01,
-					"high": 14.46,
-					"low": 14.01,
-					"close": 14.33,
-					"pre_close": 14.2,
-					"change": 0.13,
-					"pct_chg": 0.9155,
-					"vol": 8737.84,
-					"amount": 12483.019,
+					"name": "好想你",
+					"industry": "食品",
+					"area": "河南",
+					"ts_code": "002582.SZ",
+					"trade_date": "20220325",
+					"open": 7.79,
+					"high": 7.94,
+					"low": 7.79,
+					"close": 7.9,
+					"pre_close": 7.82,
+					"change": 0.08,
+					"pct_chg": 1.023,
+					"vol": 22072,
+					"amount": 17410.37,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 12,
+						"value": 3,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "好莱客",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "603898.SH",
-					"trade_date": "20220426",
-					"open": 8.3,
-					"high": 8.42,
-					"low": 7.91,
-					"close": 7.92,
-					"pre_close": 8.28,
-					"change": -0.36,
-					"pct_chg": -4.3478,
-					"vol": 17826.46,
-					"amount": 14633.536,
+					"name": "好想你",
+					"industry": "食品",
+					"area": "河南",
+					"ts_code": "002582.SZ",
+					"trade_date": "20220427",
+					"open": 6.76,
+					"high": 6.93,
+					"low": 6.5,
+					"close": 6.93,
+					"pre_close": 6.82,
+					"change": 0.11,
+					"pct_chg": 1.6129,
+					"vol": 74015.02,
+					"amount": 49500.857,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 44.49122807017544,
+						"value": 17.512690355329948,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 747,
+						"value": 36,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "好莱客",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "603898.SH",
-					"trade_date": "20200811",
-					"open": 23,
-					"high": 24.6,
-					"low": 21.63,
-					"close": 22.1,
-					"pre_close": 22.41,
-					"change": -0.31,
-					"pct_chg": -1.3833,
-					"vol": 91422.8,
-					"amount": 210930.588,
+					"name": "好想你",
+					"industry": "食品",
+					"area": "河南",
+					"ts_code": "002582.SZ",
+					"trade_date": "20220420",
+					"open": 8.2,
+					"high": 8.55,
+					"low": 8.15,
+					"close": 8.4,
+					"pre_close": 8.21,
+					"change": 0.19,
+					"pct_chg": 2.3143,
+					"vol": 122763.93,
+					"amount": 102869.435,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 72.63157894736844,
+						"value": 8.502538071066,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 124,
+						"value": 29,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "好莱客",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "603898.SH",
-					"trade_date": "20220426",
-					"open": 8.3,
-					"high": 8.42,
-					"low": 7.91,
-					"close": 7.92,
-					"pre_close": 8.28,
-					"change": -0.36,
-					"pct_chg": -4.3478,
-					"vol": 17826.46,
-					"amount": 14633.536,
+					"name": "好想你",
+					"industry": "食品",
+					"area": "河南",
+					"ts_code": "002582.SZ",
+					"trade_date": "20220627",
+					"open": 7.45,
+					"high": 7.46,
+					"low": 7.3,
+					"close": 7.35,
+					"pre_close": 7.38,
+					"change": -0.03,
+					"pct_chg": -0.4065,
+					"vol": 65161.88,
+					"amount": 48060.117,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": -44.42105263157895
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": -6.725888324873097
 					},
 					"current_hold_day": {
-						"value": 747,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 97,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": -0.05946593391108294,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": -0.06933905489559894,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -2866,110 +1758,110 @@
 		},
 		"high_percent_max": {
 			"value": {
-				"name": "昊华能源",
-				"industry": "煤炭开采",
-				"area": "北京",
-				"buy_point_date": "20200603",
-				"close": 3.51,
+				"name": "东旭光电",
+				"industry": "元器件",
+				"area": "河北",
+				"buy_point_date": "20220511",
+				"close": 1.68,
 				"chinese_desc": "买点交易日",
-				"ts_code": "601101.SH",
+				"ts_code": "000413.SZ",
 				"re_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20200605",
-					"open": 3.51,
-					"high": 3.52,
-					"low": 3.48,
-					"close": 3.52,
-					"pre_close": 3.51,
-					"change": 0.01,
-					"pct_chg": 0.2849,
-					"vol": 31882,
-					"amount": 11164.312,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220518",
+					"open": 1.67,
+					"high": 1.71,
+					"low": 1.66,
+					"close": 1.69,
+					"pre_close": 1.67,
+					"change": 0.02,
+					"pct_chg": 1.1976,
+					"vol": 298118.89,
+					"amount": 50373.037,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 2,
+						"value": 7,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20210204",
-					"open": 3.29,
-					"high": 3.39,
-					"low": 3.19,
-					"close": 3.26,
-					"pre_close": 3.29,
-					"change": -0.03,
-					"pct_chg": -0.9119,
-					"vol": 75094.84,
-					"amount": 24547.709,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220513",
+					"open": 1.69,
+					"high": 1.69,
+					"low": 1.66,
+					"close": 1.68,
+					"pre_close": 1.68,
+					"change": 0,
+					"pct_chg": 0,
+					"vol": 236006,
+					"amount": 39538.656,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 9.116809116809113,
+						"value": 1.1904761904761916,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 246,
+						"value": 2,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20211019",
-					"open": 13.3,
-					"high": 14.07,
-					"low": 13.03,
-					"close": 13.39,
-					"pre_close": 12.9,
-					"change": 0.49,
-					"pct_chg": 3.7984,
-					"vol": 984831.79,
-					"amount": 1331424.252,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220627",
+					"open": 2.14,
+					"high": 2.24,
+					"low": 2.05,
+					"close": 2.06,
+					"pre_close": 2.04,
+					"change": 0.02,
+					"pct_chg": 0.9804,
+					"vol": 4196457.82,
+					"amount": 892132.107,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 300.8547008547009,
+						"value": 33.33333333333336,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 503,
+						"value": 47,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "昊华能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601101.SH",
-					"trade_date": "20220426",
-					"open": 7.82,
-					"high": 7.96,
-					"low": 7.61,
-					"close": 7.61,
-					"pre_close": 8.46,
-					"change": -0.85,
-					"pct_chg": -10.0473,
-					"vol": 568215.85,
-					"amount": 436583.079,
+					"name": "东旭光电",
+					"industry": "元器件",
+					"area": "河北",
+					"ts_code": "000413.SZ",
+					"trade_date": "20220627",
+					"open": 2.14,
+					"high": 2.24,
+					"low": 2.05,
+					"close": 2.06,
+					"pre_close": 2.04,
+					"change": 0.02,
+					"pct_chg": 0.9804,
+					"vol": 4196457.82,
+					"amount": 892132.107,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": 116.80911680911686
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": 22.619047619047628
 					},
 					"current_hold_day": {
-						"value": 692,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 47,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": 0.1687993017472787,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": 0.4812563323201623,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -2977,110 +1869,96 @@
 		},
 		"high_day_max": {
 			"value": {
-				"name": "中煤能源",
-				"industry": "煤炭开采",
-				"area": "北京",
-				"buy_point_date": "20200506",
-				"close": 3.83,
+				"name": "三角轮胎",
+				"industry": "汽车配件",
+				"area": "山东",
+				"buy_point_date": "20220506",
+				"close": 10.76,
 				"chinese_desc": "买点交易日",
-				"ts_code": "601898.SH",
+				"ts_code": "601163.SH",
 				"re_trade_date": {
-					"name": "中煤能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601898.SH",
-					"trade_date": "20200528",
-					"open": 3.84,
-					"high": 3.87,
-					"low": 3.82,
-					"close": 3.84,
-					"pre_close": 3.83,
-					"change": 0.01,
-					"pct_chg": 0.2611,
-					"vol": 124245.88,
-					"amount": 47775.503,
+					"name": "三角轮胎",
+					"industry": "汽车配件",
+					"area": "山东",
+					"ts_code": "601163.SH",
+					"trade_date": "20220509",
+					"open": 11.14,
+					"high": 11.14,
+					"low": 10.77,
+					"close": 10.88,
+					"pre_close": 10.76,
+					"change": 0.12,
+					"pct_chg": 1.1152,
+					"vol": 21612,
+					"amount": 23619.511,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 22,
+						"value": 3,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "中煤能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601898.SH",
-					"trade_date": "20200522",
-					"open": 3.76,
-					"high": 3.76,
-					"low": 3.68,
-					"close": 3.69,
-					"pre_close": 3.75,
-					"change": -0.06,
-					"pct_chg": -1.6,
-					"vol": 121721,
-					"amount": 45173.197,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 3.9164490861618773,
+						"value": 0,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 16,
+						"value": 0,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "中煤能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601898.SH",
-					"trade_date": "20220415",
-					"open": 10.36,
-					"high": 10.67,
-					"low": 9.82,
-					"close": 9.94,
-					"pre_close": 10.16,
-					"change": -0.22,
-					"pct_chg": -2.1654,
-					"vol": 1784671.63,
-					"amount": 1827590.751,
+					"name": "三角轮胎",
+					"industry": "汽车配件",
+					"area": "山东",
+					"ts_code": "601163.SH",
+					"trade_date": "20220623",
+					"open": 11.54,
+					"high": 12.13,
+					"low": 11.54,
+					"close": 12.02,
+					"pre_close": 11.54,
+					"change": 0.48,
+					"pct_chg": 4.1594,
+					"vol": 63177.44,
+					"amount": 75372.05,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 178.59007832898172,
+						"value": 12.732342007434955,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 709,
+						"value": 48,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "中煤能源",
-					"industry": "煤炭开采",
-					"area": "北京",
-					"ts_code": "601898.SH",
-					"trade_date": "20220426",
-					"open": 8.53,
-					"high": 8.59,
-					"low": 8.13,
-					"close": 8.18,
-					"pre_close": 8.46,
-					"change": -0.28,
-					"pct_chg": -3.3097,
-					"vol": 582739.76,
-					"amount": 483922.575,
+					"name": "三角轮胎",
+					"industry": "汽车配件",
+					"area": "山东",
+					"ts_code": "601163.SH",
+					"trade_date": "20220627",
+					"open": 11.99,
+					"high": 12.04,
+					"low": 11.83,
+					"close": 11.93,
+					"pre_close": 11.93,
+					"change": 0,
+					"pct_chg": 0,
+					"vol": 32964.37,
+					"amount": 39306.411,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": 113.5770234986945
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": 10.87360594795539
 					},
 					"current_hold_day": {
-						"value": 720,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 52,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": 0.15774586597040902,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": 0.20910780669144982,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -3089,362 +1967,278 @@
 	},
 	"min": {
 		"average_yield_min": {
-			"chinese_desc": "在买点持有到 当前20220426交易日 最小总-(+收益率)/(-回撤率)(%)",
+			"chinese_desc": "在买点持有到 当前20220627交易日 最小总-(+收益率)/(-回撤率)(%)",
 			"value": {
-				"name": "皮阿诺",
-				"industry": "家居用品",
-				"area": "广东",
-				"buy_point_date": "20220303",
-				"close": 13.64,
+				"name": "碧水源",
+				"industry": "环境保护",
+				"area": "北京",
+				"buy_point_date": "20220406",
+				"close": 6.08,
 				"chinese_desc": "买点交易日",
-				"ts_code": "002853.SZ",
+				"ts_code": "300070.SZ",
 				"re_trade_date": {
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "002853.SZ",
-					"trade_date": "20220323",
-					"open": 13.6,
-					"high": 14.16,
-					"low": 12.85,
-					"close": 13.81,
-					"pre_close": 13.64,
-					"change": 0.17,
-					"pct_chg": 1.2463,
-					"vol": 120589.5,
-					"amount": 161242.638,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 20,
+						"value": -1,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "002853.SZ",
-					"trade_date": "20220426",
-					"open": 10.85,
-					"high": 10.99,
-					"low": 10.08,
-					"close": 10.35,
-					"pre_close": 10.79,
-					"change": -0.44,
-					"pct_chg": -4.0778,
-					"vol": 21987,
-					"amount": 23461.486,
+					"name": "碧水源",
+					"industry": "环境保护",
+					"area": "北京",
+					"ts_code": "300070.SZ",
+					"trade_date": "20220427",
+					"open": 4.55,
+					"high": 4.64,
+					"low": 4.43,
+					"close": 4.61,
+					"pre_close": 4.56,
+					"change": 0.05,
+					"pct_chg": 1.0965,
+					"vol": 435830.13,
+					"amount": 197866.719,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 26.09970674486804,
+						"value": 27.138157894736846,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 54,
+						"value": 21,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "002853.SZ",
-					"trade_date": "20220323",
-					"open": 13.6,
-					"high": 14.16,
-					"low": 12.85,
-					"close": 13.81,
-					"pre_close": 13.64,
-					"change": 0.17,
-					"pct_chg": 1.2463,
-					"vol": 120589.5,
-					"amount": 161242.638,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 3.8123167155425186,
+						"value": -1,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 20,
+						"value": -1,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "002853.SZ",
-					"trade_date": "20220426",
-					"open": 10.85,
-					"high": 10.99,
-					"low": 10.08,
-					"close": 10.35,
-					"pre_close": 10.79,
-					"change": -0.44,
-					"pct_chg": -4.0778,
-					"vol": 21987,
-					"amount": 23461.486,
+					"name": "碧水源",
+					"industry": "环境保护",
+					"area": "北京",
+					"ts_code": "300070.SZ",
+					"trade_date": "20220627",
+					"open": 4.93,
+					"high": 5.05,
+					"low": 4.92,
+					"close": 5.02,
+					"pre_close": 4.9,
+					"change": 0.12,
+					"pct_chg": 2.449,
+					"vol": 504921.81,
+					"amount": 252273.861,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": -24.120234604105573
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": -17.434210526315795
 					},
 					"current_hold_day": {
-						"value": 54,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 82,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": -0.44667101118714025,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": -0.21261232349165604,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			}
 		},
 		"current_yield_min": {
-			"chinese_desc": "在买点持有到 当前20220426交易日 最小总-(+收益率)/(-回撤率)(%)",
+			"chinese_desc": "在买点持有到 当前20220627交易日 最小总-(+收益率)/(-回撤率)(%)",
 			"value": {
-				"name": "皮阿诺",
-				"industry": "家居用品",
-				"area": "广东",
-				"buy_point_date": "20220303",
-				"close": 13.64,
+				"name": "碧水源",
+				"industry": "环境保护",
+				"area": "北京",
+				"buy_point_date": "20220406",
+				"close": 6.08,
 				"chinese_desc": "买点交易日",
-				"ts_code": "002853.SZ",
+				"ts_code": "300070.SZ",
 				"re_trade_date": {
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "002853.SZ",
-					"trade_date": "20220323",
-					"open": 13.6,
-					"high": 14.16,
-					"low": 12.85,
-					"close": 13.81,
-					"pre_close": 13.64,
-					"change": 0.17,
-					"pct_chg": 1.2463,
-					"vol": 120589.5,
-					"amount": 161242.638,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 20,
+						"value": -1,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "002853.SZ",
-					"trade_date": "20220426",
-					"open": 10.85,
-					"high": 10.99,
-					"low": 10.08,
-					"close": 10.35,
-					"pre_close": 10.79,
-					"change": -0.44,
-					"pct_chg": -4.0778,
-					"vol": 21987,
-					"amount": 23461.486,
+					"name": "碧水源",
+					"industry": "环境保护",
+					"area": "北京",
+					"ts_code": "300070.SZ",
+					"trade_date": "20220427",
+					"open": 4.55,
+					"high": 4.64,
+					"low": 4.43,
+					"close": 4.61,
+					"pre_close": 4.56,
+					"change": 0.05,
+					"pct_chg": 1.0965,
+					"vol": 435830.13,
+					"amount": 197866.719,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 26.09970674486804,
+						"value": 27.138157894736846,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 54,
+						"value": 21,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "002853.SZ",
-					"trade_date": "20220323",
-					"open": 13.6,
-					"high": 14.16,
-					"low": 12.85,
-					"close": 13.81,
-					"pre_close": 13.64,
-					"change": 0.17,
-					"pct_chg": 1.2463,
-					"vol": 120589.5,
-					"amount": 161242.638,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 3.8123167155425186,
+						"value": -1,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 20,
+						"value": -1,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "002853.SZ",
-					"trade_date": "20220426",
-					"open": 10.85,
-					"high": 10.99,
-					"low": 10.08,
-					"close": 10.35,
-					"pre_close": 10.79,
-					"change": -0.44,
-					"pct_chg": -4.0778,
-					"vol": 21987,
-					"amount": 23461.486,
+					"name": "碧水源",
+					"industry": "环境保护",
+					"area": "北京",
+					"ts_code": "300070.SZ",
+					"trade_date": "20220627",
+					"open": 4.93,
+					"high": 5.05,
+					"low": 4.92,
+					"close": 5.02,
+					"pre_close": 4.9,
+					"change": 0.12,
+					"pct_chg": 2.449,
+					"vol": 504921.81,
+					"amount": 252273.861,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": -24.120234604105573
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": -17.434210526315795
 					},
 					"current_hold_day": {
-						"value": 54,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 82,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": -0.44667101118714025,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": -0.21261232349165604,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			}
 		},
 		"hold_day_min": {
-			"chinese_desc": "买点交易日持有到 当前20220426交易日 最小-持有天数",
+			"chinese_desc": "买点交易日持有到 当前20220627交易日 最小-持有天数",
 			"value": {
-				"name": "皮阿诺",
-				"industry": "家居用品",
-				"area": "广东",
-				"buy_point_date": "20220303",
-				"close": 13.64,
+				"name": "碧水源",
+				"industry": "环境保护",
+				"area": "北京",
+				"buy_point_date": "20220406",
+				"close": 6.08,
 				"chinese_desc": "买点交易日",
-				"ts_code": "002853.SZ",
+				"ts_code": "300070.SZ",
 				"re_trade_date": {
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "002853.SZ",
-					"trade_date": "20220323",
-					"open": 13.6,
-					"high": 14.16,
-					"low": 12.85,
-					"close": 13.81,
-					"pre_close": 13.64,
-					"change": 0.17,
-					"pct_chg": 1.2463,
-					"vol": 120589.5,
-					"amount": 161242.638,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 20,
+						"value": -1,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "002853.SZ",
-					"trade_date": "20220426",
-					"open": 10.85,
-					"high": 10.99,
-					"low": 10.08,
-					"close": 10.35,
-					"pre_close": 10.79,
-					"change": -0.44,
-					"pct_chg": -4.0778,
-					"vol": 21987,
-					"amount": 23461.486,
+					"name": "碧水源",
+					"industry": "环境保护",
+					"area": "北京",
+					"ts_code": "300070.SZ",
+					"trade_date": "20220427",
+					"open": 4.55,
+					"high": 4.64,
+					"low": 4.43,
+					"close": 4.61,
+					"pre_close": 4.56,
+					"change": 0.05,
+					"pct_chg": 1.0965,
+					"vol": 435830.13,
+					"amount": 197866.719,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 26.09970674486804,
+						"value": 27.138157894736846,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 54,
+						"value": 21,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "002853.SZ",
-					"trade_date": "20220323",
-					"open": 13.6,
-					"high": 14.16,
-					"low": 12.85,
-					"close": 13.81,
-					"pre_close": 13.64,
-					"change": 0.17,
-					"pct_chg": 1.2463,
-					"vol": 120589.5,
-					"amount": 161242.638,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 3.8123167155425186,
+						"value": -1,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 20,
+						"value": -1,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "皮阿诺",
-					"industry": "家居用品",
-					"area": "广东",
-					"ts_code": "002853.SZ",
-					"trade_date": "20220426",
-					"open": 10.85,
-					"high": 10.99,
-					"low": 10.08,
-					"close": 10.35,
-					"pre_close": 10.79,
-					"change": -0.44,
-					"pct_chg": -4.0778,
-					"vol": 21987,
-					"amount": 23461.486,
+					"name": "碧水源",
+					"industry": "环境保护",
+					"area": "北京",
+					"ts_code": "300070.SZ",
+					"trade_date": "20220627",
+					"open": 4.93,
+					"high": 5.05,
+					"low": 4.92,
+					"close": 5.02,
+					"pre_close": 4.9,
+					"change": 0.12,
+					"pct_chg": 2.449,
+					"vol": 504921.81,
+					"amount": 252273.861,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": -24.120234604105573
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": -17.434210526315795
 					},
 					"current_hold_day": {
-						"value": 54,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 82,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": -0.44667101118714025,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": -0.21261232349165604,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			}
 		},
 		"re_day_min": {
 			"value": {
-				"name": "闰土股份",
-				"industry": "染料涂料",
-				"area": "浙江",
-				"buy_point_date": "20211202",
-				"close": 9.15,
+				"name": "浦发银行",
+				"industry": "银行",
+				"area": "上海",
+				"buy_point_date": "20220414",
+				"close": 8.11,
 				"chinese_desc": "买点交易日",
-				"ts_code": "002440.SZ",
+				"ts_code": "600000.SH",
 				"re_trade_date": {
-					"name": "闰土股份",
-					"industry": "染料涂料",
-					"area": "浙江",
-					"ts_code": "002440.SZ",
-					"trade_date": "20211203",
-					"open": 9.22,
-					"high": 9.23,
-					"low": 9.11,
-					"close": 9.2,
-					"pre_close": 9.15,
-					"change": 0.05,
-					"pct_chg": 0.5464,
-					"vol": 54191.87,
-					"amount": 49714.093,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"ts_code": "600000.SH",
+					"trade_date": "20220415",
+					"open": 8.11,
+					"high": 8.18,
+					"low": 8.09,
+					"close": 8.15,
+					"pre_close": 8.11,
+					"change": 0.04,
+					"pct_chg": 0.4932,
+					"vol": 218119.56,
+					"amount": 177849.45,
 					"chinese_desc": "回本交易日",
 					"re_day": {
 						"value": 1,
@@ -3452,81 +2246,81 @@
 					}
 				},
 				"low_trade_date": {
-					"name": "闰土股份",
-					"industry": "染料涂料",
-					"area": "浙江",
-					"ts_code": "002440.SZ",
-					"trade_date": "20220426",
-					"open": 7.72,
-					"high": 7.83,
-					"low": 7.5,
-					"close": 7.53,
-					"pre_close": 7.69,
-					"change": -0.16,
-					"pct_chg": -2.0806,
-					"vol": 107039.53,
-					"amount": 81910.216,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"ts_code": "600000.SH",
+					"trade_date": "20220510",
+					"open": 7.8,
+					"high": 7.89,
+					"low": 7.71,
+					"close": 7.85,
+					"pre_close": 7.82,
+					"change": 0.03,
+					"pct_chg": 0.3836,
+					"vol": 329910.18,
+					"amount": 257366.422,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 18.032786885245905,
+						"value": 4.932182490752152,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 145,
+						"value": 26,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "闰土股份",
-					"industry": "染料涂料",
-					"area": "浙江",
-					"ts_code": "002440.SZ",
-					"trade_date": "20220111",
-					"open": 9.67,
-					"high": 10.28,
-					"low": 9.62,
-					"close": 10,
-					"pre_close": 9.66,
-					"change": 0.34,
-					"pct_chg": 3.5197,
-					"vol": 290897,
-					"amount": 289139.123,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"ts_code": "600000.SH",
+					"trade_date": "20220415",
+					"open": 8.11,
+					"high": 8.18,
+					"low": 8.09,
+					"close": 8.15,
+					"pre_close": 8.11,
+					"change": 0.04,
+					"pct_chg": 0.4932,
+					"vol": 218119.56,
+					"amount": 177849.45,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 12.349726775956272,
+						"value": 0.8631319358816312,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 40,
+						"value": 1,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "闰土股份",
-					"industry": "染料涂料",
-					"area": "浙江",
-					"ts_code": "002440.SZ",
-					"trade_date": "20220426",
-					"open": 7.72,
-					"high": 7.83,
-					"low": 7.5,
-					"close": 7.53,
-					"pre_close": 7.69,
-					"change": -0.16,
-					"pct_chg": -2.0806,
-					"vol": 107039.53,
-					"amount": 81910.216,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"ts_code": "600000.SH",
+					"trade_date": "20220627",
+					"open": 7.95,
+					"high": 8.01,
+					"low": 7.94,
+					"close": 7.97,
+					"pre_close": 7.95,
+					"change": 0.02,
+					"pct_chg": 0.2516,
+					"vol": 240677.19,
+					"amount": 192131.006,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": -17.704918032786885
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": -1.7262638717632561
 					},
 					"current_hold_day": {
-						"value": 145,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 74,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": -0.12210288298473713,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": -0.02332789015896292,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -3534,28 +2328,28 @@
 		},
 		"low_percent_min": {
 			"value": {
-				"name": "皖新传媒",
-				"industry": "出版业",
-				"area": "安徽",
-				"buy_point_date": "20210812",
-				"close": 4.38,
+				"name": "海通证券",
+				"industry": "证券",
+				"area": "上海",
+				"buy_point_date": "20220527",
+				"close": 9.1,
 				"chinese_desc": "买点交易日",
-				"ts_code": "601801.SH",
+				"ts_code": "600837.SH",
 				"re_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20210816",
-					"open": 4.36,
-					"high": 4.41,
-					"low": 4.33,
-					"close": 4.4,
-					"pre_close": 4.37,
-					"change": 0.03,
-					"pct_chg": 0.6865,
-					"vol": 39819.34,
-					"amount": 17423.092,
+					"name": "海通证券",
+					"industry": "证券",
+					"area": "上海",
+					"ts_code": "600837.SH",
+					"trade_date": "20220531",
+					"open": 9.09,
+					"high": 9.17,
+					"low": 9.05,
+					"close": 9.13,
+					"pre_close": 9.07,
+					"change": 0.06,
+					"pct_chg": 0.6615,
+					"vol": 308928.67,
+					"amount": 281791.458,
 					"chinese_desc": "回本交易日",
 					"re_day": {
 						"value": 4,
@@ -3563,81 +2357,81 @@
 					}
 				},
 				"low_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20210813",
-					"open": 4.38,
-					"high": 4.38,
-					"low": 4.33,
-					"close": 4.37,
-					"pre_close": 4.38,
-					"change": -0.01,
-					"pct_chg": -0.2283,
-					"vol": 32429.15,
-					"amount": 14128.015,
+					"name": "海通证券",
+					"industry": "证券",
+					"area": "上海",
+					"ts_code": "600837.SH",
+					"trade_date": "20220530",
+					"open": 9.12,
+					"high": 9.15,
+					"low": 9.03,
+					"close": 9.07,
+					"pre_close": 9.1,
+					"change": -0.03,
+					"pct_chg": -0.3297,
+					"vol": 249554.15,
+					"amount": 226796.93,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 1.1415525114155212,
+						"value": 0.7692307692307724,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 1,
+						"value": 3,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20220406",
-					"open": 5.3,
-					"high": 5.56,
-					"low": 5.3,
-					"close": 5.5,
-					"pre_close": 5.32,
-					"change": 0.18,
-					"pct_chg": 3.3835,
-					"vol": 284195.08,
-					"amount": 155767.796,
+					"name": "海通证券",
+					"industry": "证券",
+					"area": "上海",
+					"ts_code": "600837.SH",
+					"trade_date": "20220615",
+					"open": 9.87,
+					"high": 10.41,
+					"low": 9.83,
+					"close": 10.09,
+					"pre_close": 9.81,
+					"change": 0.28,
+					"pct_chg": 2.8542,
+					"vol": 1808218.38,
+					"amount": 1835577.996,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 26.940639269406386,
+						"value": 14.395604395604403,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 237,
+						"value": 19,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20220426",
-					"open": 4.63,
-					"high": 4.69,
-					"low": 4.44,
-					"close": 4.45,
-					"pre_close": 4.63,
-					"change": -0.18,
-					"pct_chg": -3.8877,
-					"vol": 131654.13,
-					"amount": 60213.636,
+					"name": "海通证券",
+					"industry": "证券",
+					"area": "上海",
+					"ts_code": "600837.SH",
+					"trade_date": "20220627",
+					"open": 9.81,
+					"high": 9.86,
+					"low": 9.75,
+					"close": 9.76,
+					"pre_close": 9.76,
+					"change": 0,
+					"pct_chg": 0,
+					"vol": 384657.89,
+					"amount": 377178.083,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": 1.598173515981749
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": 7.252747252747249
 					},
 					"current_hold_day": {
-						"value": 257,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 31,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": 0.006218573992146883,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": 0.23395958879829837,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -3645,52 +2439,52 @@
 		},
 		"low_day_min": {
 			"value": {
-				"name": "皖新传媒",
-				"industry": "出版业",
-				"area": "安徽",
-				"buy_point_date": "20210812",
-				"close": 4.38,
+				"name": "海油工程",
+				"industry": "石油开采",
+				"area": "天津",
+				"buy_point_date": "20220505",
+				"close": 4.17,
 				"chinese_desc": "买点交易日",
-				"ts_code": "601801.SH",
+				"ts_code": "600583.SH",
 				"re_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20210816",
-					"open": 4.36,
-					"high": 4.41,
-					"low": 4.33,
-					"close": 4.4,
-					"pre_close": 4.37,
-					"change": 0.03,
-					"pct_chg": 0.6865,
-					"vol": 39819.34,
-					"amount": 17423.092,
+					"name": "海油工程",
+					"industry": "石油开采",
+					"area": "天津",
+					"ts_code": "600583.SH",
+					"trade_date": "20220517",
+					"open": 4.19,
+					"high": 4.26,
+					"low": 4.16,
+					"close": 4.22,
+					"pre_close": 4.17,
+					"change": 0.05,
+					"pct_chg": 1.199,
+					"vol": 193269.27,
+					"amount": 81685.506,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 4,
+						"value": 12,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20210813",
-					"open": 4.38,
-					"high": 4.38,
-					"low": 4.33,
-					"close": 4.37,
-					"pre_close": 4.38,
-					"change": -0.01,
-					"pct_chg": -0.2283,
-					"vol": 32429.15,
-					"amount": 14128.015,
+					"name": "海油工程",
+					"industry": "石油开采",
+					"area": "天津",
+					"ts_code": "600583.SH",
+					"trade_date": "20220506",
+					"open": 4.1,
+					"high": 4.14,
+					"low": 4.08,
+					"close": 4.12,
+					"pre_close": 4.17,
+					"change": -0.05,
+					"pct_chg": -1.199,
+					"vol": 117320.97,
+					"amount": 48246.771,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 1.1415525114155212,
+						"value": 2.158273381294961,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
@@ -3699,56 +2493,56 @@
 					}
 				},
 				"high_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20220406",
-					"open": 5.3,
-					"high": 5.56,
-					"low": 5.3,
-					"close": 5.5,
-					"pre_close": 5.32,
-					"change": 0.18,
-					"pct_chg": 3.3835,
-					"vol": 284195.08,
-					"amount": 155767.796,
+					"name": "海油工程",
+					"industry": "石油开采",
+					"area": "天津",
+					"ts_code": "600583.SH",
+					"trade_date": "20220609",
+					"open": 4.54,
+					"high": 4.6,
+					"low": 4.52,
+					"close": 4.57,
+					"pre_close": 4.54,
+					"change": 0.03,
+					"pct_chg": 0.6608,
+					"vol": 338099.83,
+					"amount": 154092.268,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 26.940639269406386,
+						"value": 10.311750599520376,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 237,
+						"value": 35,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "皖新传媒",
-					"industry": "出版业",
-					"area": "安徽",
-					"ts_code": "601801.SH",
-					"trade_date": "20220426",
-					"open": 4.63,
-					"high": 4.69,
-					"low": 4.44,
-					"close": 4.45,
-					"pre_close": 4.63,
-					"change": -0.18,
-					"pct_chg": -3.8877,
-					"vol": 131654.13,
-					"amount": 60213.636,
+					"name": "海油工程",
+					"industry": "石油开采",
+					"area": "天津",
+					"ts_code": "600583.SH",
+					"trade_date": "20220627",
+					"open": 4.18,
+					"high": 4.19,
+					"low": 4.14,
+					"close": 4.16,
+					"pre_close": 4.15,
+					"change": 0.01,
+					"pct_chg": 0.241,
+					"vol": 431711.41,
+					"amount": 179421.211,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": 1.598173515981749
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": -0.23980815347721673
 					},
 					"current_hold_day": {
-						"value": 257,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 53,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": 0.006218573992146883,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": -0.004524682141079561,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -3756,28 +2550,28 @@
 		},
 		"high_percent_min": {
 			"value": {
-				"name": "大秦铁路",
-				"industry": "铁路",
-				"area": "山西",
-				"buy_point_date": "20200618",
-				"close": 7.09,
+				"name": "浦发银行",
+				"industry": "银行",
+				"area": "上海",
+				"buy_point_date": "20220414",
+				"close": 8.11,
 				"chinese_desc": "买点交易日",
-				"ts_code": "601006.SH",
+				"ts_code": "600000.SH",
 				"re_trade_date": {
-					"name": "大秦铁路",
-					"industry": "铁路",
-					"area": "山西",
-					"ts_code": "601006.SH",
-					"trade_date": "20200619",
-					"open": 7.11,
-					"high": 7.16,
-					"low": 7.07,
-					"close": 7.13,
-					"pre_close": 7.09,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"ts_code": "600000.SH",
+					"trade_date": "20220415",
+					"open": 8.11,
+					"high": 8.18,
+					"low": 8.09,
+					"close": 8.15,
+					"pre_close": 8.11,
 					"change": 0.04,
-					"pct_chg": 0.5642,
-					"vol": 334287.13,
-					"amount": 238187.924,
+					"pct_chg": 0.4932,
+					"vol": 218119.56,
+					"amount": 177849.45,
 					"chinese_desc": "回本交易日",
 					"re_day": {
 						"value": 1,
@@ -3785,81 +2579,81 @@
 					}
 				},
 				"low_trade_date": {
-					"name": "大秦铁路",
-					"industry": "铁路",
-					"area": "山西",
-					"ts_code": "601006.SH",
-					"trade_date": "20210809",
-					"open": 5.81,
-					"high": 5.89,
-					"low": 5.8,
-					"close": 5.87,
-					"pre_close": 5.84,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"ts_code": "600000.SH",
+					"trade_date": "20220510",
+					"open": 7.8,
+					"high": 7.89,
+					"low": 7.71,
+					"close": 7.85,
+					"pre_close": 7.82,
 					"change": 0.03,
-					"pct_chg": 0.5137,
-					"vol": 243214.11,
-					"amount": 142343.814,
+					"pct_chg": 0.3836,
+					"vol": 329910.18,
+					"amount": 257366.422,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 18.19464033850494,
+						"value": 4.932182490752152,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 417,
+						"value": 26,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "大秦铁路",
-					"industry": "铁路",
-					"area": "山西",
-					"ts_code": "601006.SH",
-					"trade_date": "20220211",
-					"open": 7.15,
-					"high": 7.25,
-					"low": 7.1,
-					"close": 7.14,
-					"pre_close": 7.17,
-					"change": -0.03,
-					"pct_chg": -0.4184,
-					"vol": 799634.92,
-					"amount": 574265.056,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"ts_code": "600000.SH",
+					"trade_date": "20220415",
+					"open": 8.11,
+					"high": 8.18,
+					"low": 8.09,
+					"close": 8.15,
+					"pre_close": 8.11,
+					"change": 0.04,
+					"pct_chg": 0.4932,
+					"vol": 218119.56,
+					"amount": 177849.45,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 2.256699576868831,
+						"value": 0.8631319358816312,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 603,
+						"value": 1,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "大秦铁路",
-					"industry": "铁路",
-					"area": "山西",
-					"ts_code": "601006.SH",
-					"trade_date": "20220426",
-					"open": 6.88,
-					"high": 6.99,
-					"low": 6.8,
-					"close": 6.82,
-					"pre_close": 6.92,
-					"change": -0.1,
-					"pct_chg": -1.4451,
-					"vol": 468920.44,
-					"amount": 323178.261,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"ts_code": "600000.SH",
+					"trade_date": "20220627",
+					"open": 7.95,
+					"high": 8.01,
+					"low": 7.94,
+					"close": 7.97,
+					"pre_close": 7.95,
+					"change": 0.02,
+					"pct_chg": 0.2516,
+					"vol": 240677.19,
+					"amount": 192131.006,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": -3.8081805359661436
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": -1.7262638717632561
 					},
 					"current_hold_day": {
-						"value": 677,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 74,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": -0.005625082032446297,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": -0.02332789015896292,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},
@@ -3867,110 +2661,110 @@
 		},
 		"high_day_min": {
 			"value": {
-				"name": "阳 光 城",
-				"industry": "区域地产",
-				"area": "福建",
-				"buy_point_date": "20210802",
-				"close": 4.38,
+				"name": "浦发银行",
+				"industry": "银行",
+				"area": "上海",
+				"buy_point_date": "20220414",
+				"close": 8.11,
 				"chinese_desc": "买点交易日",
-				"ts_code": "000671.SZ",
+				"ts_code": "600000.SH",
 				"re_trade_date": {
-					"name": "阳 光 城",
-					"industry": "区域地产",
-					"area": "福建",
-					"ts_code": "000671.SZ",
-					"trade_date": "20210805",
-					"open": 4.42,
-					"high": 4.65,
-					"low": 4.4,
-					"close": 4.52,
-					"pre_close": 4.36,
-					"change": 0.16,
-					"pct_chg": 3.6697,
-					"vol": 408704.93,
-					"amount": 184518.478,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"ts_code": "600000.SH",
+					"trade_date": "20220415",
+					"open": 8.11,
+					"high": 8.18,
+					"low": 8.09,
+					"close": 8.15,
+					"pre_close": 8.11,
+					"change": 0.04,
+					"pct_chg": 0.4932,
+					"vol": 218119.56,
+					"amount": 177849.45,
 					"chinese_desc": "回本交易日",
 					"re_day": {
-						"value": 3,
+						"value": 1,
 						"chinese_desc": "回本天数"
 					}
 				},
 				"low_trade_date": {
-					"name": "阳 光 城",
-					"industry": "区域地产",
-					"area": "福建",
-					"ts_code": "000671.SZ",
-					"trade_date": "20220316",
-					"open": 2.09,
-					"high": 2.18,
-					"low": 2.01,
-					"close": 2.15,
-					"pre_close": 2.06,
-					"change": 0.09,
-					"pct_chg": 4.3689,
-					"vol": 1062658.09,
-					"amount": 222740.606,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"ts_code": "600000.SH",
+					"trade_date": "20220510",
+					"open": 7.8,
+					"high": 7.89,
+					"low": 7.71,
+					"close": 7.85,
+					"pre_close": 7.82,
+					"change": 0.03,
+					"pct_chg": 0.3836,
+					"vol": 329910.18,
+					"amount": 257366.422,
 					"chinese_desc": "最低价格交易日",
 					"low_percent": {
-						"value": 54.109589041095894,
+						"value": 4.932182490752152,
 						"chinese_desc": "回撤比例(%)"
 					},
 					"low_day": {
-						"value": 226,
+						"value": 26,
 						"chinese_desc": "回撤天数"
 					}
 				},
 				"high_trade_date": {
-					"name": "阳 光 城",
-					"industry": "区域地产",
-					"area": "福建",
-					"ts_code": "000671.SZ",
-					"trade_date": "20210811",
-					"open": 4.53,
-					"high": 4.9,
-					"low": 4.53,
-					"close": 4.65,
-					"pre_close": 4.5,
-					"change": 0.15,
-					"pct_chg": 3.3333,
-					"vol": 719641.04,
-					"amount": 341530.44,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"ts_code": "600000.SH",
+					"trade_date": "20220415",
+					"open": 8.11,
+					"high": 8.18,
+					"low": 8.09,
+					"close": 8.15,
+					"pre_close": 8.11,
+					"change": 0.04,
+					"pct_chg": 0.4932,
+					"vol": 218119.56,
+					"amount": 177849.45,
 					"chinese_desc": "最高价格交易日",
 					"high_percent": {
-						"value": 11.87214611872147,
+						"value": 0.8631319358816312,
 						"chinese_desc": "涨幅比例(%)"
 					},
 					"high_day": {
-						"value": 9,
+						"value": 1,
 						"chinese_desc": "涨幅天数"
 					}
 				},
 				"current_trade_date": {
-					"name": "阳 光 城",
-					"industry": "区域地产",
-					"area": "福建",
-					"ts_code": "000671.SZ",
-					"trade_date": "20220426",
-					"open": 2.47,
-					"high": 2.67,
-					"low": 2.41,
-					"close": 2.56,
-					"pre_close": 2.44,
-					"change": 0.12,
-					"pct_chg": 4.918,
-					"vol": 3932887.17,
-					"amount": 1000670.99,
+					"name": "浦发银行",
+					"industry": "银行",
+					"area": "上海",
+					"ts_code": "600000.SH",
+					"trade_date": "20220627",
+					"open": 7.95,
+					"high": 8.01,
+					"low": 7.94,
+					"close": 7.97,
+					"pre_close": 7.95,
+					"change": 0.02,
+					"pct_chg": 0.2516,
+					"vol": 240677.19,
+					"amount": 192131.006,
 					"current_yield": {
-						"chinese_desc": "在买点持有到 当前20220426交易日 总(+收益率)/(-回撤率)(%)",
-						"value": -41.5525114155251
+						"chinese_desc": "在买点持有到 当前20220627交易日 总(+收益率)/(-回撤率)(%)",
+						"value": -1.7262638717632561
 					},
 					"current_hold_day": {
-						"value": 267,
-						"chinese_desc": "在买点持有到 当前20220426交易日 持有天数"
+						"value": 74,
+						"chinese_desc": "在买点持有到 当前20220627交易日 持有天数"
 					},
 					"current_daily_yield": {
-						"value": -0.1556273835787457,
-						"chinese_desc": "在买点持有到 当前20220426交易日 平均每天(+收益率)/(-回撤率)(%)"
+						"value": -0.02332789015896292,
+						"chinese_desc": "在买点持有到 当前20220627交易日 平均每天(+收益率)/(-回撤率)(%)"
 					}
 				}
 			},

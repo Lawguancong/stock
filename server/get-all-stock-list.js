@@ -9,7 +9,7 @@ const { get, map } = require('loadsh');
 
 
 axios.post(`https://api.tushare.pro`, {
-    api_name: 'bak_basic', //  bak_basic: 每日最多20次；
+    api_name: 'bak_basic', //  bak_basic: 下午18点后更新；每日最多20次；
     // api_name: 'bak_daily', // bak_daily: 每日最多50次请求
     token,
     params: {
@@ -27,12 +27,10 @@ axios.post(`https://api.tushare.pro`, {
         return obj
     })
     console.log('result', result)
-    // return
+    console.log('tradeDate', tradeDate)
     const data = {
-        ...allStockListDatabase,
+        // ...allStockListDatabase,
         [tradeDate]: {
-            // fields,
-            // items,
             formatItems,
         }
     }
@@ -40,10 +38,3 @@ axios.post(`https://api.tushare.pro`, {
     fs.writeFileSync(allStockListPath, str);
 })
 
-
-
-// 备用列表：bak_basic https://tushare.pro/document/2?doc_id=262
-
-// 备用行情：bak_daily https://tushare.pro/document/2?doc_id=255
-
-// 每日指标：daily_basic https://tushare.pro/document/2?doc_id=32

@@ -15,9 +15,10 @@ const lowValuationsDatabase = require('../public/database/low-valuations-stock-l
 const lowValuationsTsCodes = lowValuationsDatabase[tradeDate].map(({ ts_code, name, industry, area }) => ({ ts_code, name, industry, area }))
 let errorList = []
 let temp = {}
+const intialLength = lowValuationsTsCodes.length;
 async function getData({ ts_code, name, industry, area }){
   await axios.post(`https://api.tushare.pro`, {
-    api_name: 'daily',  // daily 接口可以用很多次
+    api_name: 'daily',  // daily 接口每天可以用很多次
     token,
     params: {
       ts_code,
@@ -50,11 +51,12 @@ async function getData({ ts_code, name, industry, area }){
 
 
 function patchFetchStock(stockList) {
+  console.log('stockList.length', stockList.length)
   stockList.forEach(async (item, idx) => {
     try {
       await getData(item)
       console.log('try - Object.values(temp).length', Object.values(temp).length)
-      if (stockList.length === Object.values(temp).length) {
+      if (intialLength === Object.values(temp).length) {
       // if (stockList.length === Object.keys(temp).length) {
       // if (stockList.length === Object.entries(temp).length) {
       
@@ -73,15 +75,14 @@ function patchFetchStock(stockList) {
 
 
       console.log('item', item)
-      console.log('stockList.length', stockList.length)
       console.log('errorList.length', errorList.length)
       console.log('Object.values(temp).length', Object.values(temp).length)
       if (stockList.length === (Object.values(temp).length + errorList.length)) {
-        const newArr = cloneDeep(errorList)
+        const newArr = [...errorList]
         errorList = [];
         patchFetchStock(newArr);
       }
-      console.log('errorCatchDatabase[tradeDate]', errorCatchDatabase[tradeDate])
+      // console.log('errorCatchDatabase[tradeDate]', errorCatchDatabase[tradeDate])
       // let str2 = JSON.stringify({
       //   ...errorCatchDatabase,
       //   [tradeDate]: [...errorCatchDatabase[tradeDate], {

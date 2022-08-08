@@ -10,7 +10,6 @@ const { pick } = require('./utils')
 const { map, get, join, minBy, maxBy, reverse, sortBy, cloneDeep } =  require('loadsh');
 const moment = require('moment');
 const { 
-    latest_trade_date,
     tradeDate, 
     preDay, 
     token,
