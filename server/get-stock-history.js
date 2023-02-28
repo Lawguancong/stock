@@ -57,45 +57,21 @@ function patchFetchStock(stockList) {
       await getData(item)
       console.log('try - Object.values(temp).length', Object.values(temp).length)
       if (intialLength === Object.values(temp).length) {
-      // if (stockList.length === Object.keys(temp).length) {
-      // if (stockList.length === Object.entries(temp).length) {
-      
         let str = JSON.stringify(temp, null, "\t")
         fs.writeFileSync(stockHistoryPath, str);
-        // console.log('errorList.length', errorList.length)
-        // let str2 = JSON.stringify({
-        //   ...errorCatchDatabase,
-        //   [tradeDate]: errorList
-        // }, null, "\t")
-        // fs.writeFileSync(errorCatchPath, str2);
       }
     } catch (e) {
-      // console.log('e',e )
       errorList.push(item)
-
-
       console.log('item', item)
       console.log('errorList.length', errorList.length)
+      console.log('errorList', errorList)
       console.log('Object.values(temp).length', Object.values(temp).length)
-      if (stockList.length === (Object.values(temp).length + errorList.length)) {
+      if (errorList.length > 0 && (stockList.length === (Object.values(temp).length + errorList.length))) {
         const newArr = [...errorList]
         errorList = [];
         patchFetchStock(newArr);
       }
-      // console.log('errorCatchDatabase[tradeDate]', errorCatchDatabase[tradeDate])
-      // let str2 = JSON.stringify({
-      //   ...errorCatchDatabase,
-      //   [tradeDate]: [...errorCatchDatabase[tradeDate], {
-      //     item,
-      //     e,
-      //   }]
-      // }, null, "\t")
-      // fs.writeFileSync(errorCatchPath, str2);
-      // errorList.push(item)
-      // console.log('error-item', item)
-      // todo 递归 异常的时候 处理
     }
-    // console.log(123)
   })
 }
 patchFetchStock(lowValuationsTsCodes);
