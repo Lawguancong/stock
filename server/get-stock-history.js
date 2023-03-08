@@ -7,10 +7,8 @@ const { map, get, join, minBy, maxBy, reverse, sortBy, cloneDeep } = require('lo
 const { tradeDate, preDay, token } = require('./config')
 
 const getPathBySource = (...paths) => resolve(__dirname, '../', ...paths);
-const stockHistoryPath = getPathBySource('./public/database/stock-history.json');
-const errorCatchPath = getPathBySource('./public/database/error-catch.json');
-const errorCatchDatabase = require('../public/database/error-catch.json');
 const lowValuationsDatabase = require('../public/database/low-valuations-stock-list.json');
+const stockHistoryPath = getPathBySource('./public/database/stock-history.json');
 
 const lowValuationsTsCodes = lowValuationsDatabase[tradeDate].map(({ ts_code, name, industry, area }) => ({ ts_code, name, industry, area }))
 let errorList = []

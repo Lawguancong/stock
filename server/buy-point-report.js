@@ -2,7 +2,6 @@
 const { resolve } = require('path');
 const fs = require('fs');
 const getPathBySource = (...paths) => resolve(__dirname, '../', ...paths);
-const analyseStockPath = getPathBySource('./public/database/analyse-stock.json');
 const analyseStockDatabase = require('../public/database/analyse-stock.json');
 const buyPointReportPath = getPathBySource('./public/database/buy-point-report.json');
 

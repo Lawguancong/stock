@@ -2,9 +2,8 @@
 const { resolve } = require('path');
 const fs = require('fs');
 const getPathBySource = (...paths) => resolve(__dirname, '../', ...paths);
-const lowValuationsStockListPath = getPathBySource('./public/database/low-valuations-stock-list.json');
-const lowValuationsDatabase = require('../public/database/low-valuations-stock-list.json');
 const allStockListDatabase = require('../public/database/all-stock-list.json');
+const lowValuationsStockListPath = getPathBySource('./public/database/low-valuations-stock-list.json');
 const { tradeDate } = require('./config')
 function getLowValuationsStock(stockList = []) {
     let lowValuationsStockList = []
@@ -13,7 +12,7 @@ function getLowValuationsStock(stockList = []) {
       if (
         true
         // 动态 市盈率
-        && ((pe > 0 && pe < 10) || (pb > 0 && pb < 1))
+        && ((pe > 0 && pe < 20) && (pb > 0 && pb < 1))
         // && reserved > 0//	float	Y	公积金
         // && reserved_pershare > 0//	float	Y	每股公积金
         // && eps > 0 //	float	Y	每股收益
@@ -36,7 +35,6 @@ function getLowValuationsStock(stockList = []) {
     return lowValuationsStockList
 }
 let str = JSON.stringify({
-  // ...lowValuationsDatabase,
   [tradeDate]: getLowValuationsStock(allStockListDatabase[tradeDate].formatItems)
 }, null, "\t")
 fs.writeFileSync(lowValuationsStockListPath, str);

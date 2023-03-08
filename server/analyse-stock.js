@@ -3,7 +3,6 @@ const { resolve } = require('path');
 const fs = require('fs');
 const getPathBySource = (...paths) => resolve(__dirname, '../', ...paths);
 const stockHistoryDatabase = require('../public/database/stock-history.json');
-const allStockListDatabase = require('../public/database/all-stock-list.json');
 const analyseStockPath = getPathBySource('./public/database/analyse-stock.json');
 const { map, get, join, minBy, maxBy, reverse, sortBy, cloneDeep } =  require('loadsh');
 const moment = require('moment');
@@ -290,3 +289,10 @@ const data = {
 
 let str = JSON.stringify(data, null, "\t")
 fs.writeFileSync(analyseStockPath, str);
+// fs.writeFile(analyseStockPath, str, function (err) {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     console.log('analyseStockPath 写入完成' + analyseStockPath);
+//   }
+// });

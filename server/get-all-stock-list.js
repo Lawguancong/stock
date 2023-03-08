@@ -3,7 +3,6 @@ const axios = require('axios');
 const fs = require('fs');
 const getPathBySource = (...paths) => resolve(__dirname, '../', ...paths);
 const allStockListPath = getPathBySource('./public/database/all-stock-list.json');
-const allStockListDatabase = require('../public/database/all-stock-list.json');
 const { token, tradeDate } = require('./config')
 const { get, map } = require('loadsh');
 
@@ -29,12 +28,18 @@ axios.post(`https://api.tushare.pro`, {
     console.log('result', result)
     console.log('tradeDate', tradeDate)
     const data = {
-        // ...allStockListDatabase,
         [tradeDate]: {
             formatItems,
         }
     }
     let str = JSON.stringify(data, null, "\t")
     fs.writeFileSync(allStockListPath, str);
+    // fs.writeFile(allStockListPath, str, function (err) {
+    //     if (err) {
+    //       console.log(err);
+    //     } else {
+    //       console.log('allStockListPath 写入完成' + allStockListPath);
+    //     }
+    // });
 })
 
