@@ -45,7 +45,6 @@ function getBuyPoint({
     pre_trade_date = formatItems.length - trade_date_range;
   }
   let changeList = [];
-  let sellPointList = [];
   for (let i = pre_trade_date ; i >= 0; i--) {
     const sourceData = [...formatItems].reverse();
     let rangeDate = []
@@ -59,9 +58,6 @@ function getBuyPoint({
     // console.log('pre_trade_date', pre_trade_date)
     // console.log('rangeDate', rangeDate[0].trade_date)
     // console.log('rangeDate', rangeDate[rangeDate.length-1].trade_date)
-    
-
-
     const pre_0_currentDate = rangeDate[rangeDate.length - 1] || {} // 最近一个交易日的数据
     // console.log('pre_0_currentDate', pre_0_currentDate[trade_date_key])
     // const flat_industry = ['银行'].includes(pre_0_currentDate.industry); // 过滤特殊行业
@@ -80,23 +76,23 @@ function getBuyPoint({
     const sort_min_vol_half_trade_date_range = [...rangeDate].slice(-trade_date_range / 2).sort((prev, next) => prev[vol_key] - next[vol_key]); // 该交易日最近200交易日区间
     const pre_0_currentDate_pct_change = pre_0_currentDate[pct_chg_key] || 0 // 涨跌幅
     const min_low_obj = [...rangeDate].sort((prev, next) => prev[low_key] - next[low_key])[0]
-    const flat1 = (pre_0_currentDate[close_key] / min_low_obj[low_key]) // < 1.1; （最近一个交易日的收盘价 / 最低价）；最近 dayNum
+    const flat1 = (pre_0_currentDate[close_key] / min_low_obj[low_key]) // 
     const flat2 = (pre_0_currentDate[vol_key] / min_low_obj[vol_key]) //< 1.1；（最近一个交易日的成交量 / 最低价的成交量）；最近 dayNum
     const flat3 = (pre_0_currentDate[vol_key] / sort_min_vol[Math.floor(sort_min_vol.length / 10)][vol_key]) //< 1.1； 最近 pre_trade_date TD相对比较低成交量
     const flat10 = (pre_0_currentDate[vol_key] / sort_min_vol_half_trade_date_range[Math.floor(sort_min_vol_half_trade_date_range.length / 10)][vol_key]) // 
     // todo W底判断。。 至少2重底 3重底
     if(!(
-      flat1 <= 1.10
-      && flat2 <= 1.10
-      &&  
+      flat1 <= 1.20 && // < 1.2; （最近一个交易日的收盘价 / 最低价）；最近 dayNum
+      // flat2 <= 1.10 && 
+      // &&  
       (
-        flat3 <= 1.10
-        || ((flat3 <= 1.25) && pre_0_currentDate_pct_change > 1)
-        || ((flat3 <= 1.5) && pre_0_currentDate_pct_change > 1.5)
-        || ((flat3 <= 1.75) && pre_0_currentDate_pct_change > 2)
-        || ((flat3 <= 2) && pre_0_currentDate_pct_change > 2.5)
-        || ((flat3 <= 2.25) && pre_0_currentDate_pct_change > 3)
-        || ((flat3 <= 2.5) && pre_0_currentDate_pct_change > 3.5)
+        flat3 <= 1.05
+        || ((flat3 <= 1.1) && pre_0_currentDate_pct_change > 1)
+        || ((flat3 <= 1.15) && pre_0_currentDate_pct_change > 1.5)
+        || ((flat3 <= 1.2) && pre_0_currentDate_pct_change > 2)
+        || ((flat3 <= 1.25) && pre_0_currentDate_pct_change > 2.5)
+        || ((flat3 <= 1.3) && pre_0_currentDate_pct_change > 3)
+        || ((flat3 <= 1.5) && pre_0_currentDate_pct_change > 3.5)
 
         // || ((flat3 <= 1.10 || flat10 <= 1.10))
         // || ((flat3 <= 1.25 || flat10 <= 1.25) && pre_0_currentDate_pct_change > 1)
@@ -107,6 +103,11 @@ function getBuyPoint({
         // || ((flat3 <= 2.5 || flat10 <= 2.5) && pre_0_currentDate_pct_change > 3.5)
       )
     )) continue;
+    console.log('股票名称', rangeDate[0].name)
+    console.log(`近${preDay}自然天（非交易日）最低价：`, min_low_obj[low_key])
+    console.log(`最近交易日close收盘价格：`, pre_0_currentDate[close_key])
+    console.log('股票详情：', rangeDate[rangeDate.length-1])
+    console.log('————————————————————————————————————————————————————————————————————————')
 
     const shouldConsole =  (
       rangeDate[rangeDate.length - 1][ts_code_key] === "002853.SZ"

@@ -21,7 +21,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "get-all-stock-list": "node server/get-all-stock-list.js && node server/get-low-valuations-stock.js && node server/get-stock-history.js &&  node server/analyse-stock.js && node server/buy-point-report.js ",
-    "get-low-valuations-stock": "node server/get-low-valuations-stock.js && node server/get-stock-history.js &&  node server/analyse-stock.js && node server/buy-point-report.js "
+    "get-low-valuations-stock": "node server/get-low-valuations-stock.js && node server/get-stock-history.js &&  node server/analyse-stock.js && node server/buy-point-report.js ",
+    "get-stock-history": "node server/get-stock-history.js &&  node server/analyse-stock.js && node server/buy-point-report.js ",
+    "analyse-stock": "node server/analyse-stock.js && node server/buy-point-report.js "
   },
   "devDependencies": {},
   "browserslist": {

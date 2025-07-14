@@ -27,7 +27,7 @@ pb < 1.1 倍数 pb是 长期 安全边际的表现
 sell-point-trade-date
 
 
-// 备用列表：bak_basic https://tushare.pro/document/2?doc_id=262
+// 备用列表:bak_basic https://tushare.pro/document/2?doc_id=262
 
-// 备用行情：bak_daily https://tushare.pro/document/2?doc_id=255
+// 备用行情:bak_daily https://tushare.pro/document/2?doc_id=255
 

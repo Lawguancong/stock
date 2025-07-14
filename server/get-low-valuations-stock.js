@@ -10,9 +10,12 @@ function getLowValuationsStock(stockList = []) {
     stockList.forEach((item) => {
       const { pe, pb, reserved = 0, reserved_pershare = 0, eps = 0, bvps = 0, rev_yoy = 0, profit_yoy = 0, gpr = 0, npr = 0, total_assets, liquid_assets, turn_over, industry = '', name = '' } = item;
       if (
-        true
-        // 动态 市盈率
-        && ((pe > 0 && pe < 20) && (pb > 0 && pb < 1))
+        // 顺境企业 || 困境企业
+        ((pe > 0 && pe < 6) && (pb > 0 && pb < 2) || (pe > 0 && pe < 40) && (pb > 0 && pb < 1))
+        // 动态市盈率
+        //  (pb > 0 && pb < 1)
+
+        // && ((pb > 0 && pb < 0.9))
         // && reserved > 0//	float	Y	公积金
         // && reserved_pershare > 0//	float	Y	每股公积金
         // && eps > 0 //	float	Y	每股收益
@@ -22,8 +25,7 @@ function getLowValuationsStock(stockList = []) {
         // && gpr > 20  // gpr	float	Y	毛利率（%）
         // && gpr > 20  // gpr	float	Y	毛利率（%）
         // && npr > 0 // npr	float	Y	净利润率（%）
-        // && total_assets < 600 // 总资产
-        // && liquid_assets < 600 // 流动资产
+        && (total_assets > 300 || liquid_assets > 300) // 总资产
         // && turn_over < 0.7 // 换手率
         // && !['银行'].includes(industry)
         && !/ST/.test(name)
